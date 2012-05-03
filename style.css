@@ -1,0 +1,186 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #f3f1ec;
+	background-image: url(images/bg.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+.container, .footer .in{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.in{
+	overflow:  auto;
+}
+.header {
+	background-image: url(images/bg_light_trans.png);
+	height: 80px;
+}
+.container #menu {
+	margin-top: 2px;
+	padding: 0px;
+	display: block;
+	position: relative;
+	vertical-align: top;
+}
+.container #menu li {
+	background-image: url(images/bg_light_trans.png);
+	display: inline-block;
+	list-style-type: none;
+	margin-right: -2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	width: 110px;
+	text-align: center;
+	color: #FFF;
+	position: relative;
+}
+.container #menu li a {
+	color: #4c3a2b;
+	text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.2em;
+	position: relative;
+}
+.container #menu .last {
+	background-image: url(images/bg_trans_green.png);
+	width: 362px;
+	text-align: right;
+	padding-right: 36px
+}
+.container #menu .last a {
+	color: #FFF;
+}
+.content {
+	background-image: url(images/white_bg.png);
+	margin-top: 2px;
+	padding: 20px;
+}
+.caption {
+	z-index: 500;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	height: 100px;
+	background: #efdcb2;
+	background: rgba(239, 220, 178, .5);
+	width: 880px;
+	font-size: 1.3em;
+	line-height: 1.33;
+	text-shadow: none;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+.caption h2, .footer h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: normal;
+	margin-bottom: 0px;
+	color: #73533b;
+}
+.caption p, .footer p {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	color: #4c3a2b;
+}
+.prev {
+	position: relative;
+	bottom: 200px;
+	left: 20px;
+	background-image: url(images/go_l.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 50px;
+	height: 100px;
+	z-index: 999;
+}
+.next {
+	position: relative;
+	bottom: 290px;
+	left: 860px;
+	background-image: url(images/go_r.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 50px;
+	height: 100px;
+	z-index: 999;
+}
+.slides_container, #slides {
+	width: 100%;
+	height: 293px;
+}
+.slides_container div.slide {
+	width: 100%;
+	height: 293px;
+	display: block;
+}
+#banners {
+	margin-top: 20px;
+}
+#banners a {
+
+	margin-right: 33px;
+}
+#banners  a.last{
+	margin-right: 0px;
+}
+.footer {
+	
+	background: #efdcb2;
+	background: rgba(239, 220, 178, .5);
+	margin-top: 20px;
+}
+#subfooter{
+	margin-top: 50px;
+	background: #4c3a2b;
+	background: rgba(76, 58, 43, .2);
+	overflow: auto;
+	padding:  24px;
+}
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
