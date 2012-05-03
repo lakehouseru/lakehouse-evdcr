@@ -22,9 +22,9 @@ $(document).ready(function() {
 		effect : 'slide', // string, '[next/prev], [pagination]', e.g. 'slide, fade' or simply 'fade' for both
 		crossfade : false, // boolean, Crossfade images in a image based slideshow
 		randomize : false, // boolean, Set to true to randomize slides
-		play : 0, // number, Autoplay slideshow, a positive number will set to true and be the time between slide animation in milliseconds
+		play : 4000, // number, Autoplay slideshow, a positive number will set to true and be the time between slide animation in milliseconds
 		pause : 0, // number, Pause slideshow on click of next/prev or pagination. A positive number will set to true and be the time of pause in milliseconds
-		hoverPause : false, // boolean, Set to true and hovering over slideshow will pause it
+		hoverPause : true, // boolean, Set to true and hovering over slideshow will pause it
 		autoHeight : false, // boolean, Set to true to auto adjust height
 		autoHeightSpeed : 1350, // number, Set auto height animation time in milliseconds
 		bigTarget : false, // boolean, Set to true and the whole slide will link to next slide on click
@@ -36,9 +36,20 @@ $(document).ready(function() {
 
 		} // Function is called when slides is fully loaded
 	});
+	
+	
 	$('.next').empty();
 	$('.prev').empty()
 
+	$('#slides').mouseenter(function() {
+		$('.caption').fadeIn(1000)
+	})
+	
+	$('#slides').mouseleave(function() {
+		$('.caption').fadeOut(200)
+	})
+	
+	
 	$('#menu li.ani').mouseenter(function() {
 		$(this).css('background-image', 'url(images/red_bg.png)');
 		$(this).children('a').css('color', '#FFF');

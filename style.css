@@ -81,6 +81,11 @@ a:hover, a:active, a:focus {
 }
 .container #menu .last a {
 	color: #FFF;
+	
+}
+
+.container #menu .last a:hover {
+	text-decoration: underline;
 }
 .content {
 	background-image: url(images/white_bg.png);
@@ -103,6 +108,7 @@ a:hover, a:active, a:focus {
 	padding-right: 20px;
 	padding-bottom: 0;
 	padding-left: 20px;
+	display: none;
 }
 .caption h2, .footer h1 {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -118,7 +124,7 @@ a:hover, a:active, a:focus {
 }
 .prev {
 	position: relative;
-	bottom: 200px;
+	bottom: 190px;
 	left: 20px;
 	background-image: url(images/go_l.png);
 	background-repeat: no-repeat;
