@@ -177,6 +177,7 @@ a:hover, a:active, a:focus {
 	background: rgba(255, 255, 255, .9);
 	width: 202px;
 	padding: 10px;
+	margin: 2px 0 0 0;
 }
 #search label{
 	font-family: arial;
@@ -242,9 +243,10 @@ a:hover, a:active, a:focus {
 	text-decoration: underline;
 }
 #breadcrumbs{
+	margin: 2px 2px 0 0;
 	background: rgba(239, 220, 178, .9);
 	padding: 10px;
-	width: 716px;
+	width: 714px;
 	float: right;
 }
 #breadcrumbs ul li{
@@ -255,21 +257,18 @@ a:hover, a:active, a:focus {
 	font-family: arial;
 	font-size: 12px;
 }
-#aboutcomp{
-	margin: -2px 43px 0 0;
+h1.pageheader{
+	margin: -4px 16px 0 0;
 	background: rgba(255, 255, 255, .0);
 	height: 39px;
 	width: 692px;
 	float: right;
-}
-#aboutcomp h1{
-	margin: 0 0 0 0;
 	color: #4d3a2b;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: normal;
 }
 #post{
-	margin: 2px 0 20px 0;
+	margin: 4px 0 20px 0;
 	background: rgba(255, 255, 255, .9);
 	width: 716px;
 	height: 577px;
