@@ -35,6 +35,7 @@ a:hover, a:active, a:focus {
 .container, .footer .in{
 	width: 960px;
 	margin: 0 auto;
+	
 }
 .in{
 	overflow:  auto;
@@ -81,14 +82,8 @@ a:hover, a:active, a:focus {
 .container #menu .last a {
 	color: #FFF;
 }
-
-.container #menu .last a:hover {
-	text-decoration: underline;
-}
 .content {
-	background-image: url(images/white_bg.png);
 	margin-top: 2px;
-	padding: 20px;
 }
 .caption {
 	z-index: 500;
@@ -106,7 +101,6 @@ a:hover, a:active, a:focus {
 	padding-right: 20px;
 	padding-bottom: 0;
 	padding-left: 20px;
-	display: none;
 }
 .caption h2, .footer h1 {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -122,7 +116,7 @@ a:hover, a:active, a:focus {
 }
 .prev {
 	position: relative;
-	bottom: 190px;
+	bottom: 200px;
 	left: 20px;
 	background-image: url(images/go_l.png);
 	background-repeat: no-repeat;
@@ -162,22 +156,21 @@ a:hover, a:active, a:focus {
 	margin-right: 0px;
 }
 .footer {
-	background: #efdcb2;
-	background: rgba(239, 220, 178, .5);
+	background: #FFFFFF;
+	background: rgba(255, 255, 255, .10);
 	margin-top: 20px;
 }
 #subfooter{
 	margin-top: 50px;
-	background: #4c3a2b;
-	background: rgba(76, 58, 43, .2);
+	background: #efdcb2;
+	background: rgb(223, 208, 177);
 	overflow: auto;
-	padding:  24px;
+	padding: 16px;
 }
 #search{
 	background: rgba(255, 255, 255, .9);
 	width: 202px;
 	padding: 10px;
-	margin: 2px 0 0 0;
 }
 #search label{
 	font-family: arial;
@@ -243,10 +236,9 @@ a:hover, a:active, a:focus {
 	text-decoration: underline;
 }
 #breadcrumbs{
-	margin: 2px 2px 0 0;
 	background: rgba(239, 220, 178, .9);
 	padding: 10px;
-	width: 714px;
+	width: 716px;
 	float: right;
 }
 #breadcrumbs ul li{
@@ -257,18 +249,21 @@ a:hover, a:active, a:focus {
 	font-family: arial;
 	font-size: 12px;
 }
-h1.pageheader{
-	margin: -4px 16px 0 0;
+#aboutcomp{
+	margin: -2px 43px 0 0;
 	background: rgba(255, 255, 255, .0);
 	height: 39px;
 	width: 692px;
 	float: right;
+}
+#aboutcomp h1{
+	margin: -8px 0 0 0;
 	color: #4d3a2b;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: normal;
 }
 #post{
-	margin: 4px 0 20px 0;
+	margin: 2px 0 0 0;
 	background: rgba(255, 255, 255, .9);
 	width: 716px;
 	height: 577px;
@@ -304,9 +299,6 @@ h1.pageheader{
 	font-weight: normal;
 	font-size: 13px;
 	padding-left:0px;
-}
-#brands{
-	margin-top: 10px;
 }
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;
