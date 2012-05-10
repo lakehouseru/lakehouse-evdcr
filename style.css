@@ -268,7 +268,7 @@ h1.pageheader{
 	font-weight: normal;
 }
 #post{
-	margin: 4px 0 20px 0;
+	margin: 3px 0 20px 0;
 	background: rgba(255, 255, 255, .9);
 	width: 716px;
 	height: 577px;
@@ -316,4 +316,8 @@ h1.pageheader{
 	height: 0;
 	font-size: 1px;
 	line-height: 0px;
+}
+
+#arrowed{
+	display: block;
 }
