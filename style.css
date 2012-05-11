@@ -165,6 +165,7 @@ a:hover, a:active, a:focus {
 	background: #efdcb2;
 	background: rgba(239, 220, 178, .5);
 	margin-top: 20px;
+	clear: both;
 }
 #subfooter{
 	margin-top: 50px;
@@ -318,6 +319,8 @@ h1.pageheader{
 	line-height: 0px;
 }
 
-#arrowed{
-	display: block;
+#arrowed {
+    display: block;
+    float: right;
+    width: 100%;
 }
