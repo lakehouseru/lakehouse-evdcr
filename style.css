@@ -376,27 +376,25 @@ h1.pageheader {
 	border: 7px solid #FFFFFF;
 	margin: 16px;
 }
-.descriptionimg {
-	float: left;
-}
-.descriptionimg a {
-	position: absolute;
-	width: 185px;
-	height: 42px;
-	background: rgba(46, 77, 62, .9);
-	color: #FFFFFF;
-	font-size: 14px;
-	margin: 139px 0px 0 23px;
-	display: none;
+.descriptionimg  {
+	position: relative;
+	float:left;
 	text-decoration: underline;
 }
-.descriptionimg p {
+.descriptionimg h3 {
+	margin: 100px 0px 0 23px;
+	width: 161px;
+	height: 42px;
 	text-align: left;
 	top: 20%;
-	position: relative;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 18px;
+	position: absolute;
+	background: none repeat scroll 0 0 rgba(31, 81, 72, 0.9);
 	padding-left: 9px;
+	color: #FFFFFF;
+	font-weight:normal;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration: underline;
+	display: none;
 }
 #whosalepost {
 	margin: -3px 0 0 5px;

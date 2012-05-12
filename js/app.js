@@ -73,17 +73,19 @@ $(document).ready(function() {
 	}, function() {
 		$(this).find('a h3').fadeOut();
 	})
-
 	$(function() {
 		$("#banners a").tipTip();
 	});
 	$(function() {
 		$("#brands a").tipTip();
 	});
+	$(function() {
+		$(".descriptionimg a").tipTip();
+	});
 
 	$('.descriptionimg').hover(function() {
-		$(this).find('a').fadeIn();
+		$(this).find('a h3').fadeIn();
 	}, function() {
-		$(this).find('a').fadeOut();
+		$(this).find('a h3').fadeOut();
 	})
 });
