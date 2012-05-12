@@ -36,20 +36,18 @@ $(document).ready(function() {
 
 		} // Function is called when slides is fully loaded
 	});
-	
-	
+
 	$('.next').empty();
 	$('.prev').empty()
 
 	$('#slides').mouseenter(function() {
 		$('.caption').fadeIn(1000)
 	})
-	
+
 	$('#slides').mouseleave(function() {
 		$('.caption').fadeOut(200)
 	})
-	
-	
+
 	$('#menu li.ani').mouseenter(function() {
 		$(this).css('background-image', 'url(images/red_bg.png)');
 		$(this).children('a').css('color', '#FFF');
@@ -68,6 +66,12 @@ $(document).ready(function() {
 		}, 200, function() {
 			// Animation complete.
 		})
+	})
+	// Всплывающие надписи в списке артикулов
+	$('.shop_item').hover(function() {
+		$(this).find('a h3').fadeIn();
+	}, function() {
+		$(this).find('a h3').fadeOut();
 	})
 	$(function() {
 		$("#banners a").tipTip();
