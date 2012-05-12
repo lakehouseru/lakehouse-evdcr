@@ -7,6 +7,7 @@
 		<link href="style.css" rel="stylesheet" type="text/css" />
 		<script src="http://yandex.st/jquery/1.7.2/jquery.js" language="javascript" type="text/javascript"></script>
 		<script src="js/Slides/source/slides.jquery.js" language="javascript" type="text/javascript"></script>
+		<script src="js/tip/jquery.tipTip.js" language="javascript" type="text/javascript"></script>
 		<script src="js/app.js" language="javascript" type="text/javascript"></script>
 	</head>
 	<body>
@@ -38,7 +39,7 @@
 			</ul>
 			<div class="fltlft" style="width: 202px;">
 				<div id="search">
-					<label>Поиск по артиклу:</label>
+					<label>Поиск:</label>
 					<input id="searchtool"
 					size="22"
 					onblur="this.value=(this.value=='')?this.title:this.value;this.style.backgroundColor='#f5f5f5';"
@@ -156,77 +157,105 @@
 						</li>
 					</ul>
 				</div>
-				<h1 class="pageheader"> Название коллекции</h1>
+				<h1 class="pageheader"> Название коллекции <a href="#"> Фото в интерьере</a></h1>
 				<table id="arrowed" border="0" cellspacing="0" cellpadding="0">
 					<tr>
 						<td id="arr_left"><a href="#"><img src="images/arr_l.png" /> </a></td>
 						<td id="arrowed_content">
-							<div class="shop_item">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" />
-									<h3>Название</h3>
-								</a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item" style="margin-bottom: 0px;">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item" style="margin-bottom: 0px;">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div>
-							<div class="shop_item" style="margin-bottom: 0px;">
-								
-								<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
-								<p class="item_desc"> Краткое описание артикула</p>
-								<button> О товаре/Заказать</button>
-							</div></td>
+						<div class="shop_item">
+							<a href="#"><img src="images/dummi_small_article.jpg" /> <h3>Название</h3> </a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item" style="margin-bottom: 0px;">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item" style="margin-bottom: 0px;">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div>
+						<div class="shop_item" style="margin-bottom: 0px;">
+							<a href="#"><img src="images/dummi_small_article.jpg" /><h3>Название</h3></a>
+							<p class="item_desc">
+								Краткое описание артикула
+							</p>
+							<button>
+								О товаре/Заказать
+							</button>
+						</div></td>
 						<td id="arr_right"><a href="#"> <img src="images/arr_r.png" /> </a></td>
 				</table>
 			</div>
 		</div>
 		</div>
+		<div id="filter" class="closed">
+			
+		</div>
 		<div class="footer">
 			<div class="in">
 				<div id="subfooter">
 					<p>
-						<span class="fltlft">&copy; 2012 "Евро декор"</span>
+						<span class="fltlft">&copy; 2012 "Евродекор"</span>
 						<span class="fltrt">Дизайн и разработка - <a href="http://www.lakehouse.ru/lite/">lakehouse:lite</a></span>
 					</p>
 				</div>

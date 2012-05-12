@@ -67,8 +67,13 @@ $(document).ready(function() {
 			// Animation complete.
 		})
 	})
+	// Всплывающие надписи в списке артикулов
+	$('.shop_item').hover(function() {
+		$(this).find('a h3').fadeIn();
+	}, function() {
+		$(this).find('a h3').fadeOut();
+	})
 	$(function() {
 		$("#banners a").tipTip();
 	});
-
-	});
+});

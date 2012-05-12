@@ -340,7 +340,7 @@ h1.pageheader {
 }
 #arrowed_content {
 	width: 700px;
-	padding-left: 12px;
+	padding-left: 16px;
 }
 .shop_item {
 	width: 200px;
@@ -369,12 +369,12 @@ h1.pageheader {
 	margin-right: 7px;
 	position: absolute;
 	top: 122px;
-    width: 169px;
+	width: 169px;
 	font-weight: normal;
 	text-decoration: underline;
-
+	display: none;
 }
-.shop_item button {
+.shop_item button, .pageheader a {
 	background-color: #dc7474;
 	border-style: none;
 	padding: 4px;
@@ -384,4 +384,10 @@ h1.pageheader {
 	float: right;
 	clear: both;
 	color: #fefefe;
+}
+.pageheader a {
+	bottom: 4px;
+	float: none;
+	font-size: 0.5em;
+	position: relative;
 }
