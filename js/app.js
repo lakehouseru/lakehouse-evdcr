@@ -78,6 +78,7 @@ $(document).ready(function() {
 	$(function() {
 		$("#banners a").tipTip();
 	});
+
 	
 	//Возврат на главную на Flash
 	
@@ -101,5 +102,14 @@ $(document).ready(function() {
 		$(this).parent().find('form').toggle(500);
 		
 	})
-	
+// Коллекции
+	$(function() {
+		$(".descriptionimg a").tipTip();
+	});
+
+	$('.descriptionimg').hover(function() {
+		$(this).find('a h3').fadeIn();
+	}, function() {
+		$(this).find('a h3').fadeOut();
+	})
 });

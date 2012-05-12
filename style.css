@@ -154,7 +154,6 @@ a:hover, a:active, a:focus {
 	margin-top: 20px;
 }
 #banners a {
-
 	margin-right: 33px;
 }
 #banners  a.last {
@@ -243,11 +242,11 @@ a:hover, a:active, a:focus {
 	text-decoration: underline;
 }
 #breadcrumbs {
-	background: none repeat scroll 0 0 rgba(239, 220, 178, 0.9);
-	float: right;
 	margin: 2px 0 0 0;
+	background: none repeat scroll 0 0 rgba(239, 220, 178, 0.9);
 	padding: 10px;
 	width: 716px;
+	float: right;
 }
 #breadcrumbs ul li {
 	display: inline-block;
@@ -256,6 +255,9 @@ a:hover, a:active, a:focus {
 	text-decoration: none;
 	font-family: arial;
 	font-size: 12px;
+}
+#breadcrumbs ul li.breadcrumb {
+	color: #5b9183;
 }
 h1.pageheader {
 	margin: -4px 16px 0 0;
@@ -271,7 +273,6 @@ h1.pageheader {
 	margin: 3px 0 20px 0;
 	background: rgba(255, 255, 255, .9);
 	width: 716px;
-	height: 577px;
 	padding: 10px;
 	float: right;
 }
@@ -288,7 +289,7 @@ h1.pageheader {
 	padding-left: 0px;
 }
 #post h2 a:link {
-	color: #5b9183 !important;
+	color: #FFFFFF !important;
 	text-decoration: none;
 }
 #post h2 a:visited {
@@ -308,14 +309,163 @@ h1.pageheader {
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;
 }
-.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+#brands img {
+	border: 1px solid #5b9183;
+}
+#brands {
+	margin: 23px 0 0 0;
+	text-align: center;
+}
+#brands a {
+	display: inline-block;
+	margin: 0 20px 33px 20px;
+}
+#pagenav {
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+#pagenav ul li {
+	display: inline-block;
+	font-size: 13px;
+}
+#pagenav ul li a {
+	background: #dfd0af;
+	padding: 4px 8px;
+}
+#pagenav a:link {
+	color: #000000 !important;
+	text-decoration: none;
+}
+#pagenav a:visited {
+	color: #000000 !important;
+	text-decoration: none;
+}
+#pagenav a:hover {
+	color: #000000 !important;
+	text-decoration: underline;
+}
+#post .description {
+	color: #808080;
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 5px;
+	padding: 0px;
+	text-align: justify;
+}
+.rightimg {
+	float: right;
+	margin: 7px 5px 0 15px;
+}
+.description img {
+	border: 1px solid #5b9183;
+}
+#post h2.collectionheader {
+	color: #808080;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+#collection {
+	margin: -10px 6px 6px 6px;
+	background: #f0e6cd;
 	float: left;
 }
-.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
-	clear: both;
-	height: 0;
-	font-size: 1px;
-	line-height: 0px;
+#collections {
+	text-align: center;
+}
+#collections img {
+	border: 7px solid #FFFFFF;
+	margin: 16px;
+}
+.descriptionimg  {
+	position: relative;
+	float:left;
+	text-decoration: underline;
+}
+.descriptionimg h3 {
+	margin: 100px 0px 0 23px;
+	width: 161px;
+	height: 42px;
+	text-align: left;
+	top: 20%;
+	position: absolute;
+	background: none repeat scroll 0 0 rgba(31, 81, 72, 0.9);
+	padding-left: 9px;
+	color: #FFFFFF;
+	font-weight:normal;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration: underline;
+	display: none;
+}
+#whosalepost {
+	margin: -3px 0 0 5px;
+	border: 1px solid #da6e6b;
+}
+#whosalepost ul li {
+	color: #da6e6b;
+	list-style-type: none;
+	margin: 15px 0 0 20px;
+	font-size: 20px;
+}
+#whosalepost ul li ul li {
+	margin: 15px 0 0 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #808080;
+	list-style-type: none;
+}
+#whosalepost p {
+	color: #000000;
+	padding:0;
+}
+#whosalepost img {
+	border: 1px solid #5b9183;
+	margin: 6px 28px 0 0px;
+}
+#whosalepost a.map {
+	float: right;
+}
+#wholesale {
+	background: #da6e6b;
+	width: 709px;
+	height: 35px;
+}
+#wholesale a {
+	margin: 0 0 0 9px;
+}
+#wholesale h2 a.opt:link {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+#wholesale h2 a.opt:visited {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+#wholesale h2 a.opt:hover {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+#retail {
+	margin: 10px 0 0 5px;
+	background: #5b9183;
+	width: 711px;
+	height: 35px;
+}
+#retail a {
+	margin: 0 0 0 9px;
+	border-bottom: 1px dashed #FFFFFF;
+}
+#retails h2 a.dot:link {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+#retail h2 a.dot:visited {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+#retail h2 a.dot:hover {
+	color: #FFFFFF !important;
+	border-bottom: 0px;
+	text-decoration: none;
 }
 #arrowed {
 	display: block;
@@ -391,6 +541,7 @@ h1.pageheader {
 	font-size: 0.5em;
 	position: relative;
 }
+
 #filter {
 	background-color: #efdcb2;
 	clear: both;
@@ -445,4 +596,17 @@ div.open{
 	position: relative;
 	top: 13px;
 	left: 24px;
+}
+
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
 }

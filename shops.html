@@ -5,8 +5,10 @@
 		<title>Евродекор</title>
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="js/tip/tipTip.css" rel="stylesheet" type="text/css" />
 		<script src="http://yandex.st/jquery/1.7.2/jquery.js" language="javascript" type="text/javascript"></script>
 		<script src="js/Slides/source/slides.jquery.js" language="javascript" type="text/javascript"></script>
+		<script src="js/tip/jquery.tipTip.js" language="javascript" type="text/javascript"></script>
 		<script src="js/app.js" language="javascript" type="text/javascript"></script>
 	</head>
 	<body>
@@ -36,7 +38,7 @@
 					</div>
 				</li>
 			</ul>
-			<div class="fltlft" style="width: 202px;">
+			<div class="fltlft">
 				<div id="search">
 					<label>Поиск по артиклу:</label>
 					<input id="searchtool"
@@ -136,7 +138,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="fltrt" style="width: 714px;">
+			<div class="fltlt">
 				<div id="breadcrumbs">
 					<ul>
 						<li>
@@ -159,24 +161,53 @@
 						</li>
 					</ul>
 				</div>
-				<h1 class="pageheader">О компании</h1>
+				<h1 class="pageheader">Магазины</h1>
 				<div id="post">
-					<h1>/ О нас</h1>
-					<p class="text">
-						<b>Евродекор</b> - сетевое агенство, созданное в 2006 г. в Дюссельфорде. На данный момент офисы к102 распологаются в Дюссельдорфе, Берлине и Москве
-					<br>
-					<br>
-						<b>Евродекор</b> - это профессиональное digital-агенство, работающее в новом и востребованном для российского рынка формате <b>Full Sevice Digital Agency</b>
-					<br>
-					<br>
-						Наша миссия - помочь клиенту решить любые задачи, которые перед ним стоят при продвижении в интернете и с применением цифровых технологий.
-					<br>
-					<br>
-						Мы помогаем найти эффективное решение, не ограничиваясь стандартным набором медийных и креативных инструментов.
-					</p>
-					<h2><a href="#about">/ Услуги</a></h2>
-					<h2><a href="#about">/ Клиенты</a></h2>
-					<h2><a href="#about">/ Вакансии</a></h2>
+					<div id="whosalepost">
+						<div id="wholesale">
+							<h2><a class="opt" href="#">Оптовые магазины</a></h2>
+						</div>
+						<ul>
+							<li>
+								&#171;ДекорСити&#187;
+								<a class="map" href="#" title="Карта"><img src="images/map.jpg"/></a>
+								<ul>
+									<li>
+										Адрес:
+										<p>
+											Улица Плеханова 45
+										</p>
+									</li>
+									<li>
+										Телефон:
+										<p>
+											+7 (265) 26 41, +7 (265) 26 42
+										</p>
+									</li>
+									<li>
+										Время работы:
+										<p>
+											с 8:00 до 16:00
+										</p>
+									</li>
+									<li>
+										Фотографии:
+									</li>
+									<a href="#" title="Тут"><img src="images/shop1.jpg"/></a>
+									<a href="#" title="Тут"><img src="images/shop2.jpg"/></a>
+									<a href="#" title="Тут"><img src="images/shop3.jpg"/></a>
+									<a href="#" title="Тут"><img src="images/shop4.jpg"/></a>
+									<a href="#" title="Тут"><img src="images/shop5.jpg"/></a>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div id="retail">
+						<h2><a class="dot" href="#">Розничные магазины</a></h2>
+					</div>
+					<div id="retail">
+						<h2><a class="dot" href="#">Интернет магазины</a></h2>
+					</div>
 				</div>
 			</div>
 		</div>
