@@ -376,22 +376,27 @@ h1.pageheader {
 	border: 7px solid #FFFFFF;
 	margin: 16px;
 }
-#descriptionimg {
+.descriptionimg {
 	float: left;
 }
-#descriptionimg a {
+.descriptionimg a {
 	position: absolute;
 	width: 185px;
-	height: 34px;
+	height: 42px;
 	background: rgba(46, 77, 62, .9);
 	color: #FFFFFF;
 	font-size: 14px;
-	margin: 147px 0px 0 23px;
+	margin: 139px 0px 0 23px;
+	display: none;
+	text-decoration: underline;
 }
-#descriptionimg p {
+.descriptionimg p {
 	text-align: left;
-	top: 25%;
+	top: 20%;
 	position: relative;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	padding-left: 9px;
 }
 #whosalepost {
 	margin: -3px 0 0 5px;
@@ -412,6 +417,7 @@ h1.pageheader {
 }
 #whosalepost p {
 	color: #000000;
+	padding:0;
 }
 #whosalepost img {
 	border: 1px solid #5b9183;
