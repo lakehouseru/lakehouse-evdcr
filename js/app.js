@@ -72,4 +72,7 @@ $(document).ready(function() {
 	$(function() {
 		$("#banners a").tipTip();
 	});
+	$(function() {
+		$("#brands a").tipTip();
+	});
 });
