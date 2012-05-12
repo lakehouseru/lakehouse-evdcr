@@ -73,7 +73,33 @@ $(document).ready(function() {
 	}, function() {
 		$(this).find('a h3').fadeOut();
 	})
+	
+	// Тултипы
 	$(function() {
 		$("#banners a").tipTip();
 	});
+	
+	//Возврат на главную на Flash
+	
+	$('#home').flash({
+		swf: 'images/home.swf',
+		height: 60,
+		width: 160,
+		allowFullScreen: true,
+		wmode: 'transparent'
+	});
+	
+	//Управление фильтрами
+	
+	$('#fhook').hover(function() {
+		$(this).parent().css('background-color', '#ddb65f');
+	}, function() {
+		$(this).parent().css('background-color', '#efdcb2');
+	})
+	$('#fhook').click(function(){
+		$(this).parent().toggleClass('open');
+		$(this).parent().find('form').toggle(500);
+		
+	})
+	
 });

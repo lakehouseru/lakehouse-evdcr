@@ -374,7 +374,7 @@ h1.pageheader {
 	text-decoration: underline;
 	display: none;
 }
-.shop_item button, .pageheader a {
+.shop_item button, .pageheader a, #filter button {
 	background-color: #dc7474;
 	border-style: none;
 	padding: 4px;
@@ -390,4 +390,59 @@ h1.pageheader {
 	float: none;
 	font-size: 0.5em;
 	position: relative;
+}
+#filter {
+	background-color: #efdcb2;
+	clear: both;
+	padding-bottom:  6px;
+	color: #4D3A2B;
+}
+
+#filter h4{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #4D3A2B;
+	clear: both;
+	padding-top: 6px;
+
+}
+#filter form{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1em;
+	display: none;
+	
+
+}
+
+#filter p {
+	border-bottom-style: solid;
+	border-bottom-color: #faf3e4;
+	border-bottom-width: 1px;
+	padding-bottom: 12px;
+}
+#filter button{
+	float:  none;
+	margin-bottom:  24px;
+	margin-left: 12px;
+}
+#filter form .description{
+	width: 200px;
+	font-weight:  bold;
+}
+div.closed{
+	background-image: url(images/filter_closed_bg.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+div.open{
+	background-image: url(images/filter_open_bg.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+#home {
+	position: relative;
+	top: 13px;
+	left: 24px;
 }
