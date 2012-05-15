@@ -1,0 +1,23 @@
+#wrapper #slider {
+	bottom: 24px;
+}
+#parts a, .gallery a {
+	behavior: url(js/pie/PIE.htc);
+}
+#footer div img {
+
+	margin-top: 0px;
+	position: relative;
+	bottom: 10px;
+}
+.gallery a img {
+	position: relative;
+	
+}
+#content h1 {
+	margin-bottom: 34px;
+}
+#sidebar  ul {
+	padding-left: 0px;
+	margin-left:  0px;
+}

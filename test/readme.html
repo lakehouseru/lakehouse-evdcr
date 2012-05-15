@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>WordPress &rsaquo;
+Прочитайте меня! (ReadMe)</title>
+  <link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228"
+ type="text/css" />
+</head>
+<body>
+<h1 id="logo"> <a href="http://wordpress.org/"><img alt="WordPress"
+ src="wp-admin/images/wordpress-logo.png" height="68" width="250" /></a>
+<br />
+Версия 3.3.2
+</h1>
+<p style="text-align: center;">Современная
+персональная платформа для
+публикаций<br />
+</p>
+<h1>Во первых<br />
+</h1>
+<p>
+Добро пожаловать. WordPress - очень особенный проект для меня. Каждый
+разработчик и участник добавляет что-то уникальное, и вместе мы
+создадим нечто красивое, чем я буду гордиться как часть этого. Тысячи
+часов были направлены на WordPress, и мы прилагаем все усилия, чтобы
+сделать его лучше каждый день. Спасибо за то, что вы делаете его частью
+вашего мира.</p>
+<p style="text-align: right;">&mdash;
+Matt Mullenweg</p>
+<p>Спасибо что вы выбрали
+качественный русский перевод от Lecactus.ru! <br />
+</p>
+<h1>ВАЖНО: прочитайте это перед
+установкой</h1>
+Чтобы не получить ошибку вида <span
+ style="font-weight: bold; color: rgb(255, 0, 0);">CANNOT
+MODIFY HEADER
+INFORMATION</span>, не
+пользуйтесь стандартным БЛОКНОТОМ (для пользователей ОС Windows) для
+редактирования каких-либо файлов WordPress.<br />
+Особенно это касается файла wp-config.php<br />
+В WordPress используется кодировка utf-8<br />
+Если вы вносите изменения в файлы движка или файлы Темы, необходимо
+сохранять их в кодировке utf-8 без сигнатуры BOM<br />
+НЕ ВСЕ РЕДАКТОРЫ УМЕЮТ РАБОТАТЬ С UTF-8 БЕЗ BOM<br />
+<br />
+Отключайте BOM<br />
+Воспользуйтесь лучше одним из этих редакторов:<br />
+<a
+ href="http://dfn.dl.sourceforge.net/sourceforge/unicedit/UnicEdit28.zip">UnicEdit</a>,
+<br />
+<a href="http://notepad-plus.sourceforge.net/">Notepad++</a>,
+<br />
+<a href="http://www.flos-freeware.ch/notepad2.html">Notepad2</a>.<br />
+При сохранении файла многие текстовые редакторы предлагают флажок
+&laquo;Include Unicode Signature (BOM)&raquo;, &laquo;Add
+Byte Order
+Mark&raquo; или нечто подобное. Прежде всего убедитесь, что в вашем
+редакторе это есть. Если похожей настройки не обнаружено (как,
+например, в &laquo;Блокноте&raquo;) &mdash; пользоваться
+таким
+редактором для серьёзных задач не ст&oacute;ит. Найдя этот флажок
+&mdash; отключите его.<br />
+Рекомендуется также почитать эту <a
+ href="http://blog.portal.kharkov.ua/2008/04/08/find_bom/">запись</a>
+и
+пользоваться плагином поиска BOM в будущем.<br />
+<h1>Установка: Знаменитая
+установка за 5 минут</h1>
+<ol>
+  <li>Распакуйте архив в пустую
+директорию.</li>
+  <li>Откройте <code>wp-config-sample.php</code>
+текстовым редактором,
+например WordPad или аналогичным и заполните данные для подключения к
+базе данных.</li>
+  <li>Сохраните файл как <code>wp-config.php</code></li>
+  <li>Загрузите все на сервер.</li>
+  <li>Откройте <span class="file"><a
+ href="../../project-wp292rus/ru.distrib/wp231patched%20files/wp-admin/install.php">/wp-admin/install.php</a></span>
+в вашем браузере. Это должно настроить таблицы, необходимые для блога.
+Если будет ошибка, то дважды проверьте ваш <span class="file">файл
+wp-config.php</span> и попробуйте
+заново. Если ошибка произойдет снова,
+пожалуйста обратитесь в&nbsp;&nbsp;<a
+ href="http://wordpress.org/support/">форум поддержки
+(англ)</a> или <a href="http://ru.forums.wordpress.org/">русский форум
+поддержки</a> и
+соберите как можно больше данных, которые смогут пригодиться чтобы вам
+помочь.</li>
+  <li><strong>Пароль
+дается вам при установке.</strong></li>
+  <li>Скрипт установки затем
+должен отправить вас на&nbsp;<a
+ href="../../project-wp292rus/ru.distrib/wordpress/wp-login.php">страницу
+входа</a>.
+Войдите с именем пользователя&nbsp;<code style="font-weight: bold;">admin</code>
+и паролем, сгенерированном для вас во время установки. Вы можете затем
+перейти в раздел 'Профиль' чтобы изменить пароль.</li>
+</ol>
+<h1>Обновление</h1>
+<h2>Используя автоматическое
+обновление<br />
+</h2>
+<p>Если у вас установлен Wordpress
+2.7 или новее, вы можете
+воспользоваться автоматическим обновлением:</p>
+<ol>
+  <li>Откройте ссылку <span class="file"><a
+ href="wp-admin/update-core.php">wp-admin/update-core.php</a></span>
+в
+вашем браузере и следуйте инструкции.</li>
+  <li>Ожидали большего? Это все!</li>
+</ol>
+<h2>Обновление вручную<br />
+</h2>
+<ol>
+  <li>Перед тем как приступить к
+обновлению, СДЕЛАЙТЕ РЕЗЕРВНЫЕ КОПИИ
+всех важных файлов, которые вы изменяли,&nbsp; например <code>index.php</code>.</li>
+  <li>Удалите файлы прежней версии
+WordPress, сохраните те, что вы
+изменили.</li>
+  <li>Загрузите новые файлы.</li>
+  <li>Откройте в бразуере ссылку <span class="file"><a
+ href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+</ol>
+<h2>Изменения в шаблонах тем<br />
+</h2>
+<p>Если вы настраивали вашу тему,
+возможно вам потребуется внести
+изменения в основную версию.<br />
+</p>
+<h1>Переход с других систем</h1>
+<p>WordPress может <a
+ href="http://codex.wordpress.org/Importing_Content">импортировать
+данные с различных систем</a>. Но
+прежде вам нужно установить и настроить <a href="wp-admin/import.php"
+ title="Импорт в WordPress">наши
+инструменты импорта</a>.</p>
+<h1>Системные требования</h1>
+<ul>
+  <li><a href="http://php.net/">PHP</a>
+версии <strong>4.3</strong>
+или выше.</li>
+  <li><a href="http://www.mysql.com/">MySQL</a>
+версии <strong>4.1.2</strong>
+или выше.</li>
+</ul>
+<h2>Системные рекомендации</h2>
+<ul>
+  <li>Модуль Apache <a
+ href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+  <li>Ссылка на <a href="http://wordpress.org/">http://wordpress.org</a>
+с вашего сайта.</li>
+</ul>
+<h1>Ресурсы в интернете</h1>
+<p>Если у вас имеются вопросы, не
+касающиеся этого документа, воспользуйтесь нашими сетевыми ресурсами:</p>
+<dl>
+  <dt><a
+ href="http://codex.wordpress.org/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Кодекс
+WordPress</a></dt>
+  <dd>Кодекс &mdash; это
+энциклопедия обо всем, что касается WordPress. Это наиболее полный
+источник информации о WordPress. (Не вся информация представлена на
+русском языке, но вы можете помочь локализовать некоторые материалы) </dd>
+  <dt><a href="http://wordpress.org/news/">Блог WordPress</a></dt>
+  <dd>Здесь вы можете найти
+информацию о последних обновлениях и новости авторов WordPress. Свежие
+новости о WordPress по умолчанию появляются в вашей панели
+администрирования. </dd>
+  <dt><a href="http://planet.wordpress.org/">Планета WordPress</a></dt>
+  <dd>Планета WordPress
+&mdash; это&nbsp;агрегатор новостей с блогов, посвящённых
+WordPress, по всему миру (в основном информация на английском языке).</dd>
+  <dt><a href="http://ru.forums.wordpress.org/">Форумы
+поддержки WordPress</a><span style="text-decoration: underline;"><a
+ href="http://wordpress.org/support/">&nbsp;</a>
+    </span></dt>
+  <dd>Если вы уже смотрели везде и
+не нашли ответа, на форумах поддержки есть большое и&nbsp;активное
+сообщество людей, готовых оказать помощь. Чтобы вам помогли и не
+отправили "в поиск", используйте информативный заголовок сообщения и
+сформулируйте свой вопрос максимально детально. </dd>
+  <dt><a href="http://codex.wordpress.org/IRC">WordPress <abbr
+ title="Internet Relay Chat">IRC</abbr>
+канал</a></dt>
+  <dd>Существует канал
+онлайн-чата, который используется для обсуждения среди людей,
+использующих WordPress, и иногда для поддержки. Страница по ссылке выше
+поможет вам попасть туда. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net
+#wordpress</a>)</dd>
+</dl>
+<h1>XML-RPC и Atom интерфейс</h1>
+<p>Вы можете публиковать в ваш
+блог WordPress с помощью инструментов&nbsp;<a
+ href="http://download.live.com/writer">Windows Live
+Writer</a>, <a href="http://illuminex.com/ecto/">Ecto</a>,
+<a href="http://bloggar.com/">w.bloggar</a>,
+<a href="http://radio.userland.com/">Radio
+Userland</a> (это означает,
+можно использовать функцию Radio email-to-blog), <a
+ href="http://www.newzcrawler.com/">NewzCrawler</a>,&nbsp;и
+другие
+инструменты, которые поддерживают Blogging API!
+:)&nbsp;Вы можете прочитать
+больше о <a href="http://codex.wordpress.org/XML-RPC_Support"><abbr>XML</abbr>-<abbr>RPC</abbr>
+support on the Codex</a>.</p>
+<h1>Публикация через электронную
+почту</h1>
+<p>Вы можете публиковать в блог
+через почтовый&nbsp;клиент! Для установки
+перейдите в экран настроек "Написание" и заполните настройки
+подключения
+для вашего секретного аккаунта POP3. Затем вы должны настроить <code
+ style="font-weight: bold;">wp-mail.php</code>
+выполняться периодически для проверки новых записей. Вы можете сделать
+это с помощью Cron-jobs, или если ваш хостинг не поддерживает это, вы
+можете присмотреться к некоторым сервисам мониторинга сайтов, и
+заставить их проверять ваш <code style="font-weight: bold;">wp-mail.php</code><span
+ style="font-weight: bold;"> URL</span>.</p>
+<p>Публикация очень простая: Любое
+электронное письмо, отправленное на
+адрес будет автоматически опубликовано, с темой письма в качестве
+заголовка. Лучше держать этот адрес в секрете. Скрипт <i>удаляет</i>
+электронные письма которые были опубликованы.</p>
+<h1>Пользовательские роли</h1>
+<p>Мы ликвидировали уровни
+пользователей, т.к. гораздоболее гибкие
+функции системы были введены в 2.0. Вы можете&nbsp;<a
+ href="http://codex.wordpress.org/Roles_and_Capabilities">прочитать
+больше о Ролях и Способностях в Кодексе</a>.</p>
+<h1>Последние примечания</h1>
+<ul>
+  <li>Если у вас есть предложение,
+идеи, замечания или (вдруг!) вы
+обнаружили ошибку, добро пожаловать в&nbsp;<a
+ href="http://wordpress.org/support/">форумы поддержки
+(англ)</a>.</li>
+  <li>WordPress сейчас имеет
+надежный API плагинов, которые делают
+расширение кода очень простым. Если вы разработчик, заинтересованный в
+использовании этого, смотрите&nbsp;<a
+ href="http://codex.wordpress.org/Plugin_API">документацию
+по плагинам
+в Кодексе</a>. В большинстве
+случаев, вам не нужно модифицировать код
+ядра системы.</li>
+</ul>
+<h1>Поделитесь любовью</h1>
+<p>WordPress не имеет
+многомилионной долларовой рекламной кампании или
+знаменитости авторов, но у нас есть что-то еще лучше - вы. Если вам
+нравится WordPress,&nbsp; пожалуйста расскажите о нем друзьям,
+помогите
+установить ее тем, кто не может разобраться самостоятельно, или
+напишите статью в средствах массовой информации с обзором нас.</p>
+<p>WordPress официально произошел
+из <a href="http://cafelog.com/">b2/caf&eacute;log</a>,
+автора Michel V. Эта работа была продолжена&nbsp;<a
+ href="http://wordpress.org/about/">разработчиками
+WordPress</a>. если вы хотите
+поддержать WordPress, пожалуйста рассмотрите вариант&nbsp;<a
+ href="http://wordpress.org/donate/" title="Donate to WordPress">пожертвования</a>.</p>
+<h1>Лицензия</h1>
+<p>WordPress - свободное
+программное обеспечение, и выпускается в соответсвии с условиями <abbr
+ title="GNU General Public License">GPL</abbr>
+версии 2 или (на ваш выбор) более поздней версией. Смотрите <a
+ href="license.txt">license.txt</a>.&nbsp;Русификация от
+<a href="http://lecactus.ru/">Lecactus.ru</a>
+&copy;
+2007-2012
+</p>
+</body>
+</html>

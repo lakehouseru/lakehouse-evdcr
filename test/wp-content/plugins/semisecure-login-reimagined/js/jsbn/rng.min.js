@@ -1,0 +1,7 @@
+// Random number generator - requires a PRNG backend, e.g. prng4.js
+
+// For best results, put code like
+// <body onClick='jsbn_rng_seed_time();' onKeyPress='jsbn_rng_seed_time();'>
+// in your main HTML document.
+
+var jsbn_rng_state;var jsbn_rng_pool;var jsbn_rng_pptr;function jsbn_rng_seed_int(a){jsbn_rng_pool[jsbn_rng_pptr++]^=a&255;jsbn_rng_pool[jsbn_rng_pptr++]^=(a>>8)&255;jsbn_rng_pool[jsbn_rng_pptr++]^=(a>>16)&255;jsbn_rng_pool[jsbn_rng_pptr++]^=(a>>24)&255;if(jsbn_rng_pptr>=jsbn_rng_psize){jsbn_rng_pptr-=jsbn_rng_psize}}function jsbn_rng_seed_time(){jsbn_rng_seed_int(new Date().getTime())}if(jsbn_rng_pool==null){jsbn_rng_pool=new Array();jsbn_rng_pptr=0;var t;if(navigator.appName=="Netscape"&&navigator.appVersion<"5"&&window.crypto){var z=window.crypto.random(32);for(t=0;t<z.length;++t){jsbn_rng_pool[jsbn_rng_pptr++]=z.charCodeAt(t)&255}}while(jsbn_rng_pptr<jsbn_rng_psize){t=Math.floor(65536*Math.random());jsbn_rng_pool[jsbn_rng_pptr++]=t>>>8;jsbn_rng_pool[jsbn_rng_pptr++]=t&255}jsbn_rng_pptr=0;jsbn_rng_seed_time()}function jsbn_rng_get_byte(){if(jsbn_rng_state==null){jsbn_rng_seed_time();jsbn_rng_state=jsbn_prng_newstate();jsbn_rng_state.init(jsbn_rng_pool);for(jsbn_rng_pptr=0;jsbn_rng_pptr<jsbn_rng_pool.length;++jsbn_rng_pptr){jsbn_rng_pool[jsbn_rng_pptr]=0}jsbn_rng_pptr=0}return jsbn_rng_state.next()}function jsbn_rng_get_bytes(b){var a;for(a=0;a<b.length;++a){b[a]=jsbn_rng_get_byte()}}function jsbn_SecureRandom(){}jsbn_SecureRandom.prototype.nextBytes=jsbn_rng_get_bytes;

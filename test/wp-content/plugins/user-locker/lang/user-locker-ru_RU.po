@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-09 16:05+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: user-locker.php:102
+msgid "<strong>ERROR</strong>: This user account is disabled."
+msgstr "<strong>ОШИБКА</strong>: этот аккаунт отключен."
+
+#: user-locker.php:107
+msgid "<strong>ERROR</strong>: This user account is locked for security reasons. Please use Lost Password option to unlock it."
+msgstr "<strong>ОШИБКА</strong>: Этот аккаунт заблокирован из соображений безопасности.Используйте опцию восстановления пароля, чтобы разблокировать аккаунт."
+
+#: user-locker.php:170
+msgid "<strong>ERROR</strong>: This user account has been locked for security reasons. Please use Lost Password option to unlock it."
+msgstr "<strong>ОШИБКА</strong>: Этот аккаунт был заблокирован из соображений безопасности.Используйте опцию восстановления пароля, чтобы разблокировать аккаунт."
+
+#: user-locker.php:189
+msgid "User Locking"
+msgstr "User Locking"
+
+#: user-locker.php:192
+msgid "User account locked"
+msgstr "Пользовательский аккаунт заблокирован"
+
+#: user-locker.php:193
+msgid "User account is locked for security reasons"
+msgstr "Пользовательский аккаунт заблокирован из соображений безопасности"
+
+#: user-locker.php:196
+msgid "User account disabled"
+msgstr "Пользовательский аккаунт был заблокирован"
+
+#: user-locker.php:197
+msgid "User account is disabled"
+msgstr "Пользовательский аккаунт отключен"
+
+#: user-locker.php:256
+msgid "Locked / Disabled"
+msgstr "Заблокировано / Отключено"
+
+#: user-locker.php:265
+#: user-locker.php:271
+msgid "Yes"
+msgstr "Да"
+
+#: user-locker.php:267
+#: user-locker.php:273
+msgid "No"
+msgstr "Нет"
+
+#: user-locker.php:293
+msgid "Configuration has been saved."
+msgstr "Конфигурация сохранена."
+
+#: user-locker.php:299
+msgid "User Locker - Options"
+msgstr "User Locker - Настройки"
+
+#: user-locker.php:305
+msgid "Account locking:"
+msgstr "Блокировка аккаунта:"
+
+#: user-locker.php:309
+msgid "Maximum invalid login attempts before account locking:"
+msgstr "Лимит некорректных входов до блокировки аккаунта:"
+
+#: user-locker.php:320
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#. Plugin Name of an extension
+msgid "User Locker"
+msgstr "User Locker"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/user_locker/"
+msgstr "http://www.poradnik-webmastera.com/projekty/user_locker/"
+
+#. Description of an extension
+msgid "This plugin locks user account after given number of incorrect login attempts."
+msgstr "Плагин блокирует аккаунт после определенного количества неверных заходов в систему."
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "Daniel Fruyski"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

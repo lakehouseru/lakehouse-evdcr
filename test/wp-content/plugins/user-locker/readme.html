@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>	
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>User Locker 1.2 Readme</title>
+</head>
+<body>
+<h1>User Locker 1.2 Readme</h1>
+<p>This plugin sets limit for maximum number of invalid login attempts per user. When it is exceeded, user account becomes locked and the only way to unlock it is to request new password for it. This makes brute force and dictionary attacks nearly impossible. </p>
+<p><b>Plugin Homepage:</b> <a href="http://www.poradnik-webmastera.com/projekty/user_locker/">User Locker</a></p>
+<p><b>Plugin Homepage on WordPress.org:</b> <a href="http://wordpress.org/extend/plugins/user-locker/">User Locker</a></p>
+<p><b>Author Homepage:</b> <a href="http://www.poradnik-webmastera.com/">Poradnik Webmastera</a></p>
+<p><b>Author:</b> Daniel Frużyński</p>
+
+<h2>Description</h2>
+<p>Default Wordpress installation is vulnerable to brute force and dictionary attacks, because there is no limit how many times user can use invalid password before finding the correct one. This plugin closes this security hole by introducing maximum number of invalid login attempts. When someone exceeds this number, his/her account becomes locked, and can be unlocked only by requesting new password (using Lost Password option) or asking Admin for help (he/she can do it too). This makes brute force and dictionary attacks nearly impossible.</p>
+<p>You can also disable selected user accounts, so users will not be able to log in even if they will know password. You can use this feature to ban selected users.</p>
+<p>You can also enter lock/disable reason for your further reference. When account is automatically blocked, plugin can automatically add lock reason (configurable). By default reason text is displayed on User List only; you can also display it for user after blocked login attempt. You have also option to keep some of them private - just start the reason text with '@' (AT sign).</p>
+<p>Plugin also provides few public functions and actions for simpler integration with other plugins - see FAQ for more details.</p>
+
+<p>Available translations:</p>
+<ul>
+<li>English</li>
+<li>Polish (pl_PL) - done by me</li>
+<li>German (de_DE) - thanks GhostLyrics</li>
+<li>French (fr_FR) - thanks Gilles</li>
+<li>Russian (ru_RU) - thanks Fat Cow</li>
+<li>Belorussian (be_BY) - thanks ilyuha</li>
+<li>Italian (it_IT) - thanks Alessandro</li>
+<li>Dutch (nl_NL) - thanks Rene</li>
+<li>Arabic (ar_AR) - thanks zaher kadour</li>
+<li>Turkish (tr_TR) - thanks Dincer YAMANLAR</li>
+</ul>
+
+<h2>Installation</h2>
+<ol>
+<li>Upload <code>user-locker</code> directory to the <code>/wp-content/plugins/</code> directory</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+<li>Configure and enjoy :)</li>
+</ol>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How can I integrate my plugin with User Locker?</h3>
+<p>User Locker provides special functions (placed in &quot;Public functions&quot; section in code). I recommend to use them instead of calling methods of <code>UserLocker</code> class directly - the latter ones may change without any notice. There are also few hooks which you can use too.</p>
+<p>There are following functions and hooks available:</p>
+<ul>
+<li><code>function user_locker_lock_user( $user_id, $reason = '' )</code> - Lock user account (user may unlock it by requesting new password). Parameters: User ID; New lock reason (may be empty string) or False to do not update lock reason. This function calls the <code>user_locker_lock_user</code> after locking user account with one parameter - User ID;</li>
+<li><code>function user_locker_unlock_user( $user_id, $reason = false )</code> - Unlock user account. Parameters: User ID; New lock reason (may be empty string) or False to do not update lock reason. This function calls the <code>user_locker_unlock_user</code> after unlocking user account with one parameter - User ID;</li>
+<li><code>function user_locker_disable_user( $user_id, $reason = '' )</code> - Disable user account (user cannot enable it, only admin can do this). Parameters: User ID; New disable reason (may be empty string) or False to do not update disable reason. This function calls the <code>user_locker_disable_user</code> after disabling user account with one parameter - User ID;</li>
+<li><code>function user_locker_enable_user( $user_id, $reason = false )</code> - Enable user account. Parameters: User ID; New disable reason (may be empty string) or False to do not update disable reason. This function calls the <code>user_locker_enable_user</code> after enabling user account with one parameter - User ID;</li>
+</ul>
+
+<h2>Changelog</h2>
+<p>1.2</p>
+<ul>
+<li>Allow to enter reason why user was locked or disabled;</li>
+<li>Lock/Disable status can be displayed in single column as before (reason text is put in tooltip) or in two columns;</li>
+<li>Added public functions and actions for simpler integration with other plugins (see plugin FAQ for more details);</li>
+<li>Fix: plugin may not work if custom authentication method is user;</li>
+<li>Marked as compatible with WP 3.2.x</li>
+</ul>
+<p>1.1.13</p>
+<ul>
+<li>Added Turkish translation (thanks Dincer YAMANLAR)</li>
+</ul>
+<p>1.1.12</p>
+<ul>
+<li>Added Arabic translation (thanks zaher kadour)</li>
+</ul>
+<p>1.1.11</p>
+<ul>
+<li>Added Dutch translation (thanks Rene)</li>
+</ul>
+<p>1.1.10</p>
+<ul>
+<li>Added icon to settings page</li>
+</ul>
+<p>1.1.9</p>
+<ul>
+<li>Added Italian translation (thanks Alessandro);</li>
+<li>Code cleanup</li>
+</ul>
+<p>1.1.8</p>
+<ul>
+<li>Code cleanup</li>
+</ul>
+<p>1.1.7</p>
+<ul>
+<li>Marked as compatible with WP 2.9.x</li>
+</ul>
+<p>1.1.6</p>
+<ul>
+<li>Marked as compatible with WP 2.8.5</li>
+</ul>
+<p>1.1.5</p>
+<ul>
+<li>Added Belorussian translation (thanks ilyuha)</li>
+</ul>
+<p>1.1.4</p>
+<ul>
+<li>Added Russian translation (thanks Fat Cow)</li>
+</ul>
+<p>1.1.3</p>
+<ul>
+<li>Added French translation (thanks Gilles)</li>
+</ul>
+<p>1.1.2</p>
+<ul>
+<li>Added German translation (thanks GhostLyrics)</li>
+<li>Marked plugin as tested with WP 2.8.1</li>
+</ul>
+<p>1.1.1</p>
+<ul>
+<li>Marked plugin as tested with WP 2.8</li>
+</ul>
+<p>1.1</p>
+<ul>
+<li>Added option to disable User Accounts (such users cannot login even if they know valid password);</li>
+<li>Administrator can change Locked and Disabled statuses of User Account by editing user profile;</li>
+<li>Display User Account status on User list (requires WP 2.8+).</li>
+</ul>
+<p>1.0</p>
+<ul>
+<li>Initial version</li>
+</ul>
+</body>
+</html>

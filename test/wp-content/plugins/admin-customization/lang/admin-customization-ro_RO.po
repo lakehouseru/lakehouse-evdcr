@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Customization\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-30 01:18+0200\n"
+"PO-Revision-Date: 2011-10-30 01:20+0200\n"
+"Last-Translator: Alex Ciobica <alex.ciobica@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"X-Poedit-SearchPath-0: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization\n"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:9
+msgid "Admin Customization Settings"
+msgstr "Setări Personalizare Administrare"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:10
+msgid "Admin Customization"
+msgstr "Personalizare Administrare"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:15
+msgid "Style preferences"
+msgstr "Preferințe de stil"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:16
+msgid "Dashboard widgets"
+msgstr "Widget-uri Panou Control"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:17
+msgid "General settings"
+msgstr "Setări generale"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:38
+#, php-format
+msgid "Cannot find any file at <a href=\"%1$s\">%1$s</a>"
+msgstr "Fișierul <a href=\"%1$s\">%1$s</a> nu poate fi găsit"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:62
+msgid "Hide update notices"
+msgstr "Ascunde notificări de update"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:65
+msgid "Hide plugin update count"
+msgstr "Ascunde număr update pluginuri"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:68
+msgid "Redirect to home page on logout"
+msgstr "După logout, redirecționează către pagina de home"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:95
+msgid "General settings saved."
+msgstr "Setările generale au fost salvate."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:109
+msgid "Favicon"
+msgstr ""
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:110
+msgid "(favicon path realative to wp-content)"
+msgstr "(cale relativă la wp-content către favicon)"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:118
+msgid "Login logo"
+msgstr "Logo login"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:119
+msgid "(login logo path relative to wp-content)"
+msgstr "(cale relativă la wp-content către logo de pe pagina de login )"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:126
+msgid "Admin logo "
+msgstr "Logo admin"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:127
+#, fuzzy
+msgid "(admin logo path relative to wp-content.)<br />e.g.: \"themes/mytheme/img/admin_logo.png\""
+msgstr "(cale relativă la wp-content către logo admin)<br />ex.: \"themes/mytheme/img/admin_logo.png\""
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:138
+msgid "Hide admin logo"
+msgstr "Ascude logo admin"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:142
+msgid "Logo text font size"
+msgstr "Mărime text din logo"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:143
+msgid "The font size in pixels. Non-numeric characters will be stripped."
+msgstr "Mărimea fontului în pixeli. Caracterele non-numerice vor fi șterse."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:153
+msgid "Hide admin logo text"
+msgstr "Ascude text logo admin"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:157
+msgid "Admin footer text left"
+msgstr "Text subsol stânga"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:158
+msgid "Replacement for the left footer text. Accepts HTML."
+msgstr "Un text care îl înlocuiește pe cel subsol stânga. Acceptă HTML."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:164
+msgid "Admin footer text right"
+msgstr "Text subsol dreapta"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:165
+msgid "Replacement for the Wordpress version footer text on the right. Accepts HTML."
+msgstr "Un text care înlocuieste versiunea curenta a Wordpress-ului din subsol. Acceptă HTML."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:180
+msgid "Style preferences changes saved."
+msgstr "Preferințele de stil au fost salvate."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:198
+msgid "To update this list of widgets you must first visit the <a href=\"/wp-admin\" target=\"_blank\">Dashboard</a>."
+msgstr "Pentru actualizarea listei de widget-uri vizitează <a href=\"/wp-admin\" target=\"_blank\">Panoul de Control</a>"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:199
+msgid "Disable All Widgets"
+msgstr "Dezactivează toate Widget-urile"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/admin/admin.php:209
+msgid "Dashboard widgets settings saved."
+msgstr "Setări Widget-uri Panou Control au salvate."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/scb/AdminPage.php:161
+msgid "Settings <strong>saved</strong>."
+msgstr "Setări au fost <strong>salvate</strong>."
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/scb/AdminPage.php:174
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/scb/AdminPage.php:185
+msgid "Save Changes"
+msgstr "Salvează schimbările"
+
+#: /Volumes/MacData/Projects/Wordpress/plugins/git/admin-customization/scb/AdminPage.php:367
+msgid "Settings"
+msgstr "Setări"
+
+#~ msgid ""
+#~ "Note: If you don't see any changes immediately after you saved, just "
+#~ "refresh or visit a different admin page."
+#~ msgstr ""
+#~ "Notă: Dacă nu vezi nici o schimbare imediat după salvare, reîncarcă "
+#~ "pagina sau vizitează altă pagină din panoul de administrare."
+
+#~ msgid ""
+#~ "General settings saved. <strong>You need to refresh to see the changes.</"
+#~ "strong>"
+#~ msgstr ""
+#~ "Preferințele generale au fost salvate. <strong>E nevoie de un refresh "
+#~ "pentru a vedea schimbarile.</strong>"
+
+#~ msgid ""
+#~ "Style preferences changes saved. <strong>You need to refresh to see the "
+#~ "changes.</strong>"
+#~ msgstr ""
+#~ "Preferențele de stil au fost salvate. <strong>E nevoie de un refresh "
+#~ "pentru a vedea schimbarile.</strong>"
+
+#~ msgid "General settings saved. You may need to refresh to see the changes."
+#~ msgstr ""
+#~ "Preferințele generale au fost salvate. E nevoie de un refresh pentru a "
+#~ "vedea schimbarile."
+
+#~ msgid ""
+#~ "(admin logo (max <strong>32x32px</strong>) path relative to wp-content.)"
+#~ "<br />e.g.: \"themes/mytheme/img/admin_logo.png\""
+#~ msgstr ""
+#~ "(cale relativă (max <strong>32x32px</strong>) la wp-content către logo "
+#~ "admin)<br />ex.: \"themes/mytheme/img/admin_logo.png\""
+
+#~ msgid ""
+#~ "Style preferences changes saved. You may need to refresh to see the "
+#~ "changes."
+#~ msgstr ""
+#~ "Preferențele de stil au fost salvate. E nevoie de un refresh pentru a "
+#~ "vedea schimbarile."
+
+#~ msgid "Admin logo"
+#~ msgstr "Logo admin"

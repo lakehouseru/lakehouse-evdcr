@@ -1,0 +1,153 @@
+# Copyright (C) 2010 User Locker
+# This file is distributed under the same license as the User Locker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: User Locker 1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/user-locker\n"
+"POT-Creation-Date: 2011-09-19 06:02:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: user-locker.php:108
+msgid "<strong>ERROR</strong>: This user account is disabled."
+msgstr ""
+
+#: user-locker.php:110
+msgid "<strong>ERROR</strong>: This user account is disabled (reason: %s)."
+msgstr ""
+
+#: user-locker.php:126
+msgid ""
+"<strong>ERROR</strong>: This user account is locked for security reasons. "
+"Please use Lost Password option to unlock it."
+msgstr ""
+
+#: user-locker.php:128
+msgid ""
+"<strong>ERROR</strong>: This user account is locked (reason: %s). Please use "
+"Lost Password option to unlock it."
+msgstr ""
+
+#: user-locker.php:291
+msgid ""
+"<strong>ERROR</strong>: This user account has been locked for security "
+"reasons. Please use Lost Password option to unlock it."
+msgstr ""
+
+#: user-locker.php:310
+msgid "User Locking"
+msgstr ""
+
+#: user-locker.php:313
+msgid "User account locked"
+msgstr ""
+
+#: user-locker.php:314
+msgid "User account is locked for security reasons"
+msgstr ""
+
+#: user-locker.php:317
+msgid "Lock reason"
+msgstr ""
+
+#: user-locker.php:318 user-locker.php:326 user-locker.php:486
+msgid "Note: start text with '@' (AT sign) to keep it private."
+msgstr ""
+
+#: user-locker.php:321
+msgid "User account disabled"
+msgstr ""
+
+#: user-locker.php:322
+msgid "User account is disabled"
+msgstr ""
+
+#: user-locker.php:325
+msgid "Disable reason"
+msgstr ""
+
+#: user-locker.php:371
+msgid "Locked / Disabled"
+msgstr ""
+
+#: user-locker.php:373
+msgid "Locked"
+msgstr ""
+
+#: user-locker.php:374
+msgid "Disabled"
+msgstr ""
+
+#: user-locker.php:390 user-locker.php:406 user-locker.php:417
+#: user-locker.php:428
+msgid "Yes"
+msgstr ""
+
+#: user-locker.php:396 user-locker.php:412 user-locker.php:423
+#: user-locker.php:434
+msgid "No"
+msgstr ""
+
+#: user-locker.php:463
+msgid "User Locker - Options"
+msgstr ""
+
+#: user-locker.php:469
+msgid "Account locking:"
+msgstr ""
+
+#: user-locker.php:473
+msgid "Maximum invalid login attempts before account locking:"
+msgstr ""
+
+#: user-locker.php:482
+msgid "Default lock reason:"
+msgstr ""
+
+#: user-locker.php:492
+msgid "Show account lock/disable reason after login attempt:"
+msgstr ""
+
+#: user-locker.php:501
+msgid "Clean lock/disable reason when user is unlocked/enabled:"
+msgstr ""
+
+#: user-locker.php:510
+msgid "Show single status column:"
+msgstr ""
+
+#: user-locker.php:513
+msgid ""
+"Add one column instead of two to the User List, and show lock/disable reason "
+"in tooltip only."
+msgstr ""
+
+#: user-locker.php:520
+msgid "Save settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "User Locker"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/projekty/user_locker/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin locks user account after given number of incorrect login "
+"attempts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Daniel Frużyński"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/"
+msgstr ""

@@ -1,0 +1,1938 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Tags 2.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-14 17:02+0700\n"
+"PO-Revision-Date: 2011-12-14 22:32+0700\n"
+"Last-Translator: Kalinin Ivan <lecactus@lecactus.ru>\n"
+"Language-Team: Lecactus <lecactus@lecactus.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: d:\\DOWNLOADS\\Архивы\\plugins\\simple-tags\n"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/simple-tags.php:45
+#, php-format
+msgid "Your PHP version is too old, please upgrade to a newer version. Your version is %s, Simple Tags requires %s. Remove the plugin from WordPress plugins directory with FTP client."
+msgstr ""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autocomplete.php:141
+msgid "Tags (Simple Tags)"
+msgstr "Метки (Simple Tags)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autocomplete.php:168
+msgid "Separate tags with commas"
+msgstr "Разделяйте метки запятыми"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:23
+msgid "Simple Terms: Auto Terms"
+msgstr "Simple Terms: Автоматические термины"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:23
+msgid "Auto Terms"
+msgstr "Автоматические термины"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:79
+msgid "Auto terms options updated !"
+msgstr "Настройки автоматических терминов обновлены!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:96
+msgid "Overview"
+msgstr "Обзор"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:97
+msgid "The bulb are lit when the association taxonomy and custom post type have the classification automatic activated. Otherwise, the bulb is off."
+msgstr ""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:101
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:114
+msgid "Custom types / Taxonomies"
+msgstr "Произвольные типы / Таксономии"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:150
+msgid "Context configured & actived."
+msgstr "Контекст сконфигурирован и активирован."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:152
+msgid "Context unconfigured."
+msgstr "Контекст несконфигурирован."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:169
+#, php-format
+msgid "Auto Terms for %s and %s"
+msgstr "Автоматические термины для %s и %s"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:173
+msgid "Auto terms list"
+msgstr "Список автоматических терминов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:174
+msgid "This feature allows Wordpress to look into post content and title for specified terms when saving posts. If your post content or title contains the word \"WordPress\" and you have \"wordpress\" in auto terms list, Simple Tags will add automatically \"wordpress\" as term for this post."
+msgstr "Эта функция позволит Wordpress просматривать содержимое записи и заголовка на предмет заданных терминов при сохранении записей. Если ваша запись или заголовок содержат слово \"WordPress\" и вы имеете  \"wordpress\" в списке автоматических терминов, Simple Tags автоматически добавит \"wordpress\" в качестве термина для вашей записи."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:176
+msgid "Options"
+msgstr "Настройки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:180
+msgid "Activation"
+msgstr "Активация"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:183
+msgid "Active Auto Tags."
+msgstr "Активировать автоматические метки."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:187
+msgid "Terms database"
+msgstr "База данных терминов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:190
+msgid "Use also local terms database with auto terms. (Warning, this option can increases the CPU consumption a lot if you have many terms)"
+msgstr "Использовать также локальную базу данных меток с автоматическими терминами. (Внимание, эта опция сильно увеличивает потребление ресурсов CPU, если у вас имеется много терминов)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:194
+msgid "Target"
+msgstr "Цель"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:197
+msgid "Autotag only posts without terms."
+msgstr "Автоматически пометить только записи без терминов."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:201
+msgid "Whole Word ?"
+msgstr "Целое слово ?"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:204
+msgid "Autotag only a post when terms finded in the content are a the same name. (whole word only)"
+msgstr "Автоматически помечать только записи, если термины найдены в его содержании с тем же именем (только целые слова)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:208
+msgid "Keywords list"
+msgstr "Список ключевых слов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:211
+msgid "Separated with a comma"
+msgstr "Разделенные запятыми"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:218
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:279
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:309
+msgid "Update options &raquo;"
+msgstr "Обновить настройки &raquo;"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:222
+msgid "Auto terms old content"
+msgstr "Автоматически пометить старый контент"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:224
+msgid "Simple Tags can also tag all existing contents of your blog. This feature use auto terms list above-mentioned."
+msgstr "Simple Tags может также добавить метки в весь существующий контент вашего блога. Эта функция использует список автоматических терминов, заданный выше."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:227
+msgid "Auto terms all content &raquo;"
+msgstr "Автоматически пометить весь контент &raquo;"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:249
+msgid "If your browser doesn't start loading the next page automatically click this link:"
+msgstr "Если ваш браузер не начинает загрузку следующей страницы автоматически, щелкните по этой ссылке:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:249
+msgid "Next content"
+msgstr "Следующий контент"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:262
+#, php-format
+msgid "All done! %s terms added."
+msgstr "Все готово! %s терминов добавлено."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.autoterms.php:267
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:251
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:276
+msgid "Visit the <a href=\"http://redmine.beapi.fr/projects/show/simple-tags/\">plugin's homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href=\"mailto:amaury@wordpress-fr.net\">ask me</a> !"
+msgstr "Посетите <a href=\"http://redmine.beapi.fr/projects/show/simple-tags/\">домашнюю страницу плагина</a> для получения дополнительных сведений. Если вы нашли ошибку, или имеете фантастическую идею для этого плагина, <a href=\"mailto:amaury@wordpress-fr.net\">свяжитесь со мной</a> !"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.clickterms.php:19
+msgid "Display click tags"
+msgstr "Показать клик-метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.clickterms.php:19
+msgid "Hide click tags"
+msgstr "Спрятать клик-метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.clickterms.php:38
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.clickterms.php:40
+msgid "Click tags"
+msgstr "Клик-метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.clickterms.php:76
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:400
+msgid "No terms in your WordPress database."
+msgstr "Нет терминов в вашей базе данных WordPress."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.clickterms.php:115
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:416
+msgid "No results from your WordPress database."
+msgstr "Нет результатов из вашей базы данных WordPress."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:31
+msgid "Simple Terms: Manage Terms"
+msgstr "Simple Terms: Управление терминами"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:31
+msgid "Manage Terms"
+msgstr "Управление терминами"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:47
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:42
+msgid "Security problem. Try again. If this problem persist, contact <a href=\"mailto:amaury@wordpress-fr.net\">plugin author</a>."
+msgstr "Проблема с безопасностью. Попробуйте снова. Если проблема постоянная, свяжитесь с <a href=\"mailto:amaury@wordpress-fr.net\">автором плагина</a>."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:52
+msgid "Missing valid taxonomy for work... Try again. If this problem persist, contact <a href=\"mailto:amaury@wordpress-fr.net\">plugin author</a>."
+msgstr "Не найдена корректная таксономия для работы... Попробуйте снова. Если проблема постоянная, свяжитесь с <a href=\"mailto:amaury@wordpress-fr.net\">автором плагина</a>."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:95
+msgid "Simple Tags: Manage Terms"
+msgstr "Simple Tags: Управление терминами"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:96
+msgid "Visit the <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">plugin's homepage</a> for further details. If you find a bug, or have a fantastic idea for this plugin, <a href=\"mailto:amaury@wordpress-fr.net\">ask me</a> !"
+msgstr "Посетите <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">домашнюю страницу плагина</a> для получения дополнительных сведений. Если вы нашли ошибку, или имеете фантастическую идею для этого плагина, <a href=\"mailto:amaury@wordpress-fr.net\">обращайтесь ко мне</a> !"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:100
+msgid "Click terms list:"
+msgstr "Список клик-терминов:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:108
+msgid "Least used"
+msgstr "Последние использованные"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:109
+msgid "Most popular"
+msgstr "Самые популярные"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:110
+msgid "Alphabetical (default)"
+msgstr "Алфавитный (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:111
+msgid "Inverse Alphabetical"
+msgstr "Алфавит в обратном порядке"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:112
+msgid "Random"
+msgstr "Случайно"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:114
+msgid "Sort"
+msgstr "Сортировка"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:135
+msgid "Rename/Merge Terms"
+msgstr "Переименование/Слияние терминов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:137
+msgid "Enter the term to rename and its new value. You can use this feature to merge terms too. Click \"Rename\" and all posts which use this term will be updated."
+msgstr "Введите термин для переименования и его новое значение. Вы можете использовать эту функцию также для объединения терминов. Нажмите \"Переименовать\" и все записи, которые используют этот термин, будут обновлены."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:138
+msgid "You can specify multiple terms to rename by separating them with commas."
+msgstr "Вы можете определить несколько терминов для переименования с помощью разделения запятыми."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:149
+msgid "Term(s) to rename:"
+msgstr "Термин(ы) для переименования:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:155
+msgid "New term name(s):"
+msgstr "Новое имя термина(ов):"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:160
+msgid "Rename"
+msgstr "Переименовать"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:167
+msgid "Delete Terms"
+msgstr "Удалить термины"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:169
+msgid "Enter the name of terms to delete. Terms will be removed from all posts."
+msgstr "Вы можете определить несколько терминов для удаления с помощью разделения запятыми."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:170
+msgid "You can specify multiple terms to delete by separating them with commas"
+msgstr "Вы можете определить несколько терминов для удаления, разделив их запятыми"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:181
+msgid "Term(s) to delete:"
+msgstr "Термин(ы) для удаления:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:186
+msgid "Delete"
+msgstr "Удалить"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:193
+msgid "Add Terms"
+msgstr "Добавить термины"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:195
+msgid "This feature lets you add one or more new terms to all posts which match any of the terms given."
+msgstr "Эта функция позволяет добавить один или несколько новых терминов во все записи, которые соответствуют заданным терминам."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:196
+msgid "You can specify multiple terms to add by separating them with commas.  If you want the term(s) to be added to all posts, then don't specify any terms to match."
+msgstr "Вы можете определить множество терминов, разделив их запятыми. Если вы хотите чтобы термин(ы) были добавлены во все записи, тогда не задавайте никаких терминов для совпадения."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:207
+msgid "Term(s) to match:"
+msgstr "Термин(ы) для совпадения:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:213
+msgid "Term(s) to add:"
+msgstr "Термин(ы) для добавления:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:218
+msgid "Add"
+msgstr "Добавить"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:225
+msgid "Remove rarely used terms"
+msgstr "Удалить редко используемые термины"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:227
+msgid "This feature allows you to remove rarely used terms."
+msgstr "Эта функция позволит вам удалить редко используемые термины."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:228
+msgid "You can specify the number below which will be removed terms. If you put 5, all terms with a counter inferior to 5 will be deleted. The terms with a counter equal to 5 is keep."
+msgstr "Вы можете задать число, ниже которого термины будут удалены. Если вы введете 5, все термины с количеством до 5 будут удалены. Термины с количеством, равным 5, будут оставлены."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:239
+msgid "Numbers minimum:"
+msgstr "Минимальное число:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:248
+msgid "Delete rarely used"
+msgstr "Удалить редко используемые"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:289
+msgid "Technical informations"
+msgstr "Техническая информация"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:291
+msgid "Renaming"
+msgstr "Переименование"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:292
+msgid "Simple Tags don't use the same method as WordPress for rename a term. For example, in WordPress you have 2 terms : \"Blogging\" and \"Bloging\". When you want edit the term \"Bloging\" for rename it on \"Blogging\", WordPress will keep the two terms with the same name but with a different slug. <br />With Simple Tags, when you edit \"Bloging\" for \"Blogging\", Simple Tags merge posts filled with \"Bloging\" to \"Blogging\" and it delete the term \"Bloging\". Another logic ;)"
+msgstr "Simple Tags не использует схожий метод как WordPress для переименования терминов. Например, в WordPress имеется 2 термина: \"Блоггинг\" и \"Блогинг\". Когда вы хотите отредактировать термин \"Блогинг\" переименовав его в \"Блоггинг\", WordPress оставит два термина с одинаковыми именами, но различными ярлыками!<br />При использовании Simple Tags, когда вы изменяете \"Блогинг\" на \"Блоггинг\", Simple Tags объединяет записи, помеченные как \"Блогинг\" и \"Блоггинг\" и удаляет термин \"Блогинг\". Совершенно другая логика ;)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:315
+msgid "No new term specified!"
+msgstr "Новый термин не задан!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:330
+msgid "No new/old valid term specified!"
+msgstr "Новый/старый термин заданы не верно!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:377
+msgid "No term renamed."
+msgstr "Термин не переименован."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:379
+#, php-format
+msgid "Renamed term(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;"
+msgstr "Переименован(ы) термин(ы) &laquo;%1$s&raquo; в &laquo;%2$s&raquo;"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:386
+msgid "No valid new term."
+msgstr "Новый термин не корректный."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:403
+msgid "No objects found for specified old terms."
+msgstr "Не найдено объектов (страниц/записей) для заданных старых терминов."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:432
+msgid "No term merged."
+msgstr "Термины не объединены"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:434
+#, php-format
+msgid "Merge term(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;. %3$s objects edited."
+msgstr "Объединение терминов &laquo;%1$s&raquo; в &laquo;%2$s&raquo;. %3$s объектов отредактировано."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:437
+msgid "Error. No enough terms for rename. Too for merge. Choose !"
+msgstr "Ошибка. Вы задали недостаточно терминов строке для переименования и слишком много в строке для объединения. Выберите снова!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:453
+msgid "No term specified!"
+msgstr "Термины не заданы!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:476
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:582
+msgid "No term deleted."
+msgstr "Термин не удален."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:478
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:584
+#, php-format
+msgid "%1s term(s) deleted."
+msgstr "%1s термин(а) удален(ы)."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:495
+msgid "No new term(s) specified!"
+msgstr "Новый(е) термин(ы) не задан(ы)!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:546
+msgid "No term added."
+msgstr "Термин не добавлен."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.manage.php:548
+#, php-format
+msgid "Term(s) added to %1s post(s)."
+msgstr "Термин(ы) добавлен(ы) в %1s запись(и)."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:22
+msgid "Simple Terms: Mass Edit Terms"
+msgstr "Simple Terms: Массовое редактирование терминов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:22
+msgid "Mass Edit Terms"
+msgstr "Массовое редактирование терминов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:70
+#, php-format
+msgid "%1$s %2$s(s) terms updated with success !"
+msgstr "%1$s %2$s(s) терминов успешно обновлено !"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:101
+msgid "Mass edit terms"
+msgstr "Массовое редактирование терминов"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:108
+msgid "All"
+msgstr "Все"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:136
+msgid "Search"
+msgstr "Поиск"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:169
+msgid "Show all dates"
+msgstr "Показать за все время"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:192
+msgid "Quantity&hellip;"
+msgstr "Количество…"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:202
+msgid "Filter"
+msgstr "Фильтровать"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:219
+msgid "Post title"
+msgstr "Заголовок записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:220
+#, php-format
+msgid "Terms : %s"
+msgstr "Термины : %s"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:231
+msgid "Edit"
+msgstr "Редактировать"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:242
+msgid "Update all &raquo;"
+msgstr "Обновить все &raquo;"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:248
+msgid "No content to edit."
+msgstr "Нет контента для редактирования."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:288
+msgid "Published posts"
+msgstr "Опубликованные записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:289
+msgid "Scheduled posts"
+msgstr "Запланированные записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:290
+msgid "Pending posts"
+msgstr "Ожидающие записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.mass.php:292
+msgid "Private posts"
+msgstr "Личные записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:93
+msgid "Post tags"
+msgstr "Метки записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:94
+msgid "Posts"
+msgstr "Записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:133
+msgid "This custom post type not have taxonomies."
+msgstr "Этот произвольный тип записи не имеет таксономий."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:149
+#, php-format
+msgid "You currently use the custom post type \"<span>%s</span>\" and the taxonomy \"<span>%s</span>\""
+msgstr "В настоящее время вы используете произвольный тип записи \"<span>%s</span>\" и таксономию \"<span>%s</span>\""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:173
+msgid "Change selection"
+msgstr "Изменить выбор"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:226
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:265
+msgid "Simple Tags: Options"
+msgstr "Simple Tags: Настройки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:226
+msgid "Simple Tags"
+msgstr "Simple Tags"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:252
+msgid "Options saved"
+msgstr "Настройки сохранены"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:259
+msgid "Simple Tags options resetted to default options!"
+msgstr "Настройки Simple Tags восстановлены по умолчанию!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:280
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:310
+msgid "Do you really want to restore the default options?"
+msgstr "Вы действительно хотите восстановить настройки по умолчанию?"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:280
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:310
+msgid "Reset Options"
+msgstr "Сбросить настройки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:351
+msgid "This feature requires at least 1 tag to work. Begin by adding tags!"
+msgstr "Эта функция требует как минимум 1 метку для работы. Начните с добавления меток!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:353
+msgid "This feature works only with activated JavaScript. Activate it in your Web browser so you can!"
+msgstr "Эта функция работает только при включенном JavaScript. Активируйте ее в вашем браузере!"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:365
+#, php-format
+msgid "&copy; Copyright 2007-2011 <a href=\"http://www.herewithme.fr/\" title=\"Here With Me\">Amaury Balmer</a> | <a href=\"http://wordpress.org/extend/plugins/simple-tags\">Simple Tags</a> | Version %s"
+msgstr "&copy; Copyright 2007-2011 <a href=\"http://www.herewithme.fr/\" title=\"Here With Me\">Amaury Balmer</a> | <a href=\"http://wordpress.org/extend/plugins/simple-tags\">Simple Tags</a> | Версия %s, перевод на русский язык <a href=\"http://lecactus.ru/\" title=\"Lecactus\">Lecactus</a>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:466
+msgid "Administration"
+msgstr "Администрирование"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:469
+msgid "Auto link"
+msgstr "Автоматические ссылки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:472
+msgid "Features"
+msgstr "Функции"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:475
+msgid "Meta Keyword"
+msgstr "Ключевые слова"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:478
+msgid "Embedded Tags"
+msgstr "Встраиваемые метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:481
+msgid "Tags for Current Post"
+msgstr "Метки для текущей записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:484
+msgid "Related Posts"
+msgstr "Связанные записи"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:487
+msgid "Related Tags"
+msgstr "Связанные метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.php:490
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:43
+msgid "Tag cloud"
+msgstr "Облако меток"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.post.php:25
+msgid "Simple Tags - Settings"
+msgstr "Simple Tags - Настройки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.post.php:46
+msgid "Disable auto tags ?"
+msgstr "Отключить автоматические метки?"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.post.php:55
+msgid "Disable auto links ?"
+msgstr "Отключить автоматические ссылки ?"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:16
+msgid "Choose a provider to get suggested tags (local, yahoo or tag the net)."
+msgstr "Выберите провайдера для получения подходящих меток (локальный, yahoo or tag the net)."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:33
+msgid "Ajax loading"
+msgstr "Ajax загрузка"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:34
+msgid "Suggested tags from :"
+msgstr "Подходящие метки из : "
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:35
+msgid "Local tags"
+msgstr "Локальные метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:36
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:37
+msgid "OpenCalais"
+msgstr "OpenCalais"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:38
+msgid "AlchemyAPI"
+msgstr "AlchemyAPI"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:39
+msgid "Zemanta"
+msgstr "Zemanta"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:40
+msgid "Tag The Net"
+msgstr "Tag The Net"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:51
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:53
+msgid "Suggested tags"
+msgstr "Подходящие метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:121
+msgid "OpenCalais need an API key to work. You can register on service website to obtain a key and set it on Simple Tags options."
+msgstr "OpenCalais требует API key для работы. Вы можете зарегистрироваться на вебсайте сервиса для получения ключа и введите его в настройках Simple Tags."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:129
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:185
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:239
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:286
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:338
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:409
+msgid "No text was sent."
+msgstr "Нет текста."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:149
+msgid "No results from OpenCalais service."
+msgstr "Нет результатов с сервиса OpenCalais."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:177
+msgid "AlchemyAPI need an API key to work. You can register on service website to obtain a key and set it on Simple Tags options."
+msgstr "AlchemyAPI требует API key для работы. Вы можете зарегистрироваться на вебсайте сервиса для получения ключа и введите его в настройках Simple Tags."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:207
+msgid "No results from Alchemy API."
+msgstr "Нет результатов с сервиса Alchemy API."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:231
+msgid "Zemanta need an API key to work. You can register on service website to obtain a key and set it on Simple Tags options."
+msgstr "Zemanta требует API key для работы. Вы можете зарегистрироваться на вебсайте сервиса для получения ключа и введите его в настройках Simple Tags."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:263
+msgid "No results from Zemanta API."
+msgstr "Нет результатов с сервиса Zemanta API."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:307
+msgid "No results from Yahoo! service."
+msgstr "Нет результатов с сервиса Yahoo!."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:355
+msgid "No results from Tag The Net service."
+msgstr "Нет результатов с сервиса Tag The Net"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.admin.suggest.php:430
+msgid "No correspondance between your content and terms from the WordPress database."
+msgstr "Нет связей между вашим контентом и терминами из базы данных WordPress."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.autolinks.php:163
+#, php-format
+msgid "Posts tagged with %s"
+msgstr "Записи, помеченные с  %s"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.post_tags.php:73
+msgid "Tags: "
+msgstr "Метки:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.post_tags.php:78
+msgid "<a href=\"%tag_link%\" title=\"%tag_name_attribute%\" %tag_rel%>%tag_name%</a>"
+msgstr "<a href=\"%tag_link%\" title=\"%tag_name_attribute%\" %tag_rel%>%tag_name%</a>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.post_tags.php:79
+msgid "No tag for this post."
+msgstr "В записи нет меток."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.related_posts.php:93
+msgid "<h4>Related posts</h4>"
+msgstr "<h4>Связанные записи</h4>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.related_posts.php:94
+msgid "No related posts."
+msgstr "Нет связанных записей."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.related_posts.php:96
+msgid "<a href=\"%post_permalink%\" title=\"%post_title% (%post_date%)\">%post_title%</a> (%post_comment%)"
+msgstr "<a href=\"%post_permalink%\" title=\"%post_title% (%post_date%)\">%post_title%</a> (%post_comment%)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.related_posts.php:356
+msgid "There is no excerpt because this is a protected post."
+msgstr "Нет цитаты, потому что это защищенная запись."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.tagcloud.php:68
+msgid "No tags."
+msgstr "Нет меток."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.tagcloud.php:69
+msgid "<a href=\"%tag_link%\" id=\"tag-link-%tag_id%\" class=\"st-tags t%tag_scale%\" title=\"%tag_count% topics\" %tag_rel% style=\"%tag_size% %tag_color%\">%tag_name%</a>"
+msgstr "<a href=\"%tag_link%\" id=\"tag-link-%tag_id%\" class=\"st-tags t%tag_scale%\" title=\"%tag_count% topics\" %tag_rel% style=\"%tag_size% %tag_color%\">%tag_name%</a>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.tagcloud.php:70
+msgid "<h4>Tag Cloud</h4>"
+msgstr "<h4>Облако меток</h4>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.client.tagcloud.php:349
+msgid "Invalid Taxonomy"
+msgstr "Недопустимая таксономия"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:15
+msgid "Tag Cloud (Simple Tags)"
+msgstr "Облако меток (Simple Tags)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:16
+msgid "Your most used tags in cloud format with dynamic color and many options"
+msgstr "Ваши наиболее используемые метки в формате облака с динамической раскраской и множеством настроек"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:79
+msgid "Tags"
+msgstr "Метки"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:183
+msgid "Empty field will use default value."
+msgstr "Пустые области будут использовать значения по умолчанию."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:187
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:194
+msgid "Max tags to display: (default: 45)"
+msgstr "Максимальное кол-во меток дл отображения: (по умолчанию: 45)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:201
+msgid "Order by for DB selection tags:"
+msgstr ""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:203
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:226
+msgid "Name"
+msgstr "Название"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:204
+msgid "Slug"
+msgstr "Ярлык"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:205
+msgid "Term group"
+msgstr "Группа термина"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:206
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:227
+msgid "Counter"
+msgstr "Счетчик"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:207
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:228
+msgid "Random (default)"
+msgstr "Случайно (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:214
+msgid "Order for DB selection tags:"
+msgstr ""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:216
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:237
+msgid "ASC"
+msgstr "ВОЗР"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:217
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:238
+msgid "DESC (default)"
+msgstr "УБЫВАНИЕ (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:224
+msgid "Order by for display tags:"
+msgstr ""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:235
+msgid "Order for display tags:"
+msgstr ""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:245
+msgid "Font size mini: (default: 8)"
+msgstr "Минимальный размер шрифта: (по умолчанию: 8)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:252
+msgid "Font size max: (default: 22)"
+msgstr "Максимальный размер шрифта: (по умолчанию: 22)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:259
+msgid "Unit font size:"
+msgstr "Единица размера шрифта:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:261
+msgid "Point (default)"
+msgstr "Точки (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:262
+msgid "Pixel"
+msgstr "Пиксели"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:263
+msgid "Em"
+msgstr "Em"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:264
+msgid "Pourcent"
+msgstr "Проценты"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:271
+msgid "Format:"
+msgstr "Формат:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:273
+msgid "Flat (default)"
+msgstr "Flat (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:274
+msgid "List (UL/LI)"
+msgstr "Список (UL/LI)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:282
+msgid "Use auto color cloud:"
+msgstr "Использовать автоматическую раскраску облака:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:288
+msgid "Font color mini: (default: #CCCCCC)"
+msgstr "Цвет шрифта минимальных: (по умолчанию: #CCCCCC)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:295
+msgid "Font color max: (default: #000000)"
+msgstr "Цвет шрифта максимальных (по умолчанию: #000000)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:302
+msgid "Tag link format:"
+msgstr "Формат ссылки метки:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:309
+msgid "Advanced usage:"
+msgstr "Расширенное использование:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/class.widgets.php:316
+msgid "What to show"
+msgstr "Что показывать"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:4
+msgid "Auto links tags"
+msgstr "Автоматические ссылки меток"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:5
+msgid "Example: You have a tag called \"WordPress\" and your post content contains \"wordpress\", this feature will replace \"wordpress\" by a link to \"wordpress\" tags page. (http://myblog.net/tag/wordpress/)"
+msgstr "Например: Вы имеете метку с названием \"WordPress\" и ваша содержимое вашей записи имеет слово \"wordpress\", эта функция заменит \"wordpress\" на ссылку страницы метки \"wordpress\" . (http://myblog.net/tag/wordpress/)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:7
+msgid "This feature allow to edit terms of any taxonomy for many posts per page."
+msgstr "Эта функция позволяет редактировать термины любой таксономии для множества записей на странице."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:8
+msgid "Click tags feature"
+msgstr "Функция \"клик-меток\""
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:9
+msgid "This feature add a link allowing you to display all the tags of your database. Once displayed, you can click over to add tags to post."
+msgstr "Эта функция добавить ссылку, позволяющую вам показать все метки из базы данных. После того как панель с метками будет показа, вы сможете добавлять их к записи просто кликая по названиям."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:10
+msgid "Autocompletion with old input"
+msgstr "Автозавершение со старым вводом"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:11
+msgid "This feature displays a visual help allowing to enter tags more easily. As well add tags is easier than the autocompletion default of WordPress"
+msgstr "Эта функция поможет визуально вводить метки более просто. Добавление меток проще чем автодополнение по умолчанию в WordPress"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:12
+msgid "Suggested tags feature"
+msgstr "Функция подходящих меток"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:13
+msgid "This feature add a box allowing you get suggested tags, by comparing post content and various sources of tags. (Yahoo! Term Extraction API, OpenCalais, Alchemy, Zemanta, Tag The Net, Local DB)"
+msgstr "Эта функция добавит блок, позволяющий получить подходящие метки, сравнивая содержимое записи и один из источников меток. (Yahoo! Term Extraction API, OpenCalais, Alchemy, Zemanta, Tag The Net, локальная база данных)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:14
+msgid "Advanced Manage Terms"
+msgstr "Расширенное управление терминами"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:15
+msgid "This feature allow to edit, merge, delete, add terms for any taxonomy. Please consider the plugin <a href=\"http://wordpress.org/extend/plugins/term-management-tools/\" target=\"_blank\">Term Management Tools</a> if you only need to merge terms."
+msgstr "Эта функция позволяет редактировать, объединять, удалять, добавлять термины для любой таксономии. Пожалуйста, обратите внимание на плагин <a href=\"http://wordpress.org/extend/plugins/term-management-tools/\" target=\"_blank\">Term Management Tools</a>, если вам требуется только объединять термины."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:16
+msgid "Related posts by terms"
+msgstr "Связанные записи по терминам"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:17
+msgid "This feature allow to display related posts with terms relation. Please consider plugins <a href=\"http://wordpress.org/extend/plugins/similar-posts/\" target=\"_blank\">Similar Posts</a> or <a href=\"http://wordpress.org/extend/plugins/yet-another-related-posts-plugin/\" target=\"_blank\">Yet Another Related Posts Plugin</a> for better results and performance."
+msgstr "Эта функция позволяет отображать связанные записи со связанными терминами. Обратите внимание на плагин <a href=\"http://wordpress.org/extend/plugins/similar-posts/\" target=\"_blank\">Similar Posts</a> или <a href=\"http://wordpress.org/extend/plugins/yet-another-related-posts-plugin/\" target=\"_blank\">Yet Another Related Posts Plugin</a> для лучших результатов и производительности."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:18
+msgid "Auto terms posts"
+msgstr "Автоматические термины записей"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:19
+msgid "This feature allow to add automatically terms on a post by proceding to a search into content."
+msgstr "Эта функция позволяет добавлять автоматически термины на записи, сканируя их содержимое."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:20
+msgid "Tags for page"
+msgstr "Метки для страниц"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:21
+msgid "This feature allow page post type to be tagged. This option add pages in tags search. Also add tag management in write page."
+msgstr "Эта функция позволит назначать метки страницам. Эта опция добавит страницы в результаты поиска по меткам. Также, эта функция добавит управление метками на экран создания страниц."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:22
+msgid "Tag cloud Shortcode"
+msgstr "Шорткод облака меток"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:23
+msgid "Enabling this will allow Wordpress to look for tag cloud shortcode <code>[st_tag_cloud]</code> or <code>[st-tag-cloud]</code> when displaying posts. WordPress replace this shortcode by a tag cloud."
+msgstr "Включение этой функции разрешит Wordpress просматривать шорткод облака меток <code>[st_tag_cloud]</code> или <code>[st-tag-cloud]</code> при показе записей. WP заменит этот шорткод облаком меток."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:26
+msgid "Type of old input"
+msgstr "Тип старого ввода"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:28
+msgid "<code>textarea</code> &ndash; Textarea multiline."
+msgstr "<code>textarea</code> &ndash; Многострочная область текста."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:29
+msgid "<code>input</code> &ndash; Text input, only one line. (default)"
+msgstr "<code>input</code> &ndash; Ввод текста в одну строку. (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:31
+msgid "Autocompletion Min Chars"
+msgstr "Минимум символов для автозавершения."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:32
+msgid "You can define how many characters from the autocompletion will be proposed. The default value in Simple Tags 2.0 is 0, prior this version, default parameter was 1."
+msgstr "Вы можете указать как много символов требуется набрать для возможности автозавершения. По умолчанию в Simple Tags 2.0 это равно 0, до этой версии параметр по умолчанию был 1."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:33
+msgid "Click tags order"
+msgstr "Порядок клик-меток"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:35
+msgid "<code>count-asc</code> &ndash; Least used."
+msgstr "<code>count-asc</code> &ndash; Наименее используемые."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:36
+msgid "<code>count-desc</code> &ndash; Most popular. (default)"
+msgstr "<code>count-desc</code> &ndash; Наиболее популярные. (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:37
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:157
+msgid "<code>name-asc</code> &ndash; Alphabetical."
+msgstr "<code>name-asc</code> &ndash; Алфавит."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:38
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:158
+msgid "<code>name-desc</code> &ndash; Inverse Alphabetical."
+msgstr "<code>name-desc</code> &ndash; Алфавит в обратном порядкеl."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:39
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:159
+msgid "<code>random</code> &ndash; Random."
+msgstr "<code>random</code> &ndash; Случайно."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:41
+msgid "OpenCalais API Key"
+msgstr "OpenCalais API Key"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:42
+msgid "You can create an API key from <a href=\"http://www.opencalais.com/\">service website</a>"
+msgstr "Вы можете создать API key на <a href=\"http://www.opencalais.com/\">вебсайте сервиса</a>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:43
+msgid "Alchemy API Key"
+msgstr "Alchemy API Key"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:44
+msgid "You can create an API key from <a href=\"http://www.alchemyapi.com/\">service website</a>"
+msgstr "Вы можете создать API key на <a href=\"http://www.alchemyapi.com/\">вебсайте сервиса</a>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:45
+msgid "Zemanta API Key"
+msgstr "Zemanta API Key"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:46
+msgid "You can create an API key from <a href=\"http://developer.zemanta.com/\">service website</a>"
+msgstr "Вы можете создать API key на <a href=\"http://developer.zemanta.com/\">вебсайте сервиса</a>"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:49
+msgid "Min usage for auto link tags:"
+msgstr "Минимальное использование для автоматических ссылок с метками:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:50
+msgid "This parameter allows to fix a minimal value of use of tags. Default: 1."
+msgstr "Этот параметр разрешает фиксировать минимальное значения использование меток. По умолчанию: 1."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:51
+msgid "Maximum number of links per article:"
+msgstr "Максимальное количество ссылок в записи:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:52
+msgid "This setting determines the maximum number of links created by article. Default: 10."
+msgstr "Настройки определяют максимальное количество ссылок созданных в записи. По умолчанию: 10."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:53
+msgid "Maximum number of links for the same tag:"
+msgstr "Максимальное количество ссылок с той же меткой:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:54
+msgid "This setting determines the maximum number of links created by article for the same tag. Default: 1."
+msgstr "Настройки определяют максимальное количество ссылок в записи, созданных с той же меткой. По умолчанию: 1."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:55
+msgid "Ignore case for auto link feature ?"
+msgstr "Игнорировать регистр в функции автоматических ссылок?"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:56
+msgid "Example: If you ignore case, auto link feature will replace the word \"wordpress\" by the tag link \"WordPress\"."
+msgstr "Например: Если вы игнорируете регистр, функция автоматических ссылок заменит слово \"wordpress\" ссылкой на метку \"WordPress\"."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:57
+msgid "Exclude some terms from tag link. For Ads Link subtition, etc."
+msgstr "Исключить некоторые термины из ссылок меток. Для Ads Link subtition, и т.д."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:58
+msgid "Example: If you enter the term \"Paris\", the auto link tags feature will never replace this term by this link."
+msgstr "Например: Если вы введете термин \"Париж\",  функция автоматических ссылок меток никогда не заменит этот термин ссылкой."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:59
+msgid "Priority on hook the_content"
+msgstr "Приоритет на хуке the_content"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:60
+msgid "For expert, possibility to change the priority of autolinks functions on the_content hook. Useful for fix a conflict with an another plugin. Default: 12."
+msgstr "Для экспертов, возможно изменить приоритет функций автоматических ссылок для хука the_content. Полезно для исправления конфликтов с другим плагином. По умолчанию: 12."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:63
+msgid "Which difference between <strong>&#8216;Order tags selection&#8217;</strong> and <strong>&#8216;Order tags display&#8217;</strong> ?<br />"
+msgstr "Какая разница между <strong>&#8216;Порядок выбора меток&#8217;</strong> и <strong>&#8216;Порядок отображения меток&#8217;</strong> ?<br />"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:65
+msgid "<strong>&#8216;Order tags selection&#8217;</strong> is the first step during tag's cloud generation, corresponding to collect tags."
+msgstr "<strong>&#8216;Порядок выбора меток&#8217;</strong> это первый шаг во время генерации облака меток, в соответствии с выбранными метками."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:66
+msgid "<strong>&#8216;Order tags display&#8217;</strong> is the second. Once tags choosen, you can reorder them before display."
+msgstr "<strong>&#8216;Порядок отображения меток&#8217;</strong> это второй шаг. После выбора меток, вы можете пересортировать их перед показом."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:68
+msgid "<strong>Example:</strong> You want display randomly the 100 tags most popular.<br />"
+msgstr "<strong>Пример:</strong> Вы хотите показать случайно 100 наиболее популярных меток.<br />"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:69
+msgid "You must set &#8216;Order tags selection&#8217; to <strong>count-desc</strong> for retrieve the 100 tags most popular and &#8216;Order tags display&#8217; to <strong>random</strong> for randomize cloud."
+msgstr "Вы должны установить &#8216;Порядок выбора меток&#8217; на <strong>count-desc</strong> для получения 100 наиболее популярных меток и &#8216;Порядок отображения меток&#8217; на <strong>random</strong> для случайной сортировки облака."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:70
+msgid "Order by for tags selection:"
+msgstr "Порядок выбора меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:72
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:83
+msgid "<code>count</code> &ndash; Counter."
+msgstr "<code>count</code> &ndash; Счетчик."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:73
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:84
+msgid "<code>name</code> &ndash; Name."
+msgstr "<code>name</code> &ndash; Имя."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:74
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:85
+msgid "<code>random</code> &ndash; Random. (default)"
+msgstr "<code>random</code> &ndash; Случайно. (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:76
+msgid "Order tags selection:"
+msgstr "Порядок выбора меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:78
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:89
+msgid "<code>asc</code> &ndash; Ascending."
+msgstr "<code>asc</code> &ndash; Возрастание."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:79
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:90
+msgid "<code>desc</code> &ndash; Descending."
+msgstr "<code>desc</code> &ndash; Убывание."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:81
+msgid "Order by for tags display:"
+msgstr "Порядок отображения меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:87
+msgid "Order tags display:"
+msgstr "Порядок отображения меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:92
+msgid "Tags cloud type format:"
+msgstr "Формат облака меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:94
+msgid "<code>list</code> &ndash; Display a formatted list (ul/li)."
+msgstr "<code>list</code> &ndash; Показать форматированный список (ul/li)."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:95
+msgid "<code>flat</code> &ndash; Display inline (no list, just a div)"
+msgstr "<code>flat</code> &ndash; Встроить (не список, просто div)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:98
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:132
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:162
+msgid "You can find markers and explanations <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">in the online documentation.</a>"
+msgstr "Вы можете найти маркеры и разъяснения функций на страницах <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">онлайн-документации</a> чтобы лучше разобраться в настройках."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:99
+msgid "Maximum number of tags to display: (default: 45)"
+msgstr "Максимальное кол-во меток для отображения: (по умолчанию: 45)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:100
+msgid "Enter the text to show when there is no tag:"
+msgstr "Введите текст, показываемый когда нет меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:101
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:165
+msgid "Enter the positioned title before the list, leave blank for no title:"
+msgstr "Введите заголовок, показываемый перед списком. Оставьте пустым если заголовок не нужен:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:102
+msgid "Most popular color:"
+msgstr "Цвет наиболее популярных:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:103
+msgid "The colours are hexadecimal colours,  and need to have the full six digits (#eee is the shorthand version of #eeeeee)."
+msgstr "Цвета в шестнадцатеричном формате, вы должны ввести все шесть знаков (#eee это короткая версия от #eeeeee)."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:104
+msgid "Least popular color:"
+msgstr "Цвет наименее популярных:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:105
+msgid "Most popular font size:"
+msgstr "Размер шрифта наиболее популярных:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:106
+msgid "The two font sizes are the size of the largest and smallest tags."
+msgstr "Два размера шрифта - это размеры самых больших и маленьких меток."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:107
+msgid "Least popular font size:"
+msgstr "Размер шрифта наименее популярных:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:108
+msgid "The units to display the font sizes with, on tag clouds:"
+msgstr "Единицы измерения для отображения шрифта в облаке меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:109
+msgid "The font size units option determines the units that the two font sizes use."
+msgstr "Опция единиц измерения размеров шрифта задает единицы, используемые для двух размеров шрифта."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:110
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:134
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:166
+msgid "<strong>Advanced usage</strong>:"
+msgstr "<strong>Расширенное использование</strong>:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:111
+msgid "You can use the same syntax as <code>st_tag_cloud()</code> function to customize display. See <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">documentation</a> for more details."
+msgstr "Вы можете использовать тот же синтаксис как для функции <code>st_tag_cloud()</code> для настройки отображения. Смотрите <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">документацию</a>  для получения подробной информации."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:114
+msgid "Automatically display tags list into feeds"
+msgstr "Автоматически отображать список меток в фидах"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:115
+msgid "Automatically display tags list into post content:"
+msgstr "Автоматически отображать список меток в содержимом записей"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:117
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:143
+msgid "<code>no</code> &ndash; Nowhere (default)"
+msgstr "<code>no</code> &ndash; Нигде (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:118
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:144
+msgid "<code>all</code> &ndash; On your blog and feeds."
+msgstr "<code>all</code> &ndash; На вашем блоге и в RSS ленте."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:119
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:145
+msgid "<code>blogonly</code> &ndash; Only on your blog."
+msgstr "<code>blogonly</code> &ndash; Только на вашем блоге."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:120
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:146
+msgid "<code>homeonly</code> &ndash; Only on your home page."
+msgstr "<code>homeonly</code> &ndash; Только на домашней странице."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:121
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:147
+msgid "<code>singularonly</code> &ndash; Only on your singular view (single & page)."
+msgstr "<code>singularonly</code> &ndash; Только в одиночном просмотре (одна запись и страница)."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:122
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:148
+msgid "<code>singleonly</code> &ndash; Only on your single view."
+msgstr "<code>singleonly</code> &ndash; Только в одиночном просмотре."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:123
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:149
+msgid "<code>pageonly</code> &ndash; Only on your page view."
+msgstr "<code>pageonly</code> &ndash; Только при просмотре страницы."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:125
+msgid "Post tag separator string:"
+msgstr "Разделитель в строке меток записи:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:126
+msgid "Text to display before tags list:"
+msgstr "Текст для показа до списка меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:127
+msgid "Text to display after tags list:"
+msgstr "Текст для показа после списка меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:128
+msgid "Max tags display:"
+msgstr "Максимум показывать меток:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:129
+msgid "You must set zero (0) for display all tags."
+msgstr "Вы должны установить значение в ноль (0) чтобы показать все метки."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:130
+msgid "Include categories in result ?"
+msgstr "Включить рубрики в результат ?"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:133
+msgid "Text to display if no tags found:"
+msgstr "Текст для показа, если метки не найдены:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:135
+msgid "You can use the same syntax as <code>st_the_tags()</code> function to customize display. See <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">documentation</a> for more details."
+msgstr "Вы можете использовать тот же синтаксис как для функции <code>st_the_tags()</code> для настройки отображения. Смотрите <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">документацию</a>  для получения подробной информации."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:138
+msgid "Taxonomy:"
+msgstr "Таксономия:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:139
+msgid "By default, related posts work with post tags, but you can use a custom taxonomy. Default value : post_tag"
+msgstr "По умолчанию, связанные записи работают  с метками записей, но вы можете использовать произвольную таксономию. Значение по умолчанию: post_tag"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:140
+msgid "Automatically display related posts into feeds"
+msgstr "Автоматически добавлять связанные записи в фиды"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:141
+msgid "Automatically display related posts into post content"
+msgstr "Автоматически добавлять связанные записи в содержимое записей"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:151
+msgid "Related Posts Order:"
+msgstr "Порядок связанных записей:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:153
+msgid "<code>date-asc</code> &ndash; Older Entries."
+msgstr "<code>date-asc</code> &ndash; Старые записи."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:154
+msgid "<code>date-desc</code> &ndash; Newer Entries."
+msgstr "<code>date-desc</code> &ndash; Новые записи."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:155
+msgid "<code>count-asc</code> &ndash; Least common tags between posts"
+msgstr "<code>count-asc</code> &ndash; Наименее общие метки между записями"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:156
+msgid "<code>count-desc</code> &ndash; Most common tags between posts (default)"
+msgstr "<code>count-desc</code> &ndash; Наиболее общие метки между записями (по умолчанию)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:161
+msgid "Post link format:"
+msgstr "Формат ссылки записи:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:163
+msgid "Maximum number of related posts to display: (default: 5)"
+msgstr "Максимальное число связанных записей для отображения: (по умолчанию: 5)"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:164
+msgid "Enter the text to show when there is no related post:"
+msgstr "Введите текст, показываемый если нет связанных записей:"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:167
+msgid "You can use the same syntax as <code>st_related_posts()</code>function to customize display. See <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">documentation</a> for more details."
+msgstr "Вы можете использовать тот же синтаксис как для функции <code>st_related_posts()</code> для настройки отображения. Смотрите <a href=\"http://redmine.beapi.fr/wiki/simple-tags/Theme_integration\">документацию</a>  для получения подробной информации."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:170
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.admin.php:178
+msgid "This feature has been removed from Simple Tags because it is not relevant enough and there are better plugins like<br />"
+msgstr "Эта функция была удалена из Simple Tags, так как она не достаточно релевантна и есть для этого лучшие плагины<br />"
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.default.php:38
+msgid "No tags for this post."
+msgstr "В записи нет меток."
+
+#: d:\DOWNLOADS\Àðõèâû\plugins\simple-tags/inc/helper.options.default.php:41
+msgid "<a href=\"%tag_link%\" title=\"%tag_name%\" %tag_rel%>%tag_name%</a>"
+msgstr "<a href=\"%tag_link%\" title=\"%tag_name%\" %tag_rel%>%tag_name%</a>"
+
+#~ msgid "Simple Tags can't work with this WordPress version !"
+#~ msgstr "Simple Tags не может работать с этой версией WordPress !"
+
+#~ msgid ""
+#~ "You must use <a href=\"%1$s\">Simple Tagging Plugin</a> for it to work."
+#~ msgstr "Вы должны использовать <a href=\"%1$s\">Плагин Simple Tagging</a>."
+
+#~ msgid "<h4>Related tags</h4>"
+#~ msgstr "<h4>Связанные метки</h4>"
+
+#~ msgid "No related tag found."
+#~ msgstr "Связанных меток не найдено."
+
+#~ msgid ""
+#~ "<span>%tag_count%</span> <a href=\"%tag_link_add%\">+</a> <a href=\"%"
+#~ "tag_link%\">%tag_name%</a>"
+#~ msgstr ""
+#~ "<span>%tag_count%</span> <a href=\"%tag_link_add%\">+</a> <a href=\"%"
+#~ "tag_link%\">%tag_name%</a>"
+
+#~ msgid ""
+#~ "&raquo; <a href=\"%tag_link_remove%\" title=\"Remove %tag_name_attribute% "
+#~ "from search\">Remove %tag_name%</a>"
+#~ msgstr ""
+#~ "&raquo; <a href=\"%tag_link_remove%\" title=\"Убрать %tag_name_attribute% "
+#~ "from search\">Убрать %tag_name%</a>"
+
+#~ msgid ""
+#~ "<span>%tag_count%</span> <a %tag_rel% href=\"%tag_link_add%\">+</a> <a %"
+#~ "tag_rel% href=\"%tag_link%\" title=\"See posts with %tag_name_attribute%"
+#~ "\">%tag_name%</a>"
+#~ msgstr ""
+#~ "<span>%tag_count%</span> <a %tag_rel% href=\"%tag_link_add%\">+</a> <a %"
+#~ "tag_rel% href=\"%tag_link%\" title=\"Смотреть записи с меткой  %"
+#~ "tag_name_attribute%\">%tag_name%</a>"
+
+#~ msgid ""
+#~ "&raquo; <a %tag_rel% href=\"%tag_link_remove%\" title=\"Remove %"
+#~ "tag_name_attribute% from search\">Remove %tag_name%</a>"
+#~ msgstr ""
+#~ "&raquo; <a %tag_rel% href=\"%tag_link_remove%\" title=\"Убрать %"
+#~ "tag_name_attribute% from search\">Убрать %tag_name%</a>"
+
+#~ msgid "Keywords list: (separated with a comma)"
+#~ msgstr "Список ключевых слов: (разделенный запятыми список)"
+
+#~ msgid "Update list &raquo;"
+#~ msgstr "Обновить список &raquo;"
+
+#~ msgid "Auto tags all content"
+#~ msgstr "Автоматически пометить метками весь контент"
+
+#~ msgid "All done!"
+#~ msgstr "Все готово!"
+
+#~ msgid "Include page in tag search:"
+#~ msgstr "Включить страницы в поиск по меткам:"
+
+#~ msgid ""
+#~ "This feature need that option \"Add page in tags management\" is enabled."
+#~ msgstr ""
+#~ "Эта функция требует, чтобы опция  \"Включить страницы в поиск по меткам\" "
+#~ "была включена."
+
+#~ msgid "Allow tag cloud in post/page content:"
+#~ msgstr "Разрешить облако меток в содержимом записи/страницы:"
+
+#~ msgid "Active auto link tags into post content:"
+#~ msgstr "Активировать автоматические ссылки меток в содержимом записи:"
+
+#~ msgid "Add the rel=\"nofollow\" on each tags link ?"
+#~ msgstr "Добавить rel=\"nofollow\" в каждую ссылку метки ?"
+
+#~ msgid ""
+#~ "Nofollow is a non-standard HTML attribute value used to instruct search "
+#~ "engines that a hyperlink should not influence the link target's ranking "
+#~ "in the search engine's index."
+#~ msgstr ""
+#~ "Nofollow - это нестандартное значение атрибута HTML, используемое для "
+#~ "указания поисковым системам, что гиперссылки не должны влиять на рейтинг "
+#~ "целевой ссылки в индексе поисковой системы."
+
+#~ msgid "Add page in tags management:"
+#~ msgstr "Добавить ввод меток в страницы:"
+
+#~ msgid "Add a tag input (and tag posts features) in page edition"
+#~ msgstr ""
+#~ "Добавить ввод меток (и возможность меток записей) в редактирование "
+#~ "страницы"
+
+#~ msgid ""
+#~ "This feature displays a visual help allowing to enter tags more easily."
+#~ msgstr ""
+#~ "Эта функция покажет визуальную помощь, позволяющую вводить метки более "
+#~ "просто."
+
+#~ msgid ""
+#~ "Activate suggested tags feature: (Yahoo! Term Extraction API, Tag The "
+#~ "Net, Local DB)"
+#~ msgstr ""
+#~ "Включить функцию подходящих меток: (Yahoo! Term Extraction API, Tag The "
+#~ "Net, Локальная БД)"
+
+#~ msgid "Automatically include in header:"
+#~ msgstr "Автоматически включать в заголовок (header):"
+
+#~ msgid ""
+#~ "Includes the meta keywords tag automatically in your header (most, but "
+#~ "not all, themes support this). These keywords are sometimes used by "
+#~ "search engines.<br /><strong>Warning:</strong> If the plugin \"All in One "
+#~ "SEO Pack\" is installed and enabled. This feature is disabled."
+#~ msgstr ""
+#~ "Включает метки в meta keywords автоматически в ваш заголовок "
+#~ "(большинство, но не все темы поддерживают это). Эти ключевые иногда "
+#~ "используются поисковыми машинами. <br /><strong>Внимание:</strong> Если "
+#~ "плагин \"All in One SEO Pack\" установлен и включен,эта функция будет "
+#~ "отключена."
+
+#~ msgid "Always add these keywords:"
+#~ msgstr "Всегда добавлять эти ключевые слова:"
+
+#~ msgid "Max keywords display:"
+#~ msgstr "Показывать максимум ключевых слов:"
+
+#~ msgid "You must set zero (0) for display all keywords in HTML header."
+#~ msgstr ""
+#~ "Вы должны установить значение в ноль (0) чтобы показать все ключевые "
+#~ "слова в заголовке HTML."
+
+#~ msgid "Use embedded tags:"
+#~ msgstr "Использовать встраиваемые метки:"
+
+#~ msgid ""
+#~ "Enabling this will allow Wordpress to look for embedded tags when saving "
+#~ "and displaying posts. Such set of tags is marked <code>[tags]like this, "
+#~ "and this[/tags]</code>, and is added to the post when the post is saved, "
+#~ "but does not display on the post."
+#~ msgstr ""
+#~ "Активация этой опции даст команду Wordpress искать встраиваемые "
+#~ "(embedded) метки при сохранении и отображении записей. Так, набор меток, "
+#~ "помеченных <code>[tags]like this, and this[/tags]</code> добавляется в "
+#~ "запись при сохранении, но не отображается в записе."
+
+#~ msgid "Prefix for embedded tags:"
+#~ msgstr "Префикс для встраиваемых меток:"
+
+#~ msgid "Suffix for embedded tags:"
+#~ msgstr "Суффикс для встраиваемых меток:"
+
+#~ msgid "Maximum number of related tags to display: (default: 5)"
+#~ msgstr "Максимальное число показываемых связанных меток: (по умолчанию: 5)"
+
+#~ msgid "Related tags type format:"
+#~ msgstr "Формат связанных меток:"
+
+#~ msgid ""
+#~ "Method of tags intersections and unions used to build related tags link:"
+#~ msgstr ""
+#~ "Метод пересечения и объединения меток, используемый для построения ссылки "
+#~ "связанных меток:"
+
+#~ msgid ""
+#~ "<code>OR</code> &ndash; Fetches posts with either the \"Tag1\" "
+#~ "<strong>or</strong> the \"Tag2\" tag. (default)"
+#~ msgstr ""
+#~ "<code>OR</code> &ndash; Выбирает записи либо с меткой \"Tag1\" "
+#~ "<strong>либо</strong> с меткой \"Tag2\". (по умолчанию)"
+
+#~ msgid ""
+#~ "<code>AND</code> &ndash; Fetches posts with both the \"Tag1\" "
+#~ "<strong>and</strong> the \"Tag2\" tag."
+#~ msgstr ""
+#~ "<code>AND</code> &ndash; Выбирает записи с обоиме метками: \"Tag1\" "
+#~ "<strong>и</strong> \"Tag2\"."
+
+#~ msgid "Related tags link format:"
+#~ msgstr "Формат ссылок связанных меток:"
+
+#~ msgid "Related tags separator:"
+#~ msgstr "Разделитель связанных меток:"
+
+#~ msgid "Leave empty for list format."
+#~ msgstr "Оставьте пустым для вывода списком."
+
+#~ msgid "Enter the text to show when there is no related tags:"
+#~ msgstr "Введите текст, отображаемый если нет связанных меток:"
+
+#~ msgid ""
+#~ "You can use the same syntax as <code>st_related_tags()</code>function to "
+#~ "customize display. See <a href=\"http://code.google.com/p/simple-tags/"
+#~ "wiki/ThemeIntegration\">documentation</a> for more details."
+#~ msgstr ""
+#~ "Вы можете использовать тот же синтаксис как для функции "
+#~ "<code>st_related_tags()</code> для настройки отображения. Смотрите <a "
+#~ "href=\"http://code.google.com/p/simple-tags/wiki/ThemeIntegration"
+#~ "\">оригинальную</a> или <a href=\"http://http://lecactus.ru/2007/10/07/851"
+#~ "\">русскую</a> документацию для больших деталей."
+
+#~ msgid "Remove related Tags"
+#~ msgstr "Удаление связанных меток"
+
+#~ msgid "Remove related Tags type format:"
+#~ msgstr "Формат удаления связанных меток:"
+
+#~ msgid "Remove related tags separator:"
+#~ msgstr "Разделитель:"
+
+#~ msgid "Enter the text to show when there is no remove related tags:"
+#~ msgstr "Введите текст, отображаемый если нет связанных меток:"
+
+#~ msgid "Remove related tags  link format:"
+#~ msgstr "Формат ссылок удаления связанных меток:"
+
+#~ msgid "<code>count-desc</code> &ndash; Most popular."
+#~ msgstr "<code>count-desc</code> &ndash; Наиболее популярные."
+
+#~ msgid "Include categories in tag cloud ?"
+#~ msgstr "Включить рубрики в облако меток ?"
+
+#~ msgid ""
+#~ "All Simple Tags options are deleted ! You <a href=\"%s\">deactive plugin</"
+#~ "a> now !"
+#~ msgstr ""
+#~ "Все настройки Simple Tags удалены! Вы <a href=\"%s\">деактивировали "
+#~ "плагин</a> ! "
+
+#~ msgid "Update Options &raquo;"
+#~ msgstr "Обновить настройки &raquo;"
+
+#~ msgid "Uninstallation"
+#~ msgstr "Деинсталляция"
+
+#~ msgid ""
+#~ "Generally, deactivating this plugin does not erase any of its data, if "
+#~ "you like to quit using Simple Tags for good, please erase <strong>all</"
+#~ "strong> options before deactivating the plugin."
+#~ msgstr ""
+#~ "Обычно, деактивация плагина не удаляет любые его данные, если вы хотите "
+#~ "прекратить использвать Simple Tags, пожалуйста удалите <strong>все</"
+#~ "strong> настройки перед деактивацией плагина."
+
+#~ msgid ""
+#~ "This erases all Simple Tags options. <strong>This is irrevocable! Be "
+#~ "careful.</strong>"
+#~ msgstr ""
+#~ "Это удалит все настройки Simple Tags. <strong>Это необратимо! Будьте "
+#~ "осторожны.</strong>"
+
+#~ msgid "Delete all options ?"
+#~ msgstr "Удалить все настройки ?"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Алфавит"
+
+#~ msgid "Existing Tags"
+#~ msgstr "Существующие метки"
+
+#~ msgid "Go"
+#~ msgstr "Вперед!"
+
+#~ msgid "Sort Order:"
+#~ msgstr "Порядок сортировки:"
+
+#~ msgid "View all posts tagged with %s"
+#~ msgstr "Просмотреть все записи, помеченные с  %s"
+
+#~ msgid "Next tags"
+#~ msgstr "Следующие метки"
+
+#~ msgid "Rename Tag"
+#~ msgstr "Переименовать метку"
+
+#~ msgid "Edit Tag Slug"
+#~ msgstr "Редактировать короткую ссылку метки (slug)"
+
+#~ msgid ""
+#~ "Enter the tag name to edit and its new slug. <a href=\"http://codex."
+#~ "wordpress.org/Glossary#Slug\">Slug definition</a>"
+#~ msgstr ""
+#~ "Введите имя метки для редактирования и ее новую короткую ссылку. <a href="
+#~ "\"http://codex.wordpress.org/Glossary#Slug\">определение Короткой ссылки</"
+#~ "a>"
+
+#~ msgid "Slug(s) to set:"
+#~ msgstr "Установить короткую ссылку(и):"
+
+#~ msgid ""
+#~ "WordPress 2.3 have a small bug and can create empty terms. Remove it !"
+#~ msgstr ""
+#~ "WordPress 2.3 имеет небольшой баг и может создавать пустые термины. "
+#~ "Удалить их !"
+
+#~ msgid "Clean !"
+#~ msgstr "Очистить !"
+
+#~ msgid "Search terms&hellip;"
+#~ msgstr "Поиск терминов&hellip;"
+
+#~ msgid "Author&hellip;"
+#~ msgstr "Автор&hellip;"
+
+#~ msgid "Any"
+#~ msgstr "Любой"
+
+#~ msgid "Type&hellip;"
+#~ msgstr "Тип&hellip;"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "Order&hellip;"
+#~ msgstr "Порядок&hellip;"
+
+#~ msgid "Date (descending)"
+#~ msgstr "Дата (в порядке убывания)"
+
+#~ msgid "Date (ascending)"
+#~ msgstr "Дата (в порядке возрастания)"
+
+#~ msgid "ID (descending)"
+#~ msgstr "ID (в порядке убывания)"
+
+#~ msgid "ID (ascending)"
+#~ msgstr "ID (в порядке возрастания)"
+
+#~ msgid "Filter&hellip;"
+#~ msgstr "Фильтр&hellip;"
+
+#~ msgid "Untagged only"
+#~ msgstr "Только без меток"
+
+#~ msgid "Filter &#187;"
+#~ msgstr "Фильтровать &#187;"
+
+#~ msgid "Update all"
+#~ msgstr "Обновить все"
+
+#~ msgid "Tags (separate multiple tags with commas: cats, pet food, dogs)"
+#~ msgstr ""
+#~ "Метки (разделяйте несколько меток запятыми: например: кошки, еда для "
+#~ "животных, собаки)"
+
+#~ msgid "No new slug(s) specified!"
+#~ msgstr "Новая(ые) короткая(ие) ссылка(и) не задана(ы)!"
+
+#~ msgid "Tags number and slugs number isn't the same!"
+#~ msgstr "Число меток и число коротких ссылок не одинаковое!"
+
+#~ msgid "No slug edited."
+#~ msgstr "Коротная ссылка не изменена."
+
+#~ msgid "%s slug(s) edited."
+#~ msgstr "%s короткая(их) ссылка(ок) отредактирована(о)"
+
+#~ msgid "Nothing to muck. Good job !"
+#~ msgstr "Хорошая работа!"
+
+#~ msgid "%s rows deleted. WordPress DB is clean now !"
+#~ msgstr "%s строк удалено. База данных WordPress сейчас чистая !"
+
+#~ msgid "%s post(s) tags updated with success !"
+#~ msgstr "%s меток записей успешно обновлено !"
+
+#~ msgid "%s page(s) tags updated with success !"
+#~ msgstr "%s меток страниц успешно обновлено !"
+
+#~ msgid "Page: "
+#~ msgstr "Страница:"
+
+#~ msgid "General"
+#~ msgstr "Основные"
+
+#~ msgid "Most popular (default)"
+#~ msgstr "Наиболее популярные (по умолчанию)"
+
+#~ msgid "Extended format: (advanced usage)"
+#~ msgstr "Расширенный формат: (расширенное использование)"
+
+#~ msgid "Tag Cloud Widgets"
+#~ msgstr "Виджеты облака меток (Simple Tags)"
+
+#~ msgid "How many tag cloud widgets would you like?"
+#~ msgstr "Как много виджетов облаков меток вы хотите?"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Extended Tag Cloud %d"
+#~ msgstr "Расширенное облако меток (Simple Tags) %d"
+
+#~ msgid "No related tags found."
+#~ msgstr "Связанных меток не найдено."
+
+#~ msgid ""
+#~ "<a %tag_rel% href=\"%tag_link_remove%\" title=\"Remove %tag_name_attribute"
+#~ "% from search\">Remove %tag_name%</a>"
+#~ msgstr ""
+#~ "<a %tag_rel% href=\"%tag_link_remove%\" title=\"Убрать %tag_name_attribute"
+#~ "% from search\">Убрать %tag_name%</a>"
+
+#~ msgid ""
+#~ "Includes the meta keywords tag automatically in your header (most, but "
+#~ "not all, themes support this). These keywords are sometimes used by "
+#~ "search engines.<br /><strong>Warning:</strong> If the plugin \"All in One "
+#~ "SEO Pack\" is installed and enabled. This feature is automatically "
+#~ "disabled."
+#~ msgstr ""
+#~ "Включает метки в meta keywords автоматически в ваш заголовок "
+#~ "(большинство, но не все темы поддерживают это). Эти ключевые иногда "
+#~ "используются поисковыми машинами. <br /><strong>Внимание:</strong> Если "
+#~ "плагин \"All in One SEO Pack\" установлен и включен,эта функция будет "
+#~ "отключена."
+
+#~ msgid "Published"
+#~ msgstr "Опубликовано"
+
+#~ msgid "Scheduled"
+#~ msgstr "Запланировано"
+
+#~ msgid "Pending Review"
+#~ msgstr "Ожидает одобрения"
+
+#~ msgid "Draft"
+#~ msgstr "Черновик"
+
+#~ msgid "Private"
+#~ msgstr "Личное"
+
+#~ msgid "All Posts"
+#~ msgstr "Все записи"
+
+#~ msgid "All Pages"
+#~ msgstr "Все страницы"
+
+#~ msgid "Search Posts"
+#~ msgstr "Поиск записей"
+
+#~ msgid "View all categories"
+#~ msgstr "Просмотреть все рубрики"
+
+#~ msgid ""
+#~ "Tags <small>(separate multiple tags with commas: cats, pet food, dogs)</"
+#~ "small>"
+#~ msgstr ""
+#~ "Метки <small>(разделяйте несколько меток запятыми: например: чай, спорт, "
+#~ "напитки для отдыха)</small>"
+
+#~ msgid "Simple Tags : Tag Cloud Widgets"
+#~ msgstr "Виджеты облака меток (Simple Tags)"
+
+#~ msgid "ST: Tag Cloud %d"
+#~ msgstr "Расширенное облако меток (Simple Tags) %d"
+
+#~ msgid ""
+#~ "&copy; Copyright 2008 <a href=\"http://www.herewithme.fr/\" title=\"Here "
+#~ "With Me\">Amaury Balmer</a> | <a href=\"http://wordpress.org/extend/"
+#~ "plugins/simple-tags\">Simple Tags</a> | Version %s"
+#~ msgstr ""
+#~ "&copy; Копирайт 2008 <a href=\"http://www.herewithme.fr/\" title=\"Here "
+#~ "With Me\">Amaury Balmer</a> | <a href=\"http://wordpress.org/extend/"
+#~ "plugins/simple-tags\">Simple Tags</a> | Версия %s, перевод на русский "
+#~ "язык <a href=\"http://lecactus.ru/\" title=\"Lecactus\">Lecactus</a>"
+
+#~ msgid "Import Embedded Tags"
+#~ msgstr "Импорт встраиваемых (embedded) меток"
+
+#~ msgid ""
+#~ "Steps may take a few minutes depending on the size of your database. "
+#~ "Please be patient."
+#~ msgstr ""
+#~ "Шаги могут занять несколько минут, в зависимости от размера вашей базы "
+#~ "данных. Пожалуйста, будьте терпеливы."
+
+#~ msgid ""
+#~ "Visit the <a href=\"http://www.herewithme.fr/wordpress-plugins/simple-tags"
+#~ "\">plugin's homepage</a> for further details. If you find a bug, or have "
+#~ "a fantastic idea for this plugin, <a href=\"mailto:amaury@wordpress-fr.net"
+#~ "\">ask me</a> !"
+#~ msgstr ""
+#~ "Посетите <a href=\"http://www.herewithme.fr/wordpress-plugins/simple-tags"
+#~ "\">домашнюю страницу плагина</a> для больших деталей. Если вы нашли "
+#~ "ошибку, или имеете фантастическую идею для этого плагина, <a href="
+#~ "\"mailto:amaury@wordpress-fr.net\">напишите мне</a> !"
+
+#~ msgid ""
+#~ "Howdy! This imports tags from embedded tags into this blog using the new "
+#~ "WordPress native tagging structure."
+#~ msgstr ""
+#~ "Приветствую! Это импортирует метки из встраиваемых (embedded) меток в "
+#~ "этом блоге в новую нативную структуру меток Wordpress."
+
+#~ msgid ""
+#~ "To accommodate larger databases for those tag-crazy authors out there, we "
+#~ "have made this into an easy 4-step program to help you kick that nasty "
+#~ "Embedded Tags habit. Just keep clicking along and we will let you know "
+#~ "when you are in the clear!"
+#~ msgstr ""
+#~ "Чтобы обработать большие базы данных для этих меток ( сумасшедшие авторы "
+#~ "там), мы сделали эту простую 4-шаговую программу, чтобы помочь вам "
+#~ "избавиться от привычки использовать  Embedded метки. Просто продолжайте "
+#~ "щелкать мышкой и мы сообщим вам когда все будет готово!"
+
+#~ msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+#~ msgstr "Не тупите - сделайте бэкап вашей базы данных перед этим процессом!"
+
+#~ msgid "Step 1 &raquo;"
+#~ msgstr "Шаг 1 &raquo;"
+
+#~ msgid "Missing parameters in URL. (Start or End)"
+#~ msgstr "Утеряны параметры в URL. (Начало или Конец)"
+
+#~ msgid "Configure and add tags to posts&#8230;"
+#~ msgstr "Настроить и добавить метки в записи&#8230;"
+
+#~ msgid "Start marker"
+#~ msgstr "Маркер начала"
+
+#~ msgid "End marker"
+#~ msgstr "Маркер окончания"
+
+#~ msgid "Delete embedded tags once imported ?"
+#~ msgstr "Удалить встраиваемые (embedded) метки после импорта?"
+
+#~ msgid "Import also embedded tags from page ?"
+#~ msgstr "Импортировать также встраиваемые (embedded) метки со страницы?"
+
+#~ msgid "Start import &raquo;"
+#~ msgstr "Начать импорт &raquo;"
+
+#~ msgid "Done!"
+#~ msgstr "Готово!"
+
+#~ msgid "Step 2 &raquo;"
+#~ msgstr "Шаг 2 &raquo;"
+
+#~ msgid "Import Complete!"
+#~ msgstr "Импорт завершен!"
+
+#~ msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
+#~ msgstr ""
+#~ "ОК, что бы мы делали без этой замечательной 4-шаговой программы! Все "
+#~ "готово!"
+
+#~ msgid "Now wasn&#8217;t that easy?"
+#~ msgstr "Не правда ли было просто?"
+
+#~ msgid "You can manage tags now !"
+#~ msgstr "Сейчас вы можете управлять метками!"
+
+#~ msgid ""
+#~ "Import Embedded Tags into the new WordPress native tagging structure."
+#~ msgstr ""
+#~ "Импорт встраиваемых (embedded) меток в новую нативную структуру меток "
+#~ "WordPress."
+
+#~ msgid "WordPress 2.3 have a small bug and can create empty terms."
+#~ msgstr "WordPress 2.3 имеет небольшой баг и может создавать пустые термины."
+
+#~ msgid "Clean it !"
+#~ msgstr "Очистить их !"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Category"
+#~ msgstr "Рубрика"
+
+#~ msgid "Simple Tags: Advanced Edit Terms"
+#~ msgstr "Simple Tags: Расширенное редактирование терминов"
+
+#~ msgid ""
+#~ "Be careful with this page ! You can cause important damages, and lost all "
+#~ "tags and categories of your WordPress installation."
+#~ msgstr ""
+#~ "Будьте осторожны с этой страницей! Вы можете вызвать серьезные "
+#~ "повреждения и потерять все ваши метки и рубрики вашей инсталляции "
+#~ "WordPress."
+
+#~ msgid "Taxonomy&hellip;"
+#~ msgstr "Таксономия&hellip;"
+
+#~ msgid "Counter (descending)"
+#~ msgstr "Количество (в порядке убывания)"
+
+#~ msgid "Counter (ascending)"
+#~ msgstr "Количество (в порядке возрастания)"
+
+#~ msgid "Name (descending)"
+#~ msgstr "Имя (в порядке убывания)"
+
+#~ msgid "Name (ascending)"
+#~ msgstr "Имя (в порядке возрастания)"
+
+#~ msgid "ID (no editing)"
+#~ msgstr "ID (не редактируется)"
+
+#~ msgid "Slug (unique)"
+#~ msgstr "Короткая ссылка (уникальная)"
+
+#~ msgid "Parent"
+#~ msgstr "Родитель"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Delete ?"
+#~ msgstr "Удалить ?"
+
+#~ msgid "Update all terms"
+#~ msgstr "Обновить все термины"
+
+#~ msgid "No terms to edit."
+#~ msgstr "Нет терминов для редактирования."

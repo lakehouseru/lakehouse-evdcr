@@ -1,0 +1,613 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/semisecure-login-reimagined\n"
+"POT-Creation-Date: 2011-03-11 01:21:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/options_page_integration.inc.php:4
+#: inc/options_page_overrides.inc.php:43 inc/options_page.inc.php:69
+msgid ""
+"OpenSSL does not appear to be installed. This plugin relies on OpenSSL and "
+"will not work until it has been installed."
+msgstr ""
+
+#: inc/options_page_integration.inc.php:7
+#: inc/options_page_overrides.inc.php:46 inc/options_page.inc.php:72
+msgid ""
+"The <code>openssl_private_decrypt</code> function appears to be disabled. "
+"This plugin will not work until it has been enabled. Check the "
+"<code>disable_functions</code> setting in your php.ini file."
+msgstr ""
+
+#: inc/options_page_integration.inc.php:10
+#: inc/options_page_overrides.inc.php:49
+msgid ""
+"The RSA keypair could not be found! Please remedy the situation by having a "
+"Super Admin generate a new keypair."
+msgstr ""
+
+#: inc/options_page_integration.inc.php:16
+#: inc/options_page_overrides.inc.php:55 inc/options_page.inc.php:81
+msgid ""
+"This plugin is tested to work with UTF-8. Your blog settings are currently "
+"using the following character encoding: %s"
+msgstr ""
+
+#: inc/options_page_integration.inc.php:21
+#: inc/options_page_overrides.inc.php:74 inc/options_page.inc.php:97
+msgid "Semisecure Login Reimagined"
+msgstr ""
+
+#: inc/options_page_integration.inc.php:23
+#: inc/options_page_overrides.inc.php:76 inc/options_page.inc.php:99
+msgid ""
+"This plugin uses a combination of public-key (RSA) and secret-key (MARC4, "
+"Rabbit, or AES) encryption to encrypt your password on the client-side "
+"before transmission. A nonce is used to help prevent replay attacks. This "
+"provides a &quot;semisecure&quot; login environment. For full security you "
+"should use an SSL certificate."
+msgstr ""
+
+#: inc/options_page_integration.inc.php:26
+#: inc/options_page_overrides.inc.php:80 inc/options_page.inc.php:104
+msgid "Integration"
+msgstr ""
+
+#: inc/integration_text.inc.php:4
+msgid ""
+"By default, this plugin will encrypt your password on the <code>wp-login."
+"php</code>, <code>wp-admin/profile.php</code>, <code>wp-admin/user-edit.php</"
+"code>, and <code>wp-admin/user-new.php</code> pages. Here is a quick guide "
+"showing how you can integrate with this plugin to encrypt passwords on other "
+"pages too (most likely via a plugin)."
+msgstr ""
+
+#: inc/integration_text.inc.php:7
+msgid ""
+"<em>Note: v3 of this plugin has made some (breaking) changes from the v2 "
+"integration</em>"
+msgstr ""
+
+#: inc/integration_text.inc.php:10
+msgid ""
+"For starters, let's assume you have a form like the following (this only "
+"works for forms where <code>method=\"post\"</code>):"
+msgstr ""
+
+#: inc/integration_text.inc.php:15
+msgid "Other form elements"
+msgstr ""
+
+#: inc/integration_text.inc.php:19
+msgid "The basics of encrypting are as follows:"
+msgstr ""
+
+#: inc/integration_text.inc.php:23
+msgid ""
+"Make sure that all the external JavaScript is available (including jQuery)"
+msgstr ""
+
+#: inc/integration_text.inc.php:24
+msgid ""
+"Optionally, pass TRUE into this method if the page doesn't automatically "
+"call wp_print_scripts"
+msgstr ""
+
+#: inc/integration_text.inc.php:29
+msgid "Bind to the form's submit event"
+msgstr ""
+
+#: inc/integration_text.inc.php:31
+msgid "Collect the password(s) and form name(s)"
+msgstr ""
+
+#: inc/integration_text.inc.php:35
+msgid "Pass the needed PHP values over to the JavaScript side"
+msgstr ""
+
+#: inc/integration_text.inc.php:44
+msgid "Encrypt the password(s)"
+msgstr ""
+
+#: inc/integration_text.inc.php:45
+msgid "This function will return an Array on success or FALSE on failure"
+msgstr ""
+
+#: inc/integration_text.inc.php:49
+msgid "Loop through the array and append the controls to the form"
+msgstr ""
+
+#: inc/integration_text.inc.php:54
+msgid "Finally, don't submit the plain-text password(s)"
+msgstr ""
+
+#: inc/integration_text.inc.php:55
+msgid "One option is to submit asterisks in place of the actual password"
+msgstr ""
+
+#: inc/integration_text.inc.php:59
+msgid ""
+"Another option is to disable the control(s) with the plain-text password(s) "
+"altogether"
+msgstr ""
+
+#: inc/integration_text.inc.php:67
+msgid ""
+"After WordPress' <code>init</code> hook has run, <code>$_POST['pwd']</code> "
+"will contain the decrypted password."
+msgstr ""
+
+#: inc/integration_text.inc.php:70
+msgid ""
+"It's possible to pass multiple <em>passwords</em> and <em>names</em> into "
+"the <code>SemisecureLoginReimagined.encrypt</code> function. Instead of "
+"passing a single string, you can pass an array of strings. Just make sure "
+"that the password values match up with the names by keeping the elements in "
+"the same respecitve order."
+msgstr ""
+
+#: inc/integration_text.inc.php:73
+msgid ""
+"When creating your own integration, you might want to verify that this "
+"plugin has been activated. You can do that by using PHP's "
+"<code>method_exists</code> function. You can also compare the current "
+"version of this plugin by calling the <code>SemisecureLoginReimagined::"
+"version()</code> method."
+msgstr ""
+
+#: inc/integration_text.inc.php:76
+msgid ""
+"Two helper functions are available: <code>SemisecureLoginReimagined::"
+"is_rsa_key_ok()</code> and <code>SemisecureLoginReimagined::is_openssl_avail"
+"()</code>. These can be used to show an appropriate message to the user "
+"(both need to be true for this plugin to function properly)."
+msgstr ""
+
+#: inc/integration_text.inc.php:79
+msgid ""
+"For some complete examples, check out <code>inc/login_head.inc.php</code> "
+"and <code>inc/admin_head.inc.php</code> included with this plugin."
+msgstr ""
+
+#: inc/login_form.inc.php:4
+msgid ""
+"Semisecure Login is not enabled!<br />Please enable JavaScript and use a "
+"modern browser to ensure that your password is encrypted."
+msgstr ""
+
+#: inc/admin_head.inc.php:10
+msgid ""
+"Semisecure Login is not enabled!<br />The public key was not found!<br /"
+">Your password will not be encrypted!"
+msgstr ""
+
+#: inc/admin_head.inc.php:12
+msgid ""
+"Semisecure Login is not enabled due to a misconfiguration on the server!"
+msgstr ""
+
+#: inc/admin_head.inc.php:14 inc/login_head.inc.php:13
+msgid "Semisecure Login is enabled."
+msgstr ""
+
+#: inc/admin_head.inc.php:47
+msgid "Encrypting password &amp; submitting..."
+msgstr ""
+
+#: inc/admin_head.inc.php:72
+msgid ""
+"Problem encrypting passwords!<br />Please try again or disable JavaScript to "
+"submit without encryption."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:6 inc/options_page_overrides.inc.php:9
+#: inc/options_page_overrides.inc.php:13 inc/options_page_overrides.inc.php:17
+#: inc/options_page.inc.php:5 inc/options_page.inc.php:10
+msgid ""
+"Ooops... looks like you do not have the correct privileges to access this "
+"page."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:39 inc/options_page.inc.php:58
+msgid "The settings were successfully updated."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:79 inc/options_page.inc.php:103
+msgid "Misc Settings"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:89
+msgid "Override settings"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:91 inc/options_page.inc.php:163
+#: inc/options_page.inc.php:215
+msgid "Yes"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:92 inc/options_page.inc.php:216
+#: inc/options_page.inc.php:225
+msgid "No"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:93
+msgid ""
+"Do you want to override the following settings on this site? If not, then "
+"the global network-wide settings will be used."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:102 inc/options_page.inc.php:179
+msgid "User login"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:104 inc/options_page.inc.php:181
+msgid "Encrypt passwords when logging in?"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:105 inc/options_page.inc.php:182
+msgid ""
+"This includes the wp-login.php page as well as any plugins that implement "
+"the login_head and login_form hooks."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:109 inc/options_page.inc.php:186
+msgid "User administration"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:111 inc/options_page.inc.php:188
+msgid "Encrypt passwords when managing users?"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:112 inc/options_page.inc.php:189
+msgid ""
+"This includes changing or setting a password when: editing your own user (wp-"
+"admin/profile.php), editing another user (wp-admin/user-edit.php), and "
+"creating a new user (wp-admin/user-new.php)."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:116 inc/options_page.inc.php:193
+msgid "Secret-key algorithm"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:118
+#: inc/options_page_overrides.inc.php:124 inc/options_page.inc.php:195
+msgid "MARC4"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:119
+#: inc/options_page_overrides.inc.php:126 inc/options_page.inc.php:196
+msgid "Rabbit"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:120
+#: inc/options_page_overrides.inc.php:128 inc/options_page.inc.php:197
+msgid "AES (CBC)"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:121
+#: inc/options_page_overrides.inc.php:130 inc/options_page.inc.php:198
+msgid "AES (OFB)"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:133 inc/options_page.inc.php:199
+msgid ""
+"MARC4 (Modified Allegedly RC4) is based on RC4, a widely-used stream cipher. "
+"This modified version corrects certain weaknesses found in RC4. Rabbit is a "
+"high-performance stream cipher and a finalist in the eSTREAM portfolio. The "
+"Advanced Encryption Standard (AES) is a block cipher, and an encryption "
+"standard adopted by the U.S. government. CBC (cipher-block chaining) is one "
+"of the most common block cipher modes. OFB (output feedback) is a mode that "
+"turns a block cipher into a synchronous stream cipher.<br /><em>Note: Rabbit "
+"currently requires 64-bit PHP, and will not be selectable if you are running "
+"32-bit PHP.</em>"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:137 inc/options_page.inc.php:203
+msgid "Nonce"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:139
+#: inc/options_page_overrides.inc.php:144 inc/options_page.inc.php:205
+msgid "Print directly"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:140
+#: inc/options_page_overrides.inc.php:146 inc/options_page.inc.php:206
+msgid "Async (Ajax)"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:141
+#: inc/options_page_overrides.inc.php:148 inc/options_page.inc.php:207
+msgid "Disable"
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:151 inc/options_page.inc.php:208
+msgid ""
+"<em>Print directly</em> means that the nonce is passed directly from PHP to "
+"JavaScript. The <em>asynchronous</em> option will use Ajax to dynamically "
+"retrieve the current nonce value. This might be necessary if you are using a "
+"caching plugin. You can also choose to <em>disable</em> nonce support. "
+"Nonces are used to protect against login replays. This plugin does not "
+"protect against session hijacking, so nonces are not strictly needed."
+msgstr ""
+
+#: inc/options_page_overrides.inc.php:158 inc/options_page.inc.php:234
+msgid "Update Options &raquo;"
+msgstr ""
+
+#: inc/options_page.inc.php:33
+msgid ""
+"<strong>The new keypair was successfully generated and saved.</strong> <span "
+"style=\"font-size:75%;\">(hover for debug info)</span>"
+msgstr ""
+
+#: inc/options_page.inc.php:36
+msgid ""
+"<strong>The keypair could not be created!</strong> <span style=\"font-"
+"size:75%;\">(hover for debug info)</span>"
+msgstr ""
+
+#: inc/options_page.inc.php:75
+msgid ""
+"The RSA keypair could not be found! Please remedy the situation by "
+"generating a new keypair."
+msgstr ""
+
+#: inc/options_page.inc.php:102
+msgid "Keypair Settings"
+msgstr ""
+
+#: inc/options_page.inc.php:110
+msgid "Current RSA Keypair"
+msgstr ""
+
+#: inc/options_page.inc.php:116
+msgid ""
+"The current key is <strong>%d</strong> bits in length, and the public-"
+"exponent is <strong>%s</strong>"
+msgstr ""
+
+#: inc/options_page.inc.php:119
+msgid "Modulus:"
+msgstr ""
+
+#: inc/options_page.inc.php:126
+msgid "WARNING:"
+msgstr ""
+
+#: inc/options_page.inc.php:126
+msgid ""
+"The RSA keypair could not be found! Please remedy the situation by "
+"generating a new keypair below."
+msgstr ""
+
+#: inc/options_page.inc.php:132
+msgid ""
+"<em>&quot;RSA claims that 1024-bit keys are likely to become crackable some "
+"time between 2006 and 2010 and that 2048-bit keys are sufficient until 2030. "
+"An RSA key length of 3072 bits should be used if security is required beyond "
+"2030.&quot;</em> -<a href=\"http://en.wikipedia.org/wiki/"
+"Key_size#Asymmetric_algorithm_key_lengths\" target=\"_blank\">Wikipedia</a>"
+msgstr ""
+
+#: inc/options_page.inc.php:134
+msgid "Generate New Keypair"
+msgstr ""
+
+#: inc/options_page.inc.php:136
+msgid "Use the following options to generate &amp; store a new RSA keypair."
+msgstr ""
+
+#: inc/options_page.inc.php:139
+msgid ""
+"<em>A lower number of bits requires less processing power, while a higher "
+"number of bits provides better security.</em>"
+msgstr ""
+
+#: inc/options_page.inc.php:144
+msgid "Number of bits"
+msgstr ""
+
+#: inc/options_page.inc.php:147
+msgid "512 bits"
+msgstr ""
+
+#: inc/options_page.inc.php:148
+msgid "1024 bits"
+msgstr ""
+
+#: inc/options_page.inc.php:149
+msgid "2048 bits"
+msgstr ""
+
+#: inc/options_page.inc.php:150
+msgid "3072 bits"
+msgstr ""
+
+#: inc/options_page.inc.php:152
+msgid ""
+"2048 bits is currently recommended based on the tradeoff between performance "
+"and security."
+msgstr ""
+
+#: inc/options_page.inc.php:161
+msgid "Force alt method"
+msgstr ""
+
+#: inc/options_page.inc.php:164
+msgid ""
+"There are two keypair generation methods. The default method makes a direct "
+"call against OpenSSL on the server. The alternative method uses PHP's built-"
+"in OpenSSL functions. The alternative method will automatically be used if: "
+"PHP's execution functions are disabled, safe mode is enabled, or OpenSSL is "
+"not in the location specified in the advanced override option. You can also "
+"force the alternative method using this option."
+msgstr ""
+
+#: inc/options_page.inc.php:170
+msgid "Generate Key &raquo;"
+msgstr ""
+
+#: inc/options_page.inc.php:213
+msgid "Force UTF-8"
+msgstr ""
+
+#: inc/options_page.inc.php:217
+msgid ""
+"This plugin is tested to work with UTF-8. You can individually edit your "
+"blog settings or, for multisite installs, globally force the option here "
+"without having to edit each and every site in your network.<br /><em>Note: "
+"This option does not change the blog_charset in the database.</em>"
+msgstr ""
+
+#: inc/options_page.inc.php:221
+msgid "Allow overrides"
+msgstr ""
+
+#: inc/options_page.inc.php:223
+msgid "Yes (super admins only)"
+msgstr ""
+
+#: inc/options_page.inc.php:224
+msgid "Yes (super admins + site admins)"
+msgstr ""
+
+#: inc/options_page.inc.php:226
+msgid ""
+"For multisite installs, these options are applied globally throughout your "
+"network. Do you also want to allow some of these settings to be overriden on "
+"a site by site basis? If so, do you want to restrict access to <em>super "
+"administrators</em> or do you also want to give individual <em>site "
+"administrators</em> access to these settings?"
+msgstr ""
+
+#: inc/login_head.inc.php:9
+msgid ""
+"Semisecure Login is not enabled!<br />The public key was not found!<br /"
+">Your password will not be encrypted!<br />Please login &amp; fix the issue."
+msgstr ""
+
+#: inc/login_head.inc.php:11
+msgid ""
+"Semisecure Login is not enabled due to a misconfiguration on the server!<br /"
+">Please login &amp; fix the issue."
+msgstr ""
+
+#: inc/login_head.inc.php:39
+msgid "Encrypting password &amp; logging in..."
+msgstr ""
+
+#: inc/login_head.inc.php:61
+msgid ""
+"Problem encrypting password!<br />Please try again or disable JavaScript to "
+"login without encryption."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:264
+msgid ""
+"SemisecureLoginReimagined has not been activated!<br /><br />OpenSSL doesn't "
+"appear to be available. This plugin relies on OpenSSL and won't work until "
+"it's been installed.<br /><br />Click <a href=\"%s\">here</a> to return to "
+"the plugins page."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:284
+msgid ""
+"SemisecureLoginReimagined has been activated but the keypair was not "
+"successfully generated.<br /><br />Please visit the <a href=\"%s\">settings</"
+"a> page to generate an RSA keypair.<br /><br />Click <a href=\"%s\">here</a> "
+"to return to the plugins page."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:290
+msgid ""
+"SemisecureLoginReimagined has been activated but the blog's character "
+"encoding is set to %s.<br /><br />This plugin is tested to work with UTF-8."
+"<br /><br />Click <a href=\"%s\">here</a> to return to the plugins page."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:306
+msgid "The alternative method used: %s"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:307
+msgid ""
+"OpenSSL might not have been <a href=\"%s\" target=\"_blank\">installed "
+"correctly</a>."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:371
+msgid "(Library Version)"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:375
+#: classes/SemisecureLoginReimagined.php:377
+msgid "(Header Version)"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:422
+#: classes/SemisecureLoginReimagined.php:425
+#: classes/SemisecureLoginReimagined.php:435
+msgid "Semisecure Login Reimagined %s"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:422
+#: classes/SemisecureLoginReimagined.php:425
+#: classes/SemisecureLoginReimagined.php:435
+msgid "Semisecure Login"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:486
+#: classes/SemisecureLoginReimagined.php:515
+msgid "Network Settings"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:491
+msgid "Site Settings"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:498
+msgid "Settings"
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:545
+msgid ""
+"The alternative keypair generation method was used because the user forced "
+"this method."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:549
+msgid ""
+"The alternative keypair generation method was used because safe_mode is "
+"enabled."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:553
+msgid ""
+"The alternative keypair generation method was used because the PHP execution "
+"functions have been disabled."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:559
+msgid ""
+"The alternative keypair generation method was used because OpenSSL doesn't "
+"appear to be in the location specified in the openssl_location advanced "
+"option. The default location assumes that the OpenSSL executable is in the "
+"system path."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:563
+msgid "The default keypair generation method was used."
+msgstr ""
+
+#: classes/SemisecureLoginReimagined.php:564
+msgid "The default method used: %s"
+msgstr ""
