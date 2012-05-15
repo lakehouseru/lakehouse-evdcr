@@ -414,6 +414,7 @@ h1.pageheader {
 	list-style-type: none;
 }
 #whosalepost p {
+	display: inline-block;
 	color: #000000;
 	padding:0;
 }
@@ -562,10 +563,7 @@ h1.pageheader {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	display: none;
-	
-
 }
-
 #filter p {
 	border-bottom-style: solid;
 	border-bottom-color: #faf3e4;
@@ -597,7 +595,172 @@ div.open{
 	top: 13px;
 	left: 24px;
 }
-
+#wallpaper{
+	background: #f2e6ce;
+	width: 331px;
+	height: 24px;
+}
+#wallpaper p{
+	font-size: 18px;
+	color: #4c3b2b;
+	padding: 0px;
+	padding-left: 11px;
+}
+#chart{
+	border: 1px solid #f2f2f2;
+	width: 331px;
+	height:160px;
+	float: left;
+}
+#chart table .td1{
+	font-size: 12px;
+	font-weight: bold;
+	width: 39%;
+	color: #808080;
+}
+#chart table .td2{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+#chart table .tr1{
+	font-size: 12px;
+	font-weight: bold;
+	background: #f3f3f3;
+}
+#chart table .tr2{
+	font-size: 12px;
+	font-weight: bold;
+	background: #FFFFFF;
+}
+#previewblock1 img{
+	border: 1px solid #5b9183;
+}
+#bigimageblock{
+	margin-right: 5px;
+	float:right;
+}
+#bigimageblock p{
+	font-size: 10px;
+	color: #808080;
+	text-align: center;
+	margin-top: 10px;
+}
+#previewblock1 .imgsmall{
+	margin: 0 -110px 85px 78px;
+}
+#price {
+	text-align:center;
+	margin: -10px 0 0 0;
+}
+#price  ul li{
+	color: #808080;
+	list-style-type: none;
+}
+p.redextralarge{
+	float:right;
+	color: #dc7474;
+	font-size: 22px;
+	font-weight: bold;
+}
+p.redlarge{
+	display: inline-block;
+	color: #dc7474 !important;
+	padding: 0px;
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+p.redsmall{
+	display: inline-block;
+	color: #dc7474 !important;
+	padding: 0px;
+	font-size: 12px !important;
+}
+p.graylarge{
+	color: #808080;
+	font-size: 16px;
+	font-weight: bold;
+}
+p.graymedium{
+	float: right;
+	color: #808080;
+	font-size: 14px;
+	font-weight: bold;
+}
+#meters{
+	margin: 0 2% 0 50%;
+}
+p.graysmall{
+	display: inline-block;
+	color: #808080 !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+.tack1{
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	margin-top: 10px;
+	color: #fefefe;
+	margin: 0 50% 0 0%;
+}
+.tack2{
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px 43px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	margin-top: 10px;
+	color: #fefefe;
+	margin: 70px 0 0 10px;
+}
+.tack3{
+	margin-left: 6px;
+	margin-top: 10px;
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	color: #fefefe;
+}
+.tack4{
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	margin-top: 10px;
+	color: #fefefe;
+	margin: 1px 25% 0 25%;
+	width: 50%;
+}
+.input{	
+	border: 1px solid #d7d7d7;
+	color: #808080;
+}
+#previewblock2{
+	float:left;
+	margin-top: 56px;
+	background: #f2f2f2;
+	width: 340px;
+	height: 188px;
+}
+#previewblock2 p{
+	color: #dc7474;
+	font-size: 16px;
+	font-weight: bold;
+}
+#previewblock3{
+	float:left;
+	margin-top: 19px;
+	background: #f2f2f2;
+	width: 300px;
+	height: 188px;
+	border-left: 1px solid #e6e6e6;
+}
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;
 }
