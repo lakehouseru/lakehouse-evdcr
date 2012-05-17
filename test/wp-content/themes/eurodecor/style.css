@@ -231,20 +231,13 @@ a:hover, a:active, a:focus {
 #sidebar a:link {
 	color: #4d3b2d !important;
 }
-#sidebar a:visited {
-	color: #4d3b2d !important;
-}
-#sidebar .item1 a:link {
+.green{
 	color: #5b9183 !important;
 	font-weight: bold;
 	text-decoration: none;
 }
-#sidebar .item1 a:visited {
-	color: #5b9183 !important;
-	font-weight: bold;
-	text-decoration: none;
-}
-#sidebar .item1 a:hover {
+
+#sidebar .current-cat a:hover {
 	color: #5b9183 !important;
 	font-weight: bold;
 	text-decoration: underline;
@@ -253,16 +246,13 @@ a:hover, a:active, a:focus {
 	margin: 2px 0 0 0;
 	background: none repeat scroll 0 0 rgba(239, 220, 178, 0.9);
 	padding: 10px;
-	width: 716px;
-	float: right;
-}
-#breadcrumbs ul li {
-	display: inline-block;
-	float: left;
-	color: #4b392d;
-	text-decoration: none;
-	font-family: arial;
+	width: 712px;
 	font-size: 12px;
+	color: #4b392d;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#breadcrumbs a:hover {
+	text-decoration: none;
 }
 #breadcrumbs ul li.breadcrumb {
 	color: #5b9183;
@@ -393,6 +383,7 @@ h1.pageheader {
 	margin: 100px 0px 0 23px;
 	width: 161px;
 	height: 42px;
+	overflow: hidden;
 	text-align: left;
 	top: 20%;
 	position: absolute;
@@ -479,7 +470,7 @@ h1.pageheader {
 	display: block;
 	float: right;
 	position: relative;
-	top: 4px;
+	top: 3px;
 	margin-bottom: 25px;
 }
 #arr_left {

@@ -109,4 +109,8 @@ $(document).ready(function() {
 		allowFullScreen : true,
 		wmode : 'transparent'
 	});
+	
+	// Отметим в сайдбаре текущий раздел
+	
+	$('.current-cat a:first').attr('class','green');
 });

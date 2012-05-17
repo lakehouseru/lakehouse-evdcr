@@ -26,7 +26,7 @@
 					<a href="#news">новости</a>
 				</li>
 				<li class="ani">
-					<a href="#about">каталог</a>
+					<a href="<?php bloginfo('url'); ?>/products-page">каталог</a>
 				</li>
 				<li class="ani">
 					<a href="#about">магазины</a>

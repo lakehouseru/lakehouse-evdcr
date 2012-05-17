@@ -113,7 +113,7 @@ function wpsc_output_breadcrumbs( $options = null ) {
 			$output .= $options['crumb-separator'];
 		}
 		$output .= $options['before-crumb'];
-		$output .= '<a class="wpsc-crumb" id="wpsc-crumb-' . $products_page_id . '" href="' . $filtered_products_page['url'] . '">' . $filtered_products_page['name'] . '</a>';
+		$output .= '<a class="wpsc-crumb" id="wpsc-crumb-' . $products_page_id . '" href="' . $filtered_products_page['url'] . '">' . 'Каталог' . '</a>';
 		$output .= $options['after-crumb'];
 	}
 	
