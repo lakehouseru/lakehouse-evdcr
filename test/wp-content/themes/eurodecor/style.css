@@ -523,7 +523,7 @@ h1.pageheader {
 	text-decoration: underline;
 	display: none;
 }
-.shop_item button, .pageheader a, #filter button {
+.shop_item .button, .pageheader a, #filter button {
 	background-color: #dc7474;
 	border-style: none;
 	padding: 4px;
