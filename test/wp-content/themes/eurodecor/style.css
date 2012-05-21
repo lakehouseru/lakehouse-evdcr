@@ -419,8 +419,9 @@ h1.pageheader {
 	border: 1px solid #5b9183;
 	margin: 6px 28px 0 0px;
 }
-#whosalepost a.map {
+#whosalepost iframe {
 	float: right;
+	margin: -20px 33px 0 0px;
 }
 #wholesale {
 	background: #da6e6b;

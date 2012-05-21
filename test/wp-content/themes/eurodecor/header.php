@@ -20,7 +20,7 @@
 			</div>
 			<ul id="menu">
 				<li class="ani">
-					<a href="#about">о компании</a>
+					<a href="<?php bloginfo('url'); ?>/about">о компании</a>
 				</li>
 				<li class="ani">
 					<a href="#news">новости</a>
