@@ -141,24 +141,62 @@ function custom_taxonomies_terms_links() {
 	}
 }
 
-function is_category_level($depth) {
-	$current_category = get_query_var('cat');
-	$my_category = get_categories('include=' . $current_category);
-	$cat_depth = 0;
 
-	if ($my_category[0] -> category_parent == 0) {
+	function is_category_level($depth) {
+		$current_category = wpsc_category_id();
+		$my_category = get_categories('include=' . $current_category.'&taxonomy=wpsc_product_category&hide_empty=0');
 		$cat_depth = 0;
-	} else {
 
-		while ($my_category[0] -> category_parent != 0) {
-			$my_category = get_categories('include=' . $my_category[0] -> category_parent);
-			$cat_depth++;
+		if ($my_category[0] -> category_parent == 0) {
+			$cat_depth = 0;
+		} else {
+
+			while ($my_category[0] -> category_parent != 0) {
+				$my_category = get_categories('include=' . $my_category[0] -> category_parent.'&taxonomy=wpsc_product_category&hide_empty=0');
+				$cat_depth++;
+			}
 		}
+		if ($cat_depth == intval($depth)) {
+			return true;
+		}
+		return null;
 	}
-	echo $cat_depth;
-	if ($cat_depth == intval($depth)) {
-		return true;
+	
+	function wpsc_display_child_cats($parent_category_id){
+	
+	
+	$category_data = get_terms('wpsc_product_category','hide_empty=0&parent='.$parent_category_id);
+
+	foreach((array)$category_data as $category_row) {
+	
+		
+		// Sticks the category description in
+		$category_description = '';
+		if($category_row->description != '') {
+			$start_element = $query['description_container']['start_element'];
+			$end_element = $query['description_container']['end_element'];
+			$category_description =  $start_element.wpautop(wptexturize( wp_kses(stripslashes($category_row->description), $allowedtags ))).$end_element;
+		}
+		
+		
+	
+		
+		// get the category images
+		$category_image = wpsc_place_category_image($category_row->term_id, $modified_query);
+
+		$width = (isset($query['image_size']['width'])) ? ($query['image_size']['width']) : get_option('category_image_width');
+		$height = (isset($query['image_size']['height'])) ? ($query['image_size']['height']) : get_option('category_image_height');
+		$category_image = wpsc_get_categorymeta($category_row->term_id, 'image');
+		$category_image_html = "<img src='".WPSC_CATEGORY_URL."$category_image' alt='{$category_row->name}' style='width: {$width}px; height: {$height}px;' class='wpsc_category_image' />";
+		
+		
+		?>
+		
+		<a href="<?=get_term_link($category_row->slug, 'wpsc_product_category');?>" title="<?=$category_description;?>"><?=$category_image_html;?></a>
+						
+
+		<?
 	}
-	return null;
 }
+	
 ?>

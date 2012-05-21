@@ -77,7 +77,7 @@ $(document).ready(function() {
 	$(function() {
 		$("#banners a").tipTip();
 		$("#brands a").tipTip();
-		$(".descriptionimg a").tipTip();
+		$("#collection a").tipTip();
 	});
 	
 
@@ -110,10 +110,15 @@ $(document).ready(function() {
 		wmode : 'transparent'
 	});
 	
-	// Отметим в сайдбаре текущий раздел
+	//Отметим в сайдбаре текущий раздел
 	
 	$('.current-cat a:first').attr('class','green');
 	// Костыль - ищем скрытый блок пагинации, забераем линки и подставляем в большие стрелки.
 	$('#arr_right a').attr('href', $('#hpagination a[title="Следующая страница"]').attr('href'));
 	$('#arr_left a').attr('href', $('#hpagination a[title="Предыдущая страница"]').attr('href'));
+	
+	//Поиск
+	$('#ssearch').click(function(){
+		$('#simpleSearch').submit();
+	})
 });

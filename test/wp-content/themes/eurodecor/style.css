@@ -354,7 +354,7 @@ h1.pageheader {
 	float: right;
 	margin: 7px 5px 0 15px;
 }
-.description img {
+.collection a img {
 	border: 1px solid #5b9183;
 }
 #post h2.collectionheader {
@@ -373,13 +373,12 @@ h1.pageheader {
 #collections img {
 	border: 7px solid #FFFFFF;
 	margin: 16px;
-}
-.descriptionimg  {
 	position: relative;
 	float:left;
-	text-decoration: underline;
+	
 }
-.descriptionimg h3 {
+
+#collections a h3 {
 	margin: 100px 0px 0 23px;
 	width: 161px;
 	height: 42px;
@@ -596,7 +595,189 @@ div.open{
 	top: 13px;
 	left: 24px;
 }
+#chart #custom_fields{
+	background: #f2e6ce;
+	width: 331px;
+	margin-bottom: 24px;
+}
+#chart h3{
+	font-size: 18px;
+	color: #4c3b2b;
+	padding: 0px;
+	padding-left: 11px;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+#chart{
+	border: 1px solid #f2f2f2;
+	width: 331px;
+	height:160px;
+	float: left;
+}
+#chart table {
+	width: 100%;
+}
+#chart table td {
+	background-color:#FFFFFF;
+	border-style: none;
+	padding: 4px;
+	border-bottom-color:  #F2E6CE;
+	border-bottom-width: 1px;
+	border-bottom-style:  solid;
 
+}
+#chart table .wpsc_cf_field-name {
+	width: 50%;
+}
+#chart table .wpsc_cf_field-name strong {
+	font-size: 12px;
+	font-weight: bold;
+	width: 39%;
+	color: #808080;
+}
+#chart table .td2{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+#chart table tr{
+	font-size: 12px;
+	font-weight: bold;
+	background: none repeat scroll 0 0 rgba(239, 220, 178, 0.5);
+}
+#previewblock1 img{
+	border: 1px solid #5b9183;
+}
+#bigimageblock{
+	margin-right: 5px;
+	float:right;
+}
+#bigimageblock p{
+	font-size: 10px;
+	color: #808080;
+	text-align: center;
+	margin-top: 10px;
+}
+#previewblock1{
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+#previewblock1 .imgsmall{
+	margin: 0 -110px 85px 78px;
+}
+#price {
+	text-align:center;
+	font-size: 20px;
+	color: #808080;
+	margin-top: 12px;
+}
+p.redextralarge{
+	float:right;
+	color: #dc7474;
+	font-size: 22px;
+	font-weight: bold;
+}
+#post .redlarge {
+	display: inline-block;
+	color: #dc7474 !important;
+	padding: 0px;
+	font-weight: bold !important;
+}
+p.redsmall{
+	display: inline-block;
+	color: #dc7474 !important;
+	padding: 0px;
+	font-size: 12px !important;
+}
+p.graylarge{
+	color: #808080;
+	font-size: 16px;
+	font-weight: bold;
+}
+p.graymedium{
+	float: right;
+	color: #808080;
+	font-size: 14px;
+	font-weight: bold;
+}
+#meters{
+	margin: 0 2% 0 50%;
+}
+p.graysmall{
+	display: inline-block;
+	color: #808080 !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+a.tack1{
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	margin-top: 10px;
+	color: #fefefe;
+	clear: both;
+	text-decoration: none;
+}
+.tack2{
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px 43px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	margin-top: 10px;
+	color: #fefefe;
+	margin: 70px 0 0 10px;
+}
+.tack3{
+	margin-left: 6px;
+	margin-top: 10px;
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	color: #fefefe;
+}
+.tack4{
+	background-color: #dc7474;
+	border-style: none;
+	padding: 4px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
+	margin-top: 10px;
+	color: #fefefe;
+	margin: 12px 25% 0 25%;
+	width: 50%;
+}
+.input{	
+	border: 1px solid #d7d7d7;
+	color: #808080;
+}
+#previewblock2{
+	float:left;
+	margin-top: 19px;
+	background: #f2f2f2;
+	width: 340px;
+	height: 188px;
+	padding: 8px;
+}
+#previewblock2 p{
+	color: #dc7474;
+	font-size: 16px;
+	font-weight: bold;
+}
+#previewblock3{
+	float:left;
+	margin-top: 19px;
+	background: #f2f2f2;
+	width: 300px;
+	height: 188px;
+	border-left: 1px solid #e6e6e6;
+	padding: 8px;
+}
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;
 }
