@@ -32,7 +32,7 @@
 					<a href="#about">магазины</a>
 				</li>
 				<li class="ani">
-					<a href="#about">контакты</a>
+					<a href="<?php bloginfo('url'); ?>/contacts">контакты</a>
 				</li>
 				<li class="last">
 					<div id="login">
