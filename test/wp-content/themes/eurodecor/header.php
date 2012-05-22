@@ -23,7 +23,7 @@
 					<a href="<?php bloginfo('url'); ?>/about">о компании</a>
 				</li>
 				<li class="ani">
-					<a href="#news">новости</a>
+					<a href="<?php bloginfo('url'); ?>/?cat=1">новости</a>
 				</li>
 				<li class="ani">
 					<a href="<?php bloginfo('url'); ?>/products-page/oboi">каталог</a>
