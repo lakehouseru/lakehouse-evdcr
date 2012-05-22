@@ -31,4 +31,6 @@ include(TEMPLATEPATH . '/wpsc-single_product.php');
 
 	
 </div>
+
+<? include(TEMPLATEPATH . '/product-filter.php');?>
 <?php get_footer();?>

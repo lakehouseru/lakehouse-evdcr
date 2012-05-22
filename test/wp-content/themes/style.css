@@ -274,13 +274,13 @@ h1.pageheader {
 	padding: 10px;
 	float: right;
 }
-#post h2 {
+#post h1 {
 	color: #da6e6b;
 	font-weight: normal;
 	font-size: 20px;
 	padding-left: 0px;
 }
-#post a {
+#post h2 {
 	color: #da6e6b;
 	font-weight: normal;
 	font-size: 20px;
@@ -295,7 +295,7 @@ h1.pageheader {
 	text-decoration: none;
 }
 #post h2 a:hover {
-	color: #da6e6b !important;
+	color: #5b9183 !important;
 	text-decoration: underline;
 }
 #post .text {
@@ -304,9 +304,8 @@ h1.pageheader {
 	font-size: 13px;
 	padding-left: 0px;
 }
-.hiddble p {
-	display: none;
-	font-size: 20px;
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
 }
 #brands img {
 	border: 1px solid #5b9183;
@@ -376,7 +375,9 @@ h1.pageheader {
 	margin: 16px;
 	position: relative;
 	float:left;
+	
 }
+
 #collections a h3 {
 	margin: 100px 0px 0 23px;
 	width: 161px;
@@ -420,7 +421,7 @@ h1.pageheader {
 }
 #whosalepost iframe {
 	float: right;
-	margin: -32px 33px 0 0px;
+	margin: -20px 33px 0 0px;
 }
 #wholesale {
 	background: #da6e6b;
@@ -560,6 +561,8 @@ h1.pageheader {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	display: none;
+	
+
 }
 
 #filter p {
@@ -775,48 +778,6 @@ a.tack1{
 	height: 188px;
 	border-left: 1px solid #e6e6e6;
 	padding: 8px;
-}
-.smallpost {
-	overflow: hidden;
-	margin-bottom: 17px;
-}
-.smallpost a img, .fullpost a img {
-	float: left;
-	padding-left: 36px;
-	margin-right: 15px;
-}
-.smallpost h3, .fullpost h3 {
-	margin: 8px;
-}
-.smallpost h3 a, .fullpost h3 a {
-	text-decoration: none;
-	text-transform: uppercase;
-	position: relative;
-}
-.blog_thumb_link {
-	display: block;
-	float: left;
-	width:  300px;
-	height: 200px;
-}
-.smallpost .date, .fullpost .date {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #999;
-	float: right;
-	font-weight: normal;
-	padding-top: 16px;
-}
-.smallpost p, .fullpost p {
-	font-size: small;
-	text-align: justify;
-}
-.smallpost p a, .fullpost p a {
-	color: #000;
-}
-.fullpost .gallery {
-	float: left;
-	margin: 0px;
 }
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;

@@ -1,10 +1,16 @@
 </div>
 		<div class="footer">
 			<div class="in">
-				<h1> Добро пожаловать </h1>
+				
+					<? $query = new WP_Query('pagename=footertext');?>
+			
+			<td id="arrowed_content"><?php while ($query->have_posts()) :  $query->the_post();
+			?>
+				<h1> <? the_title();?> </h1>
 				<p>
-					for these layouts is heavily commented. If you do most of your work in Design view, have a peek at the code to get tips on working with the CSS for the fi
+					<? the_content();?>
 				</p>
+				<? endwhile;?>
 				<div id="subfooter"><p>
 					<span class="fltlft">&copy; 2012 Евродекор</span>
 					<span class="fltrt">Дизайн и разработка - <a href="http://www.lakehouse.ru/lite/">lakehouse:lite</a></span></p>

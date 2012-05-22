@@ -1,39 +1,21 @@
-<?php get_header();?>
-<div id="content">
-	<div id="post">
-		<div id="breadcrumbs">
-			<a href="<? bloginfo('url');?>">Главная</a> 
-		</div>
-		 <?php while(have_posts()) : the_post(); ?>
-		<h1> <? the_title();?></h1>
-		<div class="gallery fancy">
-			
-				<?  $args = array(
-   'post_type' => 'attachment',
-   'numberposts' => -1,
-   'post_status' => null,
-   'post_parent' => $post->ID,
-   'orderby' => 'menu_order',
-   'order' => 'DESC'
-  );
-
-  $attachments = get_posts( $args );
-     if ( $attachments ) {
-        foreach ( $attachments as $attachment ) {
-	?>
-	 <? echo wp_get_attachment_link($attachment -> ID, 'thumbnail');?> </dt>
-        
-
-
-	<?  }}?>
-					</div>
-		<? the_content();?>
-		<p>
-			<a href="javascript:history.back(1)" class="back"><< Назад</a>
-		</p>
+<?php get_header(); ?>
+<? get_sidebar(); ?>
+<div class="fltrt" style="width: 735px;">
+	<div id="breadcrumbs">
+		<?php
+		if (function_exists('bcn_display')) { bcn_display();
+		}
+		?>
 	</div>
-	 <?php endwhile; ?>
-	<? get_sidebar();?>
+	<div id="content">
+		<div id="post">
+			<?php while(have_posts()) : the_post(); ?>
+			<div class="fullpost">
+				<h3><a href="<? the_permalink(); ?>"><? the_title(); ?></a></h3>
+				<? the_content('', true); ?>
+			</div>
+			<?php endwhile; ?>
+		</div>
+	</div>
 </div>
-<hr />
-<?php get_footer();?>
+<?php get_footer(); ?>

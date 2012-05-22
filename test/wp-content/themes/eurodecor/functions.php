@@ -30,18 +30,6 @@ function get_single_page_photo() {
 	return $images;
 }
 
-/*Register Post type*/
-$args_furniture = array('label' => __('Работы'), 'singular_label' => __('portfolio'), 'public' => true, 'show_ui' => true, 'capability_type' => 'post', 'hierarchical' => false, 'rewrite' => false, 'query_var' => true, 'supports' => array('title', 'editor', 'thumbnail', 'revision'), 'menu_position' => 5);
-
-register_post_type('portfolio', $args_furniture);
-
-/*Register Taxonomy*/
-function my_build_taxo() {
-	register_taxonomy('portfolio-type', 'portfolio', array('hierarchical' => true, 'label' => 'Разделы', 'query_var' => true, 'rewrite' => true));
-
-}
-
-add_action('init', 'my_build_taxo', 0);
 
 /*Remove Default Gallery Styles*/
 function remove_gallery_css() {
@@ -85,39 +73,8 @@ function get_my_second_taxonomy() {
 	echo "</ul>";
 }
 
-function get_my_second_taxonomy_2() {
-	global $post;
 
-	$pagetitle = $post -> post_title;
-	$parent_term = get_term_by('name', $pagetitle, 'portfolio-type');
-	$parent_slug = $parent_term -> slug;
 
-	$second_taxonomy = get_terms('portfolio-country', 'hide_empty=0&parent=0&orderby=id');
-
-	echo "<ul id='country'>";
-	foreach ($second_taxonomy as $taxonomy) {
-		$posts = get_posts('post_type=portfolio&&numberposts=-1&order=ASC&orderby=title&portfolio-type=' . $parent_slug . '&portfolio-country=' . $taxonomy -> slug);
-		echo "<li>$taxonomy->name";
-		if ($posts) {
-			echo "<ul>";
-			foreach ($posts as $post) {
-				echo "<li><a href='" . get_permalink($post -> ID) . "'>$post->post_title</a></li>";
-			}
-			echo "</ul>";
-		}
-		echo "</li>";
-	}
-	echo "</ul>";
-}
-
-register_sidebar(array('name' => 'Календарик', 'id' => 'cal-sidebar', 'description' => 'По идее тут должен быть календарик и ничего менять не надо', 'before_title' => '<h4>', 'after_title' => '</h4>'));
-
-function the_taxo($postid, $taxo) {
-	$term_list = wp_get_post_terms($postid, $taxo, array("fields" => "names"));
-	echo '<a href="' . get_bloginfo('url') . '?portfolio-type=houses">' . $term_list[0] . '</a>';
-
-	//print_r(wp_get_post_terms($postid, $taxo, array("fields" => "portfolio")));
-}
 
 // get taxonomies terms links
 function custom_taxonomies_terms_links() {

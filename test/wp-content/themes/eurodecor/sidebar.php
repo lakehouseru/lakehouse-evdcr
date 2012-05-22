@@ -16,7 +16,7 @@
 	<div id='sidebar'>
 		<ul>
 			<?php
-			$args = array('taxonomy' => 'wpsc_product_category', 'orderby' => 'ID', 'order' => 'ASC', 'hide_empty' => 0, 'title_li' => '', 'use_desc_for_title' => 0  );
+			$args = array('taxonomy' => 'wpsc_product_category', 'orderby' => 'ID', 'order' => 'ASC', 'hide_empty' => 1, 'title_li' => '', 'use_desc_for_title' => 0  );
 			wp_list_categories($args);
 			?>
 		</ul>
