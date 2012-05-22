@@ -295,7 +295,7 @@ h1.pageheader {
 	text-decoration: none;
 }
 #post h2 a:hover {
-	color: #5b9183 !important;
+	color: #da6e6b !important;
 	text-decoration: underline;
 }
 #post .text {
@@ -304,8 +304,9 @@ h1.pageheader {
 	font-size: 13px;
 	padding-left: 0px;
 }
-.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
-	float: right;
+.hiddble p {
+	display: none;
+	font-size: 20px;
 }
 #brands img {
 	border: 1px solid #5b9183;
@@ -419,7 +420,7 @@ h1.pageheader {
 }
 #whosalepost iframe {
 	float: right;
-	margin: -20px 33px 0 0px;
+	margin: -32px 33px 0 0px;
 }
 #wholesale {
 	background: #da6e6b;
@@ -559,8 +560,6 @@ h1.pageheader {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	display: none;
-	
-
 }
 
 #filter p {
@@ -815,9 +814,9 @@ a.tack1{
 .smallpost p a, .fullpost p a {
 	color: #000;
 }
-.gallery {
-	float:left;
-	margin-right: 15px;
+.fullpost .gallery {
+	float: left;
+	margin: 0px;
 }
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;

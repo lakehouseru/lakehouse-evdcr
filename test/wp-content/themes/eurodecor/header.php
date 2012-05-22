@@ -16,7 +16,11 @@
 	<body>
 		<div class="container">
 			<div class="header">
-				<a href="<?php bloginfo('url'); ?>" id="logo_up" class="fltlft"><img src="<?php bloginfo('template_url'); ?>/images/logo.png"  style="margin-top:12px; margin-left:24px;"/></a><a href="#cat" class="fltrt" > <img src="<?php bloginfo('template_url'); ?>/images/go_cat.png"  /></a>
+				<a href="<?php bloginfo('url'); ?>" id="logo_up" class="fltlft"><img src="<?php bloginfo('template_url'); ?>/images/logo.png"  style="margin-top:12px; margin-left:24px;"/></a>
+				
+				<? if('wpsc-product'!=get_post_type()){?> 
+				<a href="<?bloginfo('url');?>/products-page/oboi/" class="fltrt" > <img src="<?php bloginfo('template_url'); ?>/images/go_cat.png"  /></a>
+			<? }?>
 			</div>
 			<ul id="menu">
 				<li class="ani">
@@ -29,7 +33,7 @@
 					<a href="<?php bloginfo('url'); ?>/products-page/oboi">каталог</a>
 				</li>
 				<li class="ani">
-					<a href="#about">магазины</a>
+					<a href="<?php bloginfo('url'); ?>/shops">магазины</a>
 				</li>
 				<li class="ani">
 					<a href="<?php bloginfo('url'); ?>/contacts">контакты</a>

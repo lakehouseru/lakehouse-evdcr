@@ -79,7 +79,6 @@ $(document).ready(function() {
 		$("#brands a").tipTip();
 		$("#collection a").tipTip();
 	});
-	
 
 	//Управление фильтрами
 
@@ -109,16 +108,21 @@ $(document).ready(function() {
 		allowFullScreen : true,
 		wmode : 'transparent'
 	});
-	
+
 	//Отметим в сайдбаре текущий раздел
-	
-	$('.current-cat a:first').attr('class','green');
+
+	$('.current-cat a:first').attr('class', 'green');
 	// Костыль - ищем скрытый блок пагинации, забераем линки и подставляем в большие стрелки.
 	$('#arr_right a').attr('href', $('#hpagination a[title="Следующая страница"]').attr('href'));
 	$('#arr_left a').attr('href', $('#hpagination a[title="Предыдущая страница"]').attr('href'));
-	
+
 	//Поиск
-	$('#ssearch').click(function(){
+	$('#ssearch').click(function() {
 		$('#simpleSearch').submit();
 	})
+	//Show-Hide
+	$('#post h2').click(function() {
+		$(this).next("p").toggle(250)
+	})
+	
 });
