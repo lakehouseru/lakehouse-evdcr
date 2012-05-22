@@ -1,0 +1,16 @@
+/* Silverghyll stylesheet for admin area */
+
+/* 
+Version: 2.2.1
+*/
+
+#adminmenu ~ div .silverghyll td {vertical-align:top;}
+
+
+.silverghyll-help-text dl {margin-top:1em;}
+.silverghyll-help-text dt {font-weight:bold;}
+.silverghyll-help-text dd {margin-left:2em;}
+#silverghyll-inventory td {padding: 0 6px 12px;}
+#silverghyll-inventory thead {font-weight:bold;}
+
+.silverghyll-warning {background: #FFFFE0;border: #E6DB55 solid 1px;border-radius 3px;margin:5px 0 15px;padding:0.6em;}

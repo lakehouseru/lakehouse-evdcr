@@ -21,8 +21,10 @@
 				<? if('wpsc-product'!=get_post_type()){?> 
 				<a href="<?bloginfo('url');?>/products-page/oboi/" class="fltrt" > <img src="<?php bloginfo('template_url'); ?>/images/go_cat.png"  /></a>
 			<? }?>
-			</div>
-			<ul id="menu">
+			<? if(!is_home()){?> 
+			<a id="home" src='<? bloginfo('template_url');?>/images/home.swf' href="<? bloginfo('url');?>">
+			</a><? }?>
+			</div><ul id="menu">
 				<li class="ani">
 					<a href="<?php bloginfo('url'); ?>/about">о компании</a>
 				</li>
