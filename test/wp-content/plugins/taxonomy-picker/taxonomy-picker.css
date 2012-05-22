@@ -1,0 +1,18 @@
+/*	This cascading style sheet was developed by, and is copyright Kate Phizackerley 2011,2012 */
+/* 	Version: 1.12.0 */
+
+.tpicker-title label {text-align:right;mergin:0 0.6em 0 2em;}
+
+.taxonomy-picker select {clear:left; width: 100%;}
+.taxonomy-picker select.tpicker-date {min-width:6em;}
+.tpicker-search-text {width:90%;}
+
+.taxonomy-picker .tree .level2 {padding-left:8%;}
+.taxonomy-picker .tree .level3 {padding-left:16%;}
+.taxonomy-picker .tree .level4 {padding-left:24%;}
+.taxonomy-picker .tree .level5 {padding-left:32%;}
+.taxonomy-picker .tree .level6 {padding-left:40%;}
+
+.taxonomy-picker .pruned option {display:none;}
+.taxonomy-picker li.pruned .selected, .taxonomy-picker li.pruned .ancestor, .taxonomy-picker li.pruned .kid, 
+	.taxonomy-picker li.pruned .sibling, .taxonomy-picker li.pruned .level1  {display:block;}

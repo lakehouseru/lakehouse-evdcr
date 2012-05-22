@@ -102,7 +102,7 @@ $(document).ready(function() {
 	//Возврат на главную на Flash
 
 	$('#home').flash({
-		swf : 'images/home.swf',
+		swf : $('#home').attr('src'),
 		height : 60,
 		width : 160,
 		allowFullScreen : true,
