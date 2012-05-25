@@ -8,9 +8,9 @@
 						<?php echo wpsc_category_description(); ?>
 					</p>
 					<h2 class="collectionheader">Коллекции:</h2>
-					<div id="collection">
-						<div id="collections">
+					<div id="collections">
+				
 							<? wpsc_display_child_cats(wpsc_category_id());?>
-						</div>
+					
 					</div>
 				</div>

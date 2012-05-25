@@ -1,14 +1,16 @@
 </div>
 		<div class="footer">
 			<div class="in">
-				
-					<? $query = new WP_Query('pagename=footertext');?>
 			
-			<td id="arrowed_content"><?php while ($query->have_posts()) :  $query->the_post();
+					<? 
+					
+					$queryfooter = new WP_Query('pagename=footertext');?>
+			
+			<td id="arrowed_content"><?php while ($queryfooter->have_posts()) :  $queryfooter->the_post();
 			?>
 				<h1> <? the_title();?> </h1>
 				<p>
-					<? the_content();?>
+					<? the_excerpt();?>
 				</p>
 				<? endwhile;?>
 				<div id="subfooter"><p>

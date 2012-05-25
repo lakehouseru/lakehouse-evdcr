@@ -1,0 +1,33 @@
+/* Base CSS */
+
+.theme-skinless { margin:20px 0 0 0; }
+
+.theme-skinless .arrow-right { float:right; }
+
+.theme-skinless .arrow-left { float:left; }
+
+.theme-skinless .clear { clear:both; }
+
+.theme-skinless.stepcarousel {
+	position: relative; /* Leave this value alone */
+	overflow: scroll; /* Leave this value alone */
+	width:100%;
+	height: 250px;
+}
+
+.theme-skinless.stepcarousel .belt {
+	position: absolute; /* Leave this value alone */
+	left: 0;
+	top: 0;
+}
+
+.theme-skinless.stepcarousel .panel {
+	width:210px;
+	height:210px;
+	float: left; /* Leave this value alone */
+	overflow: hidden; /*Clip content that go outside dimensions of holding panel DIV */
+	margin:10px;
+	padding:10px;
+	display:block;
+	background:#CCC;
+}

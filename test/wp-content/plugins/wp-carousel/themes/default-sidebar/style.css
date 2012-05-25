@@ -1,0 +1,155 @@
+.theme-default-sidebar { margin:0; }
+
+.theme-default-sidebar .top-div {
+	width:100%;
+	height:30px;
+	padding:5px 0 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-khtml-border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	border-radius:10px 10px 0 0;
+}
+
+.theme-default-sidebar .top-div .arrow-right {
+	width:50%;
+	height:30px;
+	float:right;
+}
+
+.theme-default-sidebar .top-div .arrow-left {
+	width:50%;
+	height:30px;
+	float:left;
+}
+
+.theme-default-sidebar .top-div .arrow-left a {
+	width:25px;
+	height:30px;
+	background:url(img/arrow_left.png) top left no-repeat;
+	display:block;
+	float:right;
+}
+
+.theme-default-sidebar .top-div .arrow-right a {
+	width:25px;
+	height:30px;
+	background:url(img/arrow_right.png) top right no-repeat;
+	display:block;
+	float:left;
+}
+
+.theme-default-sidebar .hide { display:none; }
+
+.theme-default-sidebar-carousel {
+	position: relative; /* Leave this value alone */
+	overflow: scroll; /* Leave this value alone */
+	height: 215px;
+}
+
+.theme-default-sidebar-carousel .belt {
+	position: absolute; /* Leave this value alone */
+	left: 0;
+	top: 0;
+}
+
+.theme-default-sidebar-carousel .panel {
+	height:180px;
+	float: left; /* Leave this value alone */
+	overflow: hidden; /*Clip content that go outside dimensions of holding panel DIV */
+	margin:10px;
+	padding:10px;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:block;
+}
+
+.theme-default-sidebar-carousel .panel .panel-text { color:#FFF; }
+
+.theme-default-sidebar .bottom-div {
+	-moz-border-radius:0 0 5px 5px;
+	-khtml-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+}
+
+.theme-default-sidebar .wp_carousel_default_sidebar_pagination {
+	margin:0 30px;
+	padding:5px 10px;
+	text-align:center;
+}
+
+/* Color variation */
+
+.cv-default.theme-default-sidebar .top-div { background:url(img/carousel-bg.png) top left repeat-x; }
+
+.cv-kubrick.theme-default-sidebar .top-div { background:url(img/carousel-bg-kubrick.png) top left repeat-x; }
+
+.cv-red.theme-default-sidebar .top-div { background:url(img/carousel-bg-red.png) top left repeat-x; }
+
+.cv-green.theme-default-sidebar .top-div { background:url(img/carousel-bg-green.png) top left repeat-x; }
+
+.cv-orange.theme-default-sidebar .top-div { background:url(img/carousel-bg-orange.png) top left repeat-x; }
+
+.cv-violet.theme-default-sidebar .top-div { background:url(img/carousel-bg-violet.png) top left repeat-x; }
+
+/* */
+
+.cv-default.theme-default-sidebar-carousel { background:url(img/carousel-bg.png) 0 -35px repeat-x; }
+
+.cv-kubrick.theme-default-sidebar-carousel { background:url(img/carousel-bg-kubrick.png) 0 -35px repeat-x; }
+
+.cv-red.theme-default-sidebar-carousel { background:url(img/carousel-bg-red.png) 0 -35px repeat-x; }
+
+.cv-green.theme-default-sidebar-carousel { background:url(img/carousel-bg-green.png) 0 -35px repeat-x; }
+
+.cv-orange.theme-default-sidebar-carousel { background:url(img/carousel-bg-orange.png) 0 -35px repeat-x; }
+
+.cv-violet.theme-default-sidebar-carousel { background:url(img/carousel-bg-violet.png) 0 -35px repeat-x; }
+
+/* */
+
+.cv-default.theme-default-sidebar-carousel.stepcarousel .panel {
+	border:1px solid #5B5B5B;
+	background:#383838 url(img/carousel-panel-bg.png) bottom left repeat-x;
+}
+
+.cv-kubrick.theme-default-sidebar-carousel.stepcarousel .panel {
+	border:1px solid #73A0C5;
+	background:#567995 url(img/carousel-panel-bg-kubrick.png) bottom left repeat-x;
+}
+
+.cv-red.theme-default-sidebar-carousel.stepcarousel .panel {
+	border:1px solid #D62A2A;
+	background:#567995 url(img/carousel-panel-bg-red.png) bottom left repeat-x;
+}
+
+.cv-green.theme-default-sidebar-carousel.stepcarousel .panel {
+	border:1px solid #87B800;
+	background:#3F5600 url(img/carousel-panel-bg-green.png) bottom left repeat-x;
+}
+
+.cv-orange.theme-default-sidebar-carousel.stepcarousel .panel {
+	border:1px solid #ECA110;
+	background:#865912 url(img/carousel-panel-bg-orange.png) bottom left repeat-x;
+}
+
+.cv-violet.theme-default-sidebar-carousel.stepcarousel .panel {
+	border:1px solid #B64EEC;
+	background:#610C8D url(img/carousel-panel-bg-violet.png) bottom left repeat-x;
+}
+
+/* */
+
+.cv-default.theme-default-sidebar .bottom-div { background:#3B3B3B; }
+
+.cv-kubrick.theme-default-sidebar .bottom-div { background:#4180B6; }
+
+.cv-red.theme-default-sidebar .bottom-div { background:#9E1F1F; }
+
+.cv-green.theme-default-sidebar .bottom-div { background:#597900; }
+
+.cv-orange.theme-default-sidebar .bottom-div { background:#C0801A; }
+
+.cv-violet.theme-default-sidebar .bottom-div { background:#8511C1; }

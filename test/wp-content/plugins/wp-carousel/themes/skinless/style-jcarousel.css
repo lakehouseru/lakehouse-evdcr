@@ -1,0 +1,54 @@
+/* Base CSS */
+
+.theme-skinless { margin:20px 0 0 0; }
+
+.theme-skinless .arrow-right { float:right; }
+
+.theme-skinless .arrow-left { float:left; }
+
+.theme-skinless .arrow-top { float:left; }
+
+.theme-skinless .arrow-bottom { float:right; }
+
+.jcarousel-skin-skinless .jcarousel-container {
+	width:100%;
+	height: 250px;
+}
+
+.jcarousel-skin-skinless .jcarousel-direction-rtl { direction: rtl; }
+
+.jcarousel-skin-skinless .jcarousel-container-horizontal {
+	height:100%;
+	padding:10px;
+}
+
+.jcarousel-skin-skinless .jcarousel-container-vertical {
+	width:100%;
+	height:250px;
+}
+
+.jcarousel-skin-skinless .jcarousel-clip-horizontal {
+	width:100%;
+	height: 250px;
+}
+
+.jcarousel-skin-skinless .jcarousel-clip-vertical {
+	width:100%;
+	height: 190px;
+}
+
+.jcarousel-skin-skinless .jcarousel-item {
+	width:250px;
+	height:250px;
+	margin:10px;
+	padding:10px;
+	background:#CCC;
+}
+
+.jcarousel-skin-skinless .jcarousel-item.jcarousel-item-horizontal {}
+
+.jcarousel-skin-skinless .jcarousel-direction-rtl .jcarousel-item-horizontal {}
+
+.jcarousel-skin-skinless .jcarousel-item.jcarousel-item-vertical {}
+
+.jcarousel-skin-skinless .jcarousel-item-placeholder {}

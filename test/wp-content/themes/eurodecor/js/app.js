@@ -67,17 +67,23 @@ $(document).ready(function() {
 			// Animation complete.
 		})
 	})
-	// Всплывающие надписи в списке артикулов
+	// Всплывающие надписи в списке артикулов и коллекций
 	$('.shop_item').hover(function() {
 		$(this).find('a h3').fadeIn();
 	}, function() {
 		$(this).find('a h3').fadeOut();
 	})
+	
+	$('#collections a').hover(function() {
+		$(this).find('h3').fadeIn();
+	}, function() {
+		$(this).find('h3').fadeOut();
+	})
 	// Тултипы
 	$(function() {
 		$("#banners a").tipTip();
 		$("#brands a").tipTip();
-		$("#collection a").tipTip();
+		$("#collections a").tipTip();
 	});
 
 	//Управление фильтрами
@@ -124,5 +130,15 @@ $(document).ready(function() {
 	$('#post h2').click(function() {
 		$(this).next("p").toggle(250)
 	})
-	
+	//Show-Hide_shops
+	$('#whosalepost h2').click(function() {
+		$(this).next(".shophidden").toggle(250)
+	})
+		// Открытие интерьерных фото
+	$("#gointfoto").click(function() {
+		jQuery('#intfoto a:first').fancybox().click();
+	})
+	//Нижний слайдер
+	$('#banners').tinycarousel({interval: true, start: 2});
+	$('#banners').tinycarousel_start();
 });

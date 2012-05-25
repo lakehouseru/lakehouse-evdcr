@@ -1,0 +1,54 @@
+/* Base CSS */
+
+.theme-premium-slider { margin:20px 0 0 0; }
+
+.theme-premium-slider .arrow-right { float:right; }
+
+.theme-premium-slider .arrow-left { float:left; }
+
+.theme-premium-slider .clear { clear:both; }
+
+.theme-premium-slider .stepcarousel {
+	position: relative; /* Leave this value alone */
+	overflow: scroll; /* Leave this value alone */
+	margin:0 30px;
+	height: 200px;
+	background:#FAFAFA;
+	-moz-box-shadow:0 0 2px #CCC;
+	-webkit-box-shadow:0 0 2px#CCC;
+	box-shadow:0 0 2px #CCC;
+}
+
+.theme-premium-slider .stepcarousel .belt {
+	position: absolute; /* Leave this value alone */
+	left: 0;
+	top: 0;
+}
+
+.theme-premium-slider .stepcarousel .panel {
+	float: left; /* Leave this value alone */
+	overflow: hidden; /*Clip content that go outside dimensions of holding panel DIV */
+	margin:15px;
+	width:170px;
+	height:170px;
+}
+
+.theme-premium-slider .stepcarousel .panel .panel_image {
+	width:100%;
+	height:100%;
+	-moz-box-shadow: inset 0 0 2px #888;
+	-webkit-box-shadow: inset 0 0 2px#888;
+	box-shadow: inner 0 0 2px #888;
+}
+
+.theme-premium-slider .stepcarousel .panel .panel_image a {
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.theme-premium-slider .stepcarousel .panel .panel_image img { visibility:hidden; }
+
+.theme-premium-slider .stepcarousel .panel .video_margin { margin:1px 0 0 -1px; }
+
+.wp_carousel_premium-slider_pagination { text-align:center; }

@@ -30,7 +30,7 @@ include(TEMPLATEPATH . '/wpsc-single_product.php');
 	<?php endif;?>
 
 	
-</div>
 
-<? include(TEMPLATEPATH . '/product-filter.php');?>
+
+<? include(TEMPLATEPATH . '/product-filter.php');?></div>
 <?php get_footer();?>

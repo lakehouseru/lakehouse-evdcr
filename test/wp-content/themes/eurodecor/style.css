@@ -1,6 +1,6 @@
 /*
- Theme Name: Eurodecor exclusive 
- Author: Lakehouse.ru - lakehouse:lite digital production 
+ Theme Name: Eurodecor exclusive
+ Author: Lakehouse.ru - lakehouse:lite digital production
  Version: 1.0
  */
 @charset "utf-8";
@@ -164,9 +164,22 @@ a:hover, a:active, a:focus {
 #banners a {
 	margin-right: 33px;
 }
+#banners a img{
+	width: 154px;
+	height: 110px;
+}
 #banners  a.last {
 	margin-right: 0px;
 }
+
+.slider-code { height: 125px; overflow:hidden; }
+.slider-code .viewport { float: left; width: 100%; height: 125px; overflow: hidden; position: relative; }
+.slider-code .buttons { display: block; margin: 30px 10px 0 0; float: left; }
+.slider-code .next { margin: 30px 0 0 10px;  }
+.slider-code .disable { visibility: hidden; }
+.slider-code .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+.slider-code .overview li{ float: left; margin: 0 30px 0 0; padding: 1px; height: 110px; width: 156px;}
+
 .footer {
 	background: #efdcb2;
 	background: rgba(239, 220, 178, .5);
@@ -231,12 +244,11 @@ a:hover, a:active, a:focus {
 #sidebar a:link {
 	color: #4d3b2d !important;
 }
-.green{
+.green {
 	color: #5b9183 !important;
 	font-weight: bold;
 	text-decoration: none;
 }
-
 #sidebar .current-cat a:hover {
 	color: #5b9183 !important;
 	font-weight: bold;
@@ -275,19 +287,12 @@ h1.pageheader {
 	float: right;
 }
 #post h2 {
-	color: #da6e6b;
-	font-weight: normal;
-	font-size: 20px;
-	padding-left: 0px;
-}
-#post a {
-	color: #da6e6b;
 	font-weight: normal;
 	font-size: 20px;
 	padding-left: 0px;
 }
 #post h2 a:link {
-	color: #FFFFFF !important;
+	color: #5b9183 !important;
 	text-decoration: none;
 }
 #post h2 a:visited {
@@ -295,7 +300,7 @@ h1.pageheader {
 	text-decoration: none;
 }
 #post h2 a:hover {
-	color: #da6e6b !important;
+	color: #e76d13 !important;
 	text-decoration: underline;
 }
 #post .text {
@@ -304,7 +309,7 @@ h1.pageheader {
 	font-size: 13px;
 	padding-left: 0px;
 }
-.hiddble p {
+.hidden p {
 	display: none;
 	font-size: 20px;
 }
@@ -358,44 +363,55 @@ h1.pageheader {
 .collection a img {
 	border: 1px solid #5b9183;
 }
+
+
 #post h2.collectionheader {
 	color: #808080;
 	margin-top: 25px;
 	margin-left: 5px;
 }
-#collection {
-	margin: -10px 6px 6px 6px;
+
+#collections {
+
+	margin: 20px 6px 6px 6px;
 	background: #f0e6cd;
 	float: left;
 }
-#collections {
-	text-align: center;
+
+#collections a{
+	display: inline-block;
+	position: relative
 }
 #collections img {
 	border: 7px solid #FFFFFF;
-	margin: 16px;
+	margin: 14px;
 	position: relative;
-	float:left;
+	float: left;
 }
 #collections a h3 {
-	margin: 100px 0px 0 23px;
-	width: 161px;
-	height: 42px;
-	overflow: hidden;
-	text-align: left;
-	top: 20%;
-	position: absolute;
-	background: none repeat scroll 0 0 rgba(31, 81, 72, 0.9);
-	padding-left: 9px;
-	color: #FFFFFF;
-	font-weight:normal;
-	font-family: 'PT Sans Narrow', sans-serif;
-	text-decoration: underline;
+    background: none repeat scroll 0 0 rgba(31, 81, 72, 0.9);
+    bottom: 21px;
+    color: #FFFFFF;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-weight: normal;
+    height: 42px;
+    margin: 100px 0 0 23px;
+    overflow: hidden;
+    padding-left: 9px;
+    padding-top: 12px;
+    position: absolute;
+    right: 21px;
+    text-align: left;
+    text-decoration: underline;
+    width: 163px;
+    display: none;
+}
+.shophidden {
 	display: none;
 }
 #whosalepost {
-	margin: -3px 0 0 5px;
-	border: 1px solid #da6e6b;
+	margin: -3px 0 0 0px;
+	border: 1px solid #e76d13;
 }
 #whosalepost ul li {
 	color: #da6e6b;
@@ -412,7 +428,9 @@ h1.pageheader {
 }
 #whosalepost p {
 	color: #000000;
-	padding:0;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
 }
 #whosalepost img {
 	border: 1px solid #5b9183;
@@ -420,47 +438,33 @@ h1.pageheader {
 }
 #whosalepost iframe {
 	float: right;
-	margin: -32px 33px 0 0px;
+	border: 1px solid #5b9183;
+	margin: -10px 33px 0 0px;
+}
+#wholesalehead {
+	background: #5b9183;
+	width: 699px;
+	height: 35px;
 }
 #wholesale {
-	background: #da6e6b;
-	width: 709px;
-	height: 35px;
-}
-#wholesale a {
-	margin: 0 0 0 9px;
-}
-#wholesale h2 a.opt:link {
-	color: #FFFFFF !important;
-	text-decoration: none;
-}
-#wholesale h2 a.opt:visited {
-	color: #FFFFFF !important;
-	text-decoration: none;
-}
-#wholesale h2 a.opt:hover {
-	color: #FFFFFF !important;
-	text-decoration: none;
-}
-#retail {
-	margin: 10px 0 0 5px;
+	margin: 10px 0 0 0;
 	background: #5b9183;
-	width: 711px;
+	width: 699px;
 	height: 35px;
 }
-#retail a {
+#whosalepost a {
 	margin: 0 0 0 9px;
 	border-bottom: 1px dashed #FFFFFF;
 }
-#retails h2 a.dot:link {
+#whosalepost h2 a.opt:link {
 	color: #FFFFFF !important;
 	text-decoration: none;
 }
-#retail h2 a.dot:visited {
+#whosalepost h2 a.opt:visited {
 	color: #FFFFFF !important;
 	text-decoration: none;
 }
-#retail h2 a.dot:hover {
+#whosalepost h2 a.opt:hover {
 	color: #FFFFFF !important;
 	border-bottom: 0px;
 	text-decoration: none;
@@ -536,54 +540,51 @@ h1.pageheader {
 .pageheader a {
 	bottom: 4px;
 	float: none;
-	font-size: 0.5em;
+	font-size: 0.6em;
 	position: relative;
+	padding-left: 12px;
+	padding-right: 12px;
 }
-
 #filter {
 	background-color: #efdcb2;
 	clear: both;
-	padding-bottom:  6px;
+	padding-bottom: 6px;
 	color: #4D3A2B;
 }
-
-#filter h4{
+#filter h4 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.1em;
 	font-weight: normal;
 	color: #4D3A2B;
 	clear: both;
 	padding-top: 6px;
-
 }
-#filter form{
+#filter form {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	display: none;
 }
-
 #filter p {
 	border-bottom-style: solid;
 	border-bottom-color: #faf3e4;
 	border-bottom-width: 1px;
 	padding-bottom: 12px;
 }
-#filter button{
-	float:  none;
-	margin-bottom:  24px;
+#filter button {
+	float: none;
+	margin-bottom: 24px;
 	margin-left: 12px;
 }
-#filter form .description{
+#filter form .description {
 	width: 200px;
-	font-weight:  bold;
+	font-weight: bold;
 }
-div.closed{
+div.closed {
 	background-image: url(images/filter_closed_bg.png);
 	background-position: left bottom;
 	background-repeat: no-repeat;
 }
-
-div.open{
+div.open {
 	background-image: url(images/filter_open_bg.png);
 	background-position: left top;
 	background-repeat: no-repeat;
@@ -593,12 +594,12 @@ div.open{
 	top: 13px;
 	left: 24px;
 }
-#chart #custom_fields{
+#chart #custom_fields {
 	background: #f2e6ce;
 	width: 331px;
 	margin-bottom: 24px;
 }
-#chart h3{
+#chart h3 {
 	font-size: 18px;
 	color: #4c3b2b;
 	padding: 0px;
@@ -606,23 +607,22 @@ div.open{
 	font-weight: normal;
 	margin-bottom: 0px;
 }
-#chart{
+#chart {
 	border: 1px solid #f2f2f2;
 	width: 331px;
-	height:160px;
+	height: 160px;
 	float: left;
 }
 #chart table {
 	width: 100%;
 }
 #chart table td {
-	background-color:#FFFFFF;
+	background-color: #FFFFFF;
 	border-style: none;
 	padding: 4px;
-	border-bottom-color:  #F2E6CE;
+	border-bottom-color: #F2E6CE;
 	border-bottom-width: 1px;
-	border-bottom-style:  solid;
-
+	border-bottom-style: solid;
 }
 #chart table .wpsc_cf_field-name {
 	width: 50%;
@@ -633,45 +633,45 @@ div.open{
 	width: 39%;
 	color: #808080;
 }
-#chart table .td2{
+#chart table .td2 {
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
 }
-#chart table tr{
+#chart table tr {
 	font-size: 12px;
 	font-weight: bold;
 	background: none repeat scroll 0 0 rgba(239, 220, 178, 0.5);
 }
-#previewblock1 img{
+#previewblock1 img {
 	border: 1px solid #5b9183;
 }
-#bigimageblock{
+#bigimageblock {
 	margin-right: 5px;
-	float:right;
+	float: right;
 }
-#bigimageblock p{
+#bigimageblock p {
 	font-size: 10px;
 	color: #808080;
 	text-align: center;
 	margin-top: 10px;
 }
-#previewblock1{
+#previewblock1 {
 	clear: both;
 	width: 100%;
-	overflow: auto;
+	height: 280px;
 }
-#previewblock1 .imgsmall{
+#previewblock1 .imgsmall {
 	margin: 0 -110px 85px 78px;
 }
 #price {
-	text-align:center;
+	text-align: center;
 	font-size: 20px;
 	color: #808080;
 	margin-top: 12px;
 }
-p.redextralarge{
-	float:right;
+p.redextralarge {
+	float: right;
 	color: #dc7474;
 	font-size: 22px;
 	font-weight: bold;
@@ -682,33 +682,33 @@ p.redextralarge{
 	padding: 0px;
 	font-weight: bold !important;
 }
-p.redsmall{
+p.redsmall {
 	display: inline-block;
 	color: #dc7474 !important;
 	padding: 0px;
 	font-size: 12px !important;
 }
-p.graylarge{
+p.graylarge {
 	color: #808080;
 	font-size: 16px;
 	font-weight: bold;
 }
-p.graymedium{
+p.graymedium {
 	float: right;
 	color: #808080;
 	font-size: 14px;
 	font-weight: bold;
 }
-#meters{
+#meters {
 	margin: 0 2% 0 50%;
 }
-p.graysmall{
+p.graysmall {
 	display: inline-block;
 	color: #808080 !important;
 	font-size: 12px !important;
 	font-weight: normal !important;
 }
-a.tack1{
+a.tack1 {
 	background-color: #dc7474;
 	border-style: none;
 	padding: 4px;
@@ -719,7 +719,7 @@ a.tack1{
 	clear: both;
 	text-decoration: none;
 }
-.tack2{
+.tack2 {
 	background-color: #dc7474;
 	border-style: none;
 	padding: 4px 43px;
@@ -729,7 +729,7 @@ a.tack1{
 	color: #fefefe;
 	margin: 70px 0 0 10px;
 }
-.tack3{
+.tack3 {
 	margin-left: 6px;
 	margin-top: 10px;
 	background-color: #dc7474;
@@ -739,7 +739,7 @@ a.tack1{
 	font-size: 1.1em;
 	color: #fefefe;
 }
-.tack4{
+.tack4 {
 	background-color: #dc7474;
 	border-style: none;
 	padding: 4px;
@@ -750,28 +750,28 @@ a.tack1{
 	margin: 12px 25% 0 25%;
 	width: 50%;
 }
-.input{	
+.input {
 	border: 1px solid #d7d7d7;
 	color: #808080;
 }
-#previewblock2{
-	float:left;
+#previewblock2 {
+	float: left;
 	margin-top: 19px;
 	background: #f2f2f2;
 	width: 340px;
 	height: 188px;
 	padding: 8px;
 }
-#previewblock2 p{
+#previewblock2 p {
 	color: #dc7474;
 	font-size: 16px;
 	font-weight: bold;
 }
-#previewblock3{
-	float:left;
+#previewblock3 {
+	float: left;
 	margin-top: 19px;
 	background: #f2f2f2;
-	width: 300px;
+	width: 342px;
 	height: 188px;
 	border-left: 1px solid #e6e6e6;
 	padding: 8px;
@@ -789,14 +789,16 @@ a.tack1{
 	margin: 8px;
 }
 .smallpost h3 a, .fullpost h3 a {
+	color: #da6e6b;
+	font-weight: normal;
+	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
-	position: relative;
 }
 .blog_thumb_link {
 	display: block;
 	float: left;
-	width:  300px;
+	width: 300px;
 	height: 200px;
 }
 .smallpost .date, .fullpost .date {
@@ -829,4 +831,7 @@ a.tack1{
 	height: 0;
 	font-size: 1px;
 	line-height: 0px;
+}
+#brands h3, #intfoto{
+	display: none;
 }

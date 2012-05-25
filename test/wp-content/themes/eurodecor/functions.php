@@ -149,11 +149,12 @@ function custom_taxonomies_terms_links() {
 		
 		?>
 		
-		<a href="<?=get_term_link($category_row->slug, 'wpsc_product_category');?>" title="<?=$category_description;?>"><?=$category_image_html;?></a>
+		<a href="<?=get_term_link($category_row->slug, 'wpsc_product_category');?>" title="<?=$category_description;?>"><?=$category_image_html;?>
+			<h3><?=$category_row->name;?></h3>
+			
+		</a>
 						
 
 		<?
 	}
 }
-	
-?>

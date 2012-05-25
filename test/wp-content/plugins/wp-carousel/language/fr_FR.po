@@ -1,0 +1,1480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_carousel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-20 20:17+0100\n"
+"PO-Revision-Date: 2011-10-20 20:17+0100\n"
+"Last-Translator: Sumolari <sumolari@gmail.com>\n"
+"Language-Team: Wolforg <contact@wolforg.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"Plural-Forms: nplurals=2;plural=n>2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: themes\n"
+"X-Poedit-SearchPath-2: extras\n"
+
+#: ../get_db.php:24
+#: ../restore_db.php:46
+#: ../update_db.php:244
+msgid "WP Carousel can't confirm that you have an admin account. You are not allowed to perform modifications in the Database for security reasons."
+msgstr ""
+
+#: ../restore_db.php:59
+#: ../update_db.php:266
+#: ../wp-carousel.php:176
+msgid "There was an error, please, report it in the forum and attach this error message:"
+msgstr "Il y a eu une erreur, rapportez la dans le forum en y joignant le message d'erreur :"
+
+#: ../restore_db.php:111
+msgid "Backup restored"
+msgstr ""
+
+#: ../restore_db.php:115
+#: ../update_db.php:415
+#: ../wp-carousel.php:178
+msgid "There was an error!"
+msgstr "Il y a eu une erreur!"
+
+#: ../update_db.php:407
+#: ../wp-carousel.php:177
+msgid "Changes saved"
+msgstr "Changements enregistrés"
+
+#: ../update_db.php:410
+msgid "A Backup has been saved"
+msgstr ""
+
+#: ../wp-carousel.php:367
+#: ../wp-carousel.php:373
+msgid "Yes"
+msgstr ""
+
+#: ../wp-carousel.php:368
+#: ../wp-carousel.php:374
+msgid "No"
+msgstr ""
+
+#: ../wp-carousel.php:692
+msgid "General"
+msgstr ""
+
+#: ../wp-carousel.php:693
+msgid "Common problems &amp; solutions"
+msgstr ""
+
+#: ../wp-carousel.php:694
+msgid "Baisc carousel management"
+msgstr ""
+
+#: ../wp-carousel.php:695
+#, fuzzy
+msgid "Showing carousels"
+msgstr "Comment afficher un carrousel"
+
+#: ../wp-carousel.php:696
+msgid "Carousel content's priority"
+msgstr ""
+
+#: ../wp-carousel.php:697
+msgid "Other"
+msgstr ""
+
+#: ../wp-carousel.php:702
+#, fuzzy, php-format
+msgid "Please, fill up <a href=\"%s\">this survey</a> in order to improve WP Carousel - Note that you can fill up the survey at any moment"
+msgstr "Complétez <a href=\"%s\">cette enquête</a> pour améliorer WP Carousel, svp"
+
+#: ../wp-carousel.php:704
+msgid "WP Carousel's Quick Help"
+msgstr "Aide rapide de WP Carousel"
+
+#: ../wp-carousel.php:706
+#, php-format
+msgid "Did you find any error? Please, report them <a href=\"%s\">here (English)</a> or <a href=\"%s\">here (Spanish)</a>."
+msgstr "Avez vous trouvé une erreur? Rapportez là <a href=\"%s\">ici (Anglais)</a> ou <a href=\"%s\">ici (Espagnol)</a>."
+
+#: ../wp-carousel.php:711
+msgid "My carousel does not work: it shows scrollbars and does not slide!"
+msgstr ""
+
+#: ../wp-carousel.php:713
+#, php-format
+msgid "Open your WordPress theme footer.php file and check if there's a line like: <code>%s</code>. If there is not any line like that, just add that code at the end of the file."
+msgstr ""
+
+#: ../wp-carousel.php:715
+msgid "I have added a post with a video to the carousel and the video is not shown"
+msgstr ""
+
+#: ../wp-carousel.php:717
+msgid "Some themes do not support videos. If your current WP Carousel theme supports videos, check if the size of the video is bigger than the size of the panel. If it is, the video won't be shown."
+msgstr ""
+
+#: ../wp-carousel.php:719
+msgid "When I add a post with a video and an image, the carousel shows the video instead of the image"
+msgstr ""
+
+#: ../wp-carousel.php:721
+#, php-format
+msgid "When a post has a video and an image, WP Carousel shows the video instead of the image. You can reverse this behaviour by replacing code in line %s in file <code>%s</code> by this: <code>%s</code>"
+msgstr ""
+
+#: ../wp-carousel.php:725
+#, fuzzy
+msgid "How to add items to a carousel"
+msgstr "Comment afficher un carrousel"
+
+#: ../wp-carousel.php:727
+msgid "Simply drag the kind of item you want to add and drop it in the carousel's area. When you have done that, you'll see new options to set up the item you want to add. "
+msgstr ""
+
+#: ../wp-carousel.php:729
+#, fuzzy
+msgid "How to change the carousel's name"
+msgstr "Comment afficher un carrousel"
+
+#: ../wp-carousel.php:731
+msgid "Click on the current name, change it and then press Enter. "
+msgstr ""
+
+#: ../wp-carousel.php:734
+msgid "How to show a carousel"
+msgstr "Comment afficher un carrousel"
+
+#: ../wp-carousel.php:736
+#, fuzzy
+msgid "You can show a carousel by three ways:"
+msgstr "Comment afficher un carrousel"
+
+#: ../wp-carousel.php:737
+#, php-format
+msgid "Adding <code>%s</code> in your WordPress theme."
+msgstr ""
+
+#: ../wp-carousel.php:737
+#, fuzzy
+msgid "Adding WP Carousel's Widget to the sidebar."
+msgstr "WP Carousel par Défaut - Barre latérale"
+
+#: ../wp-carousel.php:737
+#, php-format
+msgid "Adding the shortcode <code>%s</code> in the post / page you want to show the carousel."
+msgstr ""
+
+#: ../wp-carousel.php:739
+msgid "WP Carousel's External Integration Mode"
+msgstr "Mode d'intégration externe de WP Carousel"
+
+#: ../wp-carousel.php:741
+#, fuzzy, php-format
+msgid "With WP Carousel's External Integration Mode you can show a WP Carousel carousel from a WordPress blog in your WordPress blog. To do this, both blogs must have enabled this mode, which is disabled by default for security reasons. To enable it, just go to line %s in file %s, search %s and replace it with %s "
+msgstr "Avec le mode d'intégration externe de WP Carousel vous pouvez afficher un Carrousel à partir d'un site WordPress dans votre site WordPress. Pour cela, les deux sites doivent avoir ce mode activé, (désactivé par défaut pour raison de sécurité). Pour l'acitver, recherchez %s et remplacez le par %s "
+
+#: ../wp-carousel.php:745
+msgid "Posts's images for the carousel"
+msgstr ""
+
+#: ../wp-carousel.php:746
+msgid "WP Carousel loads the image for the carousel in the following order:"
+msgstr ""
+
+#: ../wp-carousel.php:746
+#: ../wp-carousel.php:748
+#: ../wp-carousel.php:750
+msgid "Value of custom field"
+msgstr ""
+
+#: ../wp-carousel.php:746
+#, php-format
+msgid "Post thumbnail (you can set thumbnail size by editing line %s in file %s)"
+msgstr ""
+
+#: ../wp-carousel.php:746
+msgid "First image in the post"
+msgstr ""
+
+#: ../wp-carousel.php:747
+msgid "Posts's video for the carousel"
+msgstr ""
+
+#: ../wp-carousel.php:748
+msgid "WP Carousel loads the video for the carousel in the following order:"
+msgstr ""
+
+#: ../wp-carousel.php:748
+msgid "First video in the post"
+msgstr ""
+
+#: ../wp-carousel.php:749
+msgid "Posts's text for the carousel"
+msgstr ""
+
+#: ../wp-carousel.php:750
+msgid "WP Carousel loads the text for the carousel in the following order:"
+msgstr ""
+
+#: ../wp-carousel.php:750
+#, fuzzy
+msgid "Posts's exceprt"
+msgstr "Ordre des articles"
+
+#: ../wp-carousel.php:753
+#, fuzzy
+msgid "I do not want WP Carousel to save backups"
+msgstr "Ce code n'est pas un code de sauvegarde WP Carousel valide"
+
+#: ../wp-carousel.php:755
+#, php-format
+msgid "To disable autosaving backups, simply replace line %s in file <code>%s</code> by this: <code>%s</code>"
+msgstr ""
+
+#: ../wp-carousel.php:798
+msgid "WP Carousel translated to English by <a href=\"http://sumolari.com\">Sumolari</a>"
+msgstr "WP Carousel est traduit en anglais par <a href=\"http://sumolari.com\">Sumolari</a> et en français par <a href=\"http://www.wolforg.eu\">Wolforg</a>"
+
+#: ../wp-carousel.php:1028
+msgid "<strong>Warning:</strong> You're showing WP Carousel <strong>IN</strong> the loop. If you want to show WP Carousel in a post it is better to use the shortcode <code>[wp_carousel]</code> rather than showing WP Carousel in the loop."
+msgstr ""
+
+#: ../wp-carousel.php:1029
+msgid "<strong>Note:</strong> To hide this message, delete lines:"
+msgstr ""
+
+#: ../wp-carousel.php:1064
+#: ../wp-carousel.php:1071
+#: ../wp-carousel.php:1097
+#: ../wp-carousel.php:1104
+#: ../wp-carousel.php:1151
+#: ../wp-carousel.php:1195
+#, php-format
+msgid "Theme %s does not exists and can't be loaded. Please, use a different theme"
+msgstr ""
+
+#: ../wp-carousel.php:1124
+#, fuzzy
+msgid "The carousel you've tried to show does not exist"
+msgstr "Ce carrousel ne peut être chargé car il n'existe pas"
+
+#: ../wp-carousel.php:1336
+msgid "Prev"
+msgstr ""
+
+#: ../wp-carousel.php:1337
+msgid "Next"
+msgstr ""
+
+#: ../wp-carousel.php:1769
+#: ../wp-carousel.php:5254
+msgid "Import"
+msgstr "Importer"
+
+#: ../wp-carousel.php:1772
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: ../wp-carousel.php:1775
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../wp-carousel.php:1801
+#: ../wp-carousel.php:2324
+#: ../wp-carousel.php:4723
+#: ../wp-carousel.php:5351
+msgid "Carousel "
+msgstr "Carrousel "
+
+#: ../wp-carousel.php:1809
+#: ../wp-carousel.php:4658
+msgid "Backup Manager"
+msgstr ""
+
+#: ../wp-carousel.php:1813
+#: ../wp-carousel.php:1815
+msgid "Safe mode Import"
+msgstr ""
+
+#: ../wp-carousel.php:1860
+msgid "It seems that you use <strong>qTranslate</strong> in this site. <strong>WP Carousel</strong> does not support <strong>qTranslate</strong>'s custom functions, so there might be some issues with <strong>WP Carousel</strong> translation and other bugs related with UI appearance."
+msgstr ""
+
+#: ../wp-carousel.php:1867
+msgid "The new config has been saved, please, reload this page to see changes."
+msgstr "La nouvelle configuration a été enregistrée, actualisez cette page svp pour voir les changements."
+
+#: ../wp-carousel.php:1886
+#, php-format
+msgid "<p>Do you really want to delete the carousel with ID \"%s\"? That can't be undone.</p>"
+msgstr "<p>Voulez vous vraimentsupprimer le carrousel avec l'ID \"%s\"? Ceci est irréversible.</p>"
+
+#: ../wp-carousel.php:1887
+#, php-format
+msgid "<p>Click <a href=\"%s\">here</a> to delete the carousel or click <a href=\"%s\">here</a> to return to the carousel's options page</p>"
+msgstr "<p>Cliquez <a href=\"%s\">ici</a> pour supprimer le carrousel ou cliquez <a href=\"%s\">ici</a> pour retourner sur la page d'options</p>"
+
+#: ../wp-carousel.php:1903
+#: ../wp-carousel.php:1910
+msgid "Name"
+msgstr "Nom"
+
+#: ../wp-carousel.php:1904
+#: ../wp-carousel.php:1911
+msgid "Value"
+msgstr "Valeur"
+
+#: ../wp-carousel.php:1918
+msgid "Number of carousels"
+msgstr "Nombre de carrousels"
+
+#: ../wp-carousel.php:1922
+msgid "Language"
+msgstr "Langage"
+
+#: ../wp-carousel.php:1926
+msgid "External Integration"
+msgstr "Intégration Externe"
+
+#: ../wp-carousel.php:1927
+#: ../wp-carousel.php:1931
+#: ../wp-carousel.php:1935
+#: ../wp-carousel.php:1951
+#: ../wp-carousel.php:1955
+#: ../wp-carousel.php:1959
+#: ../wp-carousel.php:1963
+#: ../wp-carousel.php:1967
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../wp-carousel.php:1927
+#: ../wp-carousel.php:1931
+#: ../wp-carousel.php:1935
+#: ../wp-carousel.php:1951
+#: ../wp-carousel.php:1955
+#: ../wp-carousel.php:1959
+#: ../wp-carousel.php:1963
+#: ../wp-carousel.php:1967
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: ../wp-carousel.php:1930
+msgid "Show videos instead of images"
+msgstr ""
+
+#: ../wp-carousel.php:1934
+msgid "Autosave backups"
+msgstr ""
+
+#: ../wp-carousel.php:1938
+msgid "WordPress option's name where carousels items are stored"
+msgstr ""
+
+#: ../wp-carousel.php:1942
+msgid "WordPress option's name where carousels config is stored"
+msgstr ""
+
+#: ../wp-carousel.php:1946
+msgid "WordPress option's name where WP Carousel backups are stored"
+msgstr ""
+
+#: ../wp-carousel.php:1950
+#, fuzzy
+msgid "Categories box in carousel's options page"
+msgstr "Page d'options du Carrousel %s"
+
+#: ../wp-carousel.php:1954
+#, fuzzy
+msgid "Tags box in carousel's options page"
+msgstr "Page d'options du Carrousel %s"
+
+#: ../wp-carousel.php:1958
+#, fuzzy
+msgid "Posts box in carousel's options page"
+msgstr "Page d'options du Carrousel %s"
+
+#: ../wp-carousel.php:1962
+#, fuzzy
+msgid "Pages box in carousel's options page"
+msgstr "Page d'options du Carrousel %s"
+
+#: ../wp-carousel.php:1966
+#, fuzzy
+msgid "Authors box in carousel's options page"
+msgstr "Page d'options du Carrousel %s"
+
+#: ../wp-carousel.php:1970
+#, php-format
+msgid "Path to wp-carousel.php (Is it wrong? Report it <a href=\"%s\">at the forums</a>)"
+msgstr ""
+
+#: ../wp-carousel.php:1974
+msgid "Backups stored in Database"
+msgstr ""
+
+#: ../wp-carousel.php:1978
+msgid "Custom field for description"
+msgstr ""
+
+#: ../wp-carousel.php:1982
+msgid "Custom field for image URL"
+msgstr ""
+
+#: ../wp-carousel.php:1986
+msgid "Custom field for link URL"
+msgstr ""
+
+#: ../wp-carousel.php:1990
+msgid "Custom field for video URL"
+msgstr ""
+
+#: ../wp-carousel.php:1994
+msgid "Version"
+msgstr "Version"
+
+#: ../wp-carousel.php:1998
+msgid "Extras"
+msgstr "Extras"
+
+#: ../wp-carousel.php:2005
+#: ../wp-carousel.php:2025
+#: ../wp-carousel.php:4569
+msgid "by"
+msgstr "par"
+
+#: ../wp-carousel.php:2010
+msgid "There are not extras in the extras folder"
+msgstr ""
+
+#: ../wp-carousel.php:2015
+msgid "Themes"
+msgstr "Thèmes"
+
+#: ../wp-carousel.php:2030
+msgid "There are not themes in the themes folder"
+msgstr ""
+
+#: ../wp-carousel.php:2281
+#, php-format
+msgid "The item has been removed. Do you want to <a href=\"%s\">undo</a>?"
+msgstr "L'élément a été ôté. Voulez vous <a href=\"%s\">revenir en arrière</a>?"
+
+#: ../wp-carousel.php:2286
+#, php-format
+msgid "The item has been added. Do you want to <a href=\"%s\">undo</a>?"
+msgstr "Lélément a été ajouté. Voulez vous <a href=\"%s\">revenir en arrière</a>?"
+
+#: ../wp-carousel.php:2291
+#, php-format
+msgid "The item has been edited. Do you want to <a href=\"%s\">undo</a>?"
+msgstr "L'élément a été modifié. Voulez vous <a href=\"%s\">revenir en arrière</a>?"
+
+#: ../wp-carousel.php:2304
+#, fuzzy, php-format
+msgid "To show this carousel in your theme, add this code in the place where you want to show it: %s"
+msgstr "Pour afficher ce  carrousel dans votre thème, ajoutez ce code à l'endroit désiré :"
+
+#: ../wp-carousel.php:2307
+#, php-format
+msgid "To share this carousel with other users, use this URL: %s"
+msgstr ""
+
+#: ../wp-carousel.php:2332
+#, fuzzy, php-format
+msgid "Help me to improve <strong>WP Carousel</strong>, fill up <a href=\"%s\">this survey</a> - Note that you can fill up the survey at any moment"
+msgstr "Aidez moi à améliorer <strong>WP Carousel</strong>, remplissez <a href=\"%s\">cette enquête</a>"
+
+#: ../wp-carousel.php:2338
+#: ../wp-carousel.php:5200
+msgid "Saving changes"
+msgstr "Enregistrer les changements"
+
+#: ../wp-carousel.php:2338
+#: ../wp-carousel.php:5200
+msgid "Saving changes, please, wait a moment"
+msgstr "Changement enregistrés, patientez un moment, svp"
+
+#: ../wp-carousel.php:2352
+msgid "Items"
+msgstr "Eléménts"
+
+#: ../wp-carousel.php:2364
+#: ../wp-carousel.php:2372
+#: ../wp-carousel.php:3282
+#: ../wp-carousel.php:3307
+#: ../extras/tcp-category/index.php:65
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../wp-carousel.php:2367
+msgid "Drag this item into the carousel to add posts from an <strong>specific category</strong>"
+msgstr "Glissez cet élément dans le carrousel pour ajouter les articles à partir d'une <strong>catégorie spécifique</strong>"
+
+#: ../wp-carousel.php:2376
+#: ../wp-carousel.php:2425
+#: ../wp-carousel.php:2547
+msgid "Posts' order"
+msgstr "Ordre des articles"
+
+#: ../wp-carousel.php:2379
+#: ../wp-carousel.php:2428
+#: ../wp-carousel.php:2550
+msgid "Show the oldest posts first"
+msgstr "Afficher l'article le plus ancien en premier"
+
+#: ../wp-carousel.php:2380
+#: ../wp-carousel.php:2429
+#: ../wp-carousel.php:2551
+msgid "Show the newest posts first"
+msgstr "Afficher l'article le plus récent en premier"
+
+#: ../wp-carousel.php:2381
+#: ../wp-carousel.php:2430
+#: ../wp-carousel.php:2552
+#: ../wp-carousel.php:3196
+msgid "Random order"
+msgstr ""
+
+#: ../wp-carousel.php:2386
+#: ../wp-carousel.php:2435
+#: ../wp-carousel.php:2557
+msgid "Number of posts"
+msgstr "Nombre d'articles"
+
+#: ../wp-carousel.php:2390
+#: ../wp-carousel.php:2439
+#: ../wp-carousel.php:2475
+#: ../wp-carousel.php:2561
+#: ../wp-carousel.php:3209
+msgid "Must I show this element in the loop?"
+msgstr "Dois-je afficher cet élément dans la boucle?"
+
+#: ../wp-carousel.php:2413
+#: ../wp-carousel.php:2421
+#: ../wp-carousel.php:3294
+msgid "Tag"
+msgstr "Mot-Clé"
+
+#: ../wp-carousel.php:2416
+msgid "Drag this item into the carousel to add posts from an <strong>specific tag</strong>"
+msgstr "Glissez cet élément dans le carrousel pour ajouter les articles à partir d'un <strong>mot-clé spécifique</strong>"
+
+#: ../wp-carousel.php:2463
+#: ../wp-carousel.php:2471
+#: ../wp-carousel.php:3285
+#: ../wp-carousel.php:3308
+msgid "Post"
+msgstr "Article"
+
+#: ../wp-carousel.php:2466
+msgid "Drag this item into the carousel to add a <strong>single post</strong> to the carousel"
+msgstr "Glissez cet élément dans le carrousel pour ajouter un <strong>article</strong> dans le carrousel"
+
+#: ../wp-carousel.php:2501
+#: ../wp-carousel.php:2509
+#: ../wp-carousel.php:3288
+#: ../wp-carousel.php:3309
+msgid "Page"
+msgstr "Page"
+
+#: ../wp-carousel.php:2504
+msgid "Drag this item into the carousel to add a <strong>single page</strong> to the carousel"
+msgstr "Glissez cet élément dans le carrousel pour ajouter une <strong>page</strong> dans le carrousel"
+
+#: ../wp-carousel.php:2535
+#: ../wp-carousel.php:2543
+#: ../wp-carousel.php:3297
+msgid "Author"
+msgstr "Auteur"
+
+#: ../wp-carousel.php:2538
+msgid "Drag this item into the carousel to add posts from an <strong>specific author</strong>"
+msgstr "Glissez cet élément dans le carrousel pour ajouter les articles d'un <strong>auteur spécifique</strong>"
+
+#: ../wp-carousel.php:2583
+msgid "Costumized Content"
+msgstr "Contenu personnalisé"
+
+#: ../wp-carousel.php:2586
+msgid "Drag this item into the carousel to add a <strong>costumized content</strong> to the carousel"
+msgstr "Glissez cet élément dans le carrousel pour ajouter un <strong>costumized contenu</strong> dans le carrousel"
+
+#: ../wp-carousel.php:2591
+#: ../wp-carousel.php:3215
+msgid "Image URL"
+msgstr "URL de l'Image"
+
+#: ../wp-carousel.php:2596
+#: ../wp-carousel.php:3220
+msgid "Video URL"
+msgstr ""
+
+#: ../wp-carousel.php:2601
+#: ../wp-carousel.php:3225
+msgid "Link URL"
+msgstr "URL du lien"
+
+#: ../wp-carousel.php:2605
+msgid "Title"
+msgstr "Titre"
+
+#: ../wp-carousel.php:2609
+msgid "Description"
+msgstr "Description"
+
+#: ../wp-carousel.php:2632
+#: ../wp-carousel.php:2903
+#: ../wp-carousel.php:3300
+msgid "External Carousel"
+msgstr "Carrousel Externe"
+
+#: ../wp-carousel.php:2635
+msgid "Drag this item into the carousel to add a <strong>WP Carousel's carousel from other WordPress blog</strong> to the carousel"
+msgstr "Glissez cet élément dans le carrousel pour ajouter un <strong>carrousel WP Carousel's à aprtir d'un autre site WordPress </strong> dans le carrousel"
+
+#: ../wp-carousel.php:2640
+#: ../wp-carousel.php:3137
+msgid "URL"
+msgstr "URL"
+
+#: ../wp-carousel.php:2644
+#: ../wp-carousel.php:3141
+msgid "Carousel's ID"
+msgstr "ID du Carrousel"
+
+#: ../wp-carousel.php:2771
+#: ../wp-carousel.php:3124
+msgid "Item"
+msgstr "Élément"
+
+#: ../wp-carousel.php:2801
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../wp-carousel.php:2804
+msgid "Drop items here to remove them from the carousel"
+msgstr "Déposez les éléments ici pour les ôter du carrousel"
+
+#: ../wp-carousel.php:2813
+#: ../wp-carousel.php:4850
+#: ../wp-carousel.php:5340
+#: ../extras/internal-carousel/index.php:63
+#: ../extras/internal-carousel/index.php:73
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: ../wp-carousel.php:2818
+#: ../wp-carousel.php:2831
+#: ../wp-carousel.php:4709
+msgid "Hide all"
+msgstr ""
+
+#: ../wp-carousel.php:2819
+#: ../wp-carousel.php:2832
+#: ../wp-carousel.php:4710
+#, fuzzy
+msgid "Show all"
+msgstr "Montrer les flèches ?"
+
+#: ../wp-carousel.php:2823
+#: ../wp-carousel.php:2836
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../wp-carousel.php:2841
+msgid "Drag items here to add them to the carousel"
+msgstr "Glissez les éléments pour les ajouter au carrousel"
+
+#: ../wp-carousel.php:2859
+msgid "Delete this carousel"
+msgstr "Supprimer ce carrousel"
+
+#: ../wp-carousel.php:2865
+#, fuzzy, php-format
+msgid "Do you really want to delete the carousel \"%s\" (ID %s)? That can't be undone."
+msgstr "<p>Voulez vous vraimentsupprimer le carrousel avec l'ID \"%s\"? Ceci est irréversible.</p>"
+
+#: ../wp-carousel.php:2866
+#, fuzzy, php-format
+msgid "Click <a href=\"%s\">here</a> to delete the carousel or click the darker region to close this popup"
+msgstr "<p>Cliquez <a href=\"%s\">ici</a> pour supprimer le carrousel ou cliquez <a href=\"%s\">ici</a> pour retourner sur la page d'options</p>"
+
+#: ../wp-carousel.php:2925
+#, php-format
+msgid "External Carousel from %s"
+msgstr "Carrousel externe à partir de %s"
+
+#: ../wp-carousel.php:3152
+msgid "This external carousel can be loaded"
+msgstr "Ce carrousel externe peut être chargé"
+
+#: ../wp-carousel.php:3158
+msgid "This carousel can't be loaded because its content is not shared"
+msgstr "Ce carrousel ne peut être chargé car son contenu n'est pas partagé"
+
+#: ../wp-carousel.php:3162
+msgid "This carousel can't be loaded because the carousel's ID hasn't been set"
+msgstr "Ce carrousel ne peut être chargé car son ID n'a pas été défini"
+
+#: ../wp-carousel.php:3166
+msgid "This carousel can't be loaded because it doesn't exists"
+msgstr "Ce carrousel ne peut être chargé car il n'existe pas"
+
+#: ../wp-carousel.php:3170
+msgid "Your carousel must be set in shared mode to be able to show external carousels"
+msgstr "Votre carrousel doit être défini en mode partagé pour être capable d'afficher des carrousels externes"
+
+#: ../wp-carousel.php:3177
+msgid "This carousel can't be loaded because WP Carousel can't load that URL"
+msgstr "Ce carrousel ne peut être chargé car WP Carousel ne peut charger cette URL"
+
+#: ../wp-carousel.php:3191
+msgid "Content's order"
+msgstr "Ordre du contenu"
+
+#: ../wp-carousel.php:3194
+msgid "Show the oldest content first"
+msgstr "Afficher les contenu les plus anciens en premier"
+
+#: ../wp-carousel.php:3195
+msgid "Show the newest content first"
+msgstr "Afficher les contenus les plus récents en premier"
+
+#: ../wp-carousel.php:3202
+msgid "Number of items"
+msgstr "Nombre d'éléments"
+
+#: ../wp-carousel.php:3291
+msgid "Customized Content"
+msgstr "Contenu personnalisé"
+
+#: ../wp-carousel.php:3450
+#, php-format
+msgid "This category has %s posts. The limit is set to %s posts."
+msgstr "Cette catégorie contient %s articles. La limite est définie à %s articles."
+
+#: ../wp-carousel.php:3452
+msgid "The oldest posts will be showed first"
+msgstr "Les articles les plus anciens seront affichés en premier"
+
+#: ../wp-carousel.php:3453
+msgid "The newest posts will be showed first"
+msgstr "Les articles les plus récents seront affichés en premier"
+
+#: ../wp-carousel.php:3606
+#, php-format
+msgid "This tag has %s posts"
+msgstr "Ce mot-clé concerne %s articles"
+
+#: ../wp-carousel.php:4069
+msgid "Standard options"
+msgstr ""
+
+#: ../wp-carousel.php:4070
+#, fuzzy
+msgid "Current theme options"
+msgstr "Aperçu du thème actuel"
+
+#: ../wp-carousel.php:4084
+#: ../wp-carousel.php:4276
+#: ../wp-carousel.php:4284
+#: ../wp-carousel.php:4364
+msgid "Save changes"
+msgstr "Sauvegarder les changements"
+
+#: ../wp-carousel.php:4095
+#: ../wp-carousel.php:4896
+#, fuzzy
+msgid "jCarousel"
+msgstr "Carrousel"
+
+#: ../wp-carousel.php:4099
+#: ../wp-carousel.php:4900
+msgid "Enable jCarousel (WP Carousel will use it instead of StepCarousel)?"
+msgstr ""
+
+#: ../wp-carousel.php:4112
+#: ../wp-carousel.php:4913
+msgid "Manual slides & arrows"
+msgstr ""
+
+#: ../wp-carousel.php:4116
+#: ../wp-carousel.php:4917
+msgid "Show arrows for manual slide?"
+msgstr ""
+
+#: ../wp-carousel.php:4120
+#, fuzzy
+msgid "Panels moved in each manual slide (only for StepCarousel and jCarousel) (0 for disable manual slides and arrows)"
+msgstr "Articles déplacés à chaque mouvement manuel (0 pour désactiver les mouvements manuels et les flèches)"
+
+#: ../wp-carousel.php:4127
+#: ../wp-carousel.php:4928
+msgid "This theme does supports neither arrows nor manual slides "
+msgstr ""
+
+#: ../wp-carousel.php:4131
+#: ../wp-carousel.php:4932
+#, fuzzy
+msgid "Autoslide"
+msgstr "Paramètres de l'Autoslide"
+
+#: ../wp-carousel.php:4134
+#: ../wp-carousel.php:4935
+msgid "Time between each autoslide (0 for disable autoslides)"
+msgstr "Temps entre chaque autoslide (0 pour désactiver les autoslides)"
+
+#: ../wp-carousel.php:4140
+#, fuzzy
+msgid "Posts moved in each autoslide (only for StepCarousel) (0 for disable autoslides)"
+msgstr "Articles déplacés à chaque autoslide (0 pour désactiver les autoslides)"
+
+#: ../wp-carousel.php:4147
+#: ../wp-carousel.php:4947
+#, fuzzy
+msgid "Loop mode"
+msgstr "Activer le mode boucle?"
+
+#: ../wp-carousel.php:4150
+#: ../wp-carousel.php:4950
+msgid "Enable loop mode?"
+msgstr "Activer le mode boucle?"
+
+#: ../wp-carousel.php:4161
+#: ../wp-carousel.php:4501
+#: ../wp-carousel.php:4530
+#: ../wp-carousel.php:4960
+#, fuzzy
+msgid "Pagination"
+msgstr "Activer la pagination?"
+
+#: ../wp-carousel.php:4165
+#: ../wp-carousel.php:4964
+#, fuzzy
+msgid "Show pagination icons?"
+msgstr "Activer la pagination?"
+
+#: ../wp-carousel.php:4170
+#: ../wp-carousel.php:4978
+msgid "This theme does not support pagination"
+msgstr ""
+
+#: ../wp-carousel.php:4179
+#: ../wp-carousel.php:4987
+msgid "Vertical Mode"
+msgstr ""
+
+#: ../wp-carousel.php:4183
+#: ../wp-carousel.php:4991
+msgid "Enable vertical mode rather than horizontal one?"
+msgstr ""
+
+#: ../wp-carousel.php:4188
+#: ../wp-carousel.php:4996
+msgid "This theme does not support vertical mode"
+msgstr ""
+
+#: ../wp-carousel.php:4197
+#: ../wp-carousel.php:5005
+#, fuzzy
+msgid "Carousel size"
+msgstr "Carrousel "
+
+#: ../wp-carousel.php:4201
+#: ../wp-carousel.php:5009
+msgid "Carousel's <strong>Width</strong> (Width and Unit - Note that some units might not work in some themes):"
+msgstr ""
+
+#: ../wp-carousel.php:4207
+#: ../wp-carousel.php:5015
+msgid "Carousel's <strong>Height</strong> (Height and Unit - Note that some units might not work in some themes):"
+msgstr ""
+
+#: ../wp-carousel.php:4214
+#: ../wp-carousel.php:5022
+msgid "This theme does not support custom carousel's size"
+msgstr ""
+
+#: ../wp-carousel.php:4223
+#: ../wp-carousel.php:5031
+msgid "Panel size"
+msgstr ""
+
+#: ../wp-carousel.php:4227
+#: ../wp-carousel.php:5035
+msgid "Panel's <strong>Width</strong> (Width and Unit - Note that some units might not work in some themes):"
+msgstr ""
+
+#: ../wp-carousel.php:4233
+#: ../wp-carousel.php:5041
+msgid "Panel's <strong>Height</strong> (Height and Unit - Note that some units might not work in some themes):"
+msgstr ""
+
+#: ../wp-carousel.php:4240
+#: ../wp-carousel.php:5048
+msgid "This theme does not support custom panel's size"
+msgstr ""
+
+#: ../wp-carousel.php:4249
+#: ../wp-carousel.php:5057
+#, fuzzy
+msgid "Image size"
+msgstr "URL de l'Image"
+
+#: ../wp-carousel.php:4253
+#: ../wp-carousel.php:5061
+msgid "Image's <strong>Width</strong> (Width and Unit - Note that some units might not work in some themes):"
+msgstr ""
+
+#: ../wp-carousel.php:4259
+#: ../wp-carousel.php:5067
+msgid "Image's <strong>Height</strong> (Height and Unit - Note that some units might not work in some themes):"
+msgstr ""
+
+#: ../wp-carousel.php:4266
+#: ../wp-carousel.php:5074
+msgid "This theme does not support custom image's size"
+msgstr ""
+
+#: ../wp-carousel.php:4295
+#: ../wp-carousel.php:5171
+msgid "This theme does not support custom settings"
+msgstr ""
+
+#: ../wp-carousel.php:4388
+msgid "New carousel added"
+msgstr "Nouveau carrousel ajouté"
+
+#: ../wp-carousel.php:4389
+#, php-format
+msgid "A carousel with ID %s has been added into the DataBase. Click <a href=\"%s\">here</a> to add another one or click <a href=\"%s\">here</a> to go to its options page."
+msgstr "Un carrousel avec l'ID %s a été ajouté. Cliquez <a href=\"%s\">ici</a> pour en ajouter un autre ou cliquez <a href=\"%s\">ici</a> pour vous rendre dans sa page d'options."
+
+#: ../wp-carousel.php:4468
+#, fuzzy
+msgid "This theme supports:"
+msgstr "Ce mot-clé concerne %s articles"
+
+#: ../wp-carousel.php:4491
+msgid " (and vertical mode)"
+msgstr ""
+
+#: ../wp-carousel.php:4495
+msgid " (but not vertical mode)"
+msgstr ""
+
+#: ../wp-carousel.php:4505
+#: ../wp-carousel.php:4534
+msgid "Arrows for manual movement"
+msgstr ""
+
+#: ../wp-carousel.php:4509
+#: ../wp-carousel.php:4538
+#, fuzzy
+msgid "Custom carousel size"
+msgstr "Carrousel "
+
+#: ../wp-carousel.php:4513
+#: ../wp-carousel.php:4542
+msgid "Custom panel size"
+msgstr ""
+
+#: ../wp-carousel.php:4517
+#: ../wp-carousel.php:4546
+msgid "Custom image size"
+msgstr ""
+
+#: ../wp-carousel.php:4519
+msgid "This theme does not support:"
+msgstr ""
+
+#: ../wp-carousel.php:4575
+#, php-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: ../wp-carousel.php:4581
+#, fuzzy
+msgid "Activated"
+msgstr "Activer"
+
+#: ../wp-carousel.php:4586
+msgid "Activate"
+msgstr "Activer"
+
+#: ../wp-carousel.php:4589
+#, fuzzy
+msgid "Theme's site"
+msgstr "Thèmes"
+
+#: ../wp-carousel.php:4591
+#, fuzzy
+msgid "Author's site"
+msgstr "Visiter le site de l'auteur"
+
+#: ../wp-carousel.php:4594
+#, fuzzy, php-format
+msgid "All of this theme&#8217;s files are located in <code>%s</code>."
+msgstr "<p>Tous les fichiers de ce thème se trouvent dans <code>%s</code>.</p>"
+
+#: ../wp-carousel.php:4622
+msgid "Export page"
+msgstr "Page d'exportation"
+
+#: ../wp-carousel.php:4624
+msgid "Copy this code and paste it in a text file to make a backup. If you want to load a backup, copy this code and paste it in the import page."
+msgstr "Copiez ce code et collez le dans un ficihier texte pour effectuer une sauvegarde. Si vous désirez restaurer une sauvegarde, copiez ce code et collez le dans la page d'importation."
+
+#: ../wp-carousel.php:4781
+msgid "Preview"
+msgstr ""
+
+#: ../wp-carousel.php:4781
+msgid "Restore"
+msgstr ""
+
+#: ../wp-carousel.php:4859
+msgid "There are no carousel's items in this backup"
+msgstr ""
+
+#: ../wp-carousel.php:4880
+#: ../wp-carousel.php:4884
+msgid "Current Theme"
+msgstr "Thème actuel"
+
+#: ../wp-carousel.php:4921
+#, fuzzy
+msgid "Panels moved in each manual slide (0 for disable manual slides and arrows)"
+msgstr "Articles déplacés à chaque mouvement manuel (0 pour désactiver les mouvements manuels et les flèches)"
+
+#: ../wp-carousel.php:4941
+msgid "Posts moved in each autoslide (0 for disable autoslides)"
+msgstr "Articles déplacés à chaque autoslide (0 pour désactiver les autoslides)"
+
+#: ../wp-carousel.php:4968
+msgid "Pagination mode:"
+msgstr ""
+
+#: ../wp-carousel.php:4971
+msgid "Slide one item"
+msgstr ""
+
+#: ../wp-carousel.php:4972
+msgid "Slide one group of items (only jCarousel)"
+msgstr ""
+
+#: ../wp-carousel.php:5187
+msgid "Show export code"
+msgstr ""
+
+#: ../wp-carousel.php:5190
+msgid "This code is and export code. You should copy and paste this code in a text file (and save it too) when you are going to make a modification to the plugin which can cause problems to the DataBase. If the Backup Manager fails, this code will allow you to restore all your carousels in the Safe mode Import page"
+msgstr ""
+
+#: ../wp-carousel.php:5247
+#, fuzzy
+msgid "Safe mode Import page"
+msgstr "Page d'importation"
+
+#: ../wp-carousel.php:5249
+#, php-format
+msgid "The Backup Manager is a revolutionary way to manage the backups, but as this is a new feature, it may have bugs. If the Backup Manager can't start, you can use an export code, which you must have copied in a previous moment, to restore all your carousels. This process will erase all the backups, but it can restore the plugin to an stable status. Use it only if you can't use the Backup Manager. If you found an error in the Backup Manager, please, report it in the <a href=\"%s\">forums</a> as soon as possible."
+msgstr ""
+
+#: ../wp-carousel.php:5250
+msgid "That code is not a valid WP Carousel backup code"
+msgstr "Ce code n'est pas un code de sauvegarde WP Carousel valide"
+
+#: ../wp-carousel.php:5273
+#, fuzzy
+msgid "Delete WP Carousel's backup data"
+msgstr "Tutoriel WP Carousel"
+
+#: ../wp-carousel.php:5274
+msgid "Sometimes WP Carousel's backup table can be more big than it should be. If you are having issues with Backup Manager, deleting backups stored at Database could fix the problem. This action will delete only backups."
+msgstr ""
+
+#: ../wp-carousel.php:5275
+#, fuzzy, php-format
+msgid "Click <a href=\"%s\">here</a> to delete backups stored in Database."
+msgstr "Cliquez <a href=\"%s\">ici</a> pour continuer."
+
+#: ../wp-carousel.php:5278
+msgid "Uninstall WP Carousel"
+msgstr "Désinstaller WP Carousel"
+
+#: ../wp-carousel.php:5279
+#, fuzzy
+msgid "Do you want to uninstall WP Carousel? Has WP Carousel done something in the wrong way? This will delete all the content in the Database that was added by WP Carousel. It can't be undone. Are you sure?"
+msgstr "Ceci supprimera tout le contenu ajouté par WP Carousel. C'est irréversible. Êtes vous sur?"
+
+#: ../wp-carousel.php:5280
+#, php-format
+msgid "Click <a href=\"%s\">here</a> to uninstall WP Carousel and delete all data created by it."
+msgstr ""
+
+#: ../wp-carousel.php:5339
+msgid "Widget Title"
+msgstr ""
+
+#: ../extras/any-kind-of-post-taxonomy/index.php:7
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: ../extras/any-kind-of-post-taxonomy/index.php:9
+msgid "Add a posts with a custom taxonomy. This Extra requires <em>Custom Post Type</em> (by Sumolari) to work"
+msgstr ""
+
+#: ../extras/any-kind-of-post-taxonomy/index.php:79
+msgid "Items to show"
+msgstr ""
+
+#: ../extras/any-kind-of-post-type/index.php:7
+msgid "Custom Post Type"
+msgstr ""
+
+#: ../extras/any-kind-of-post-type/index.php:9
+msgid "Add a single post with a custom post type"
+msgstr ""
+
+#: ../extras/internal-carousel/index.php:7
+#, fuzzy
+msgid "Internal Carousel"
+msgstr "Carrousel Externe"
+
+#: ../extras/internal-carousel/index.php:9
+#, fuzzy
+msgid "Show the content added to any other carousel"
+msgstr "Comment afficher un carrousel"
+
+#: ../extras/tcp-category/index.php:7
+#, fuzzy
+msgid "Category's Product"
+msgstr "Catégorie"
+
+#: ../extras/tcp-category/index.php:9
+msgid "Show products from a single category created with TheCartPress WordPress plugin"
+msgstr ""
+
+#: ../extras/tcp-category/index.php:71
+msgid "Products' number"
+msgstr ""
+
+#: ../extras/tcp-singleproduct/index.php:7
+msgid "Products"
+msgstr ""
+
+#: ../extras/tcp-singleproduct/index.php:9
+msgid "Show products created with TheCartPress WordPress plugin"
+msgstr ""
+
+#: ../extras/tcp-supplier/index.php:7
+msgid "Supplier's Products"
+msgstr ""
+
+#: ../extras/tcp-supplier/index.php:9
+#: ../extras/tcp-tag/index.php:9
+msgid "Show products from a single supplier created with TheCartPress WordPress plugin"
+msgstr ""
+
+#: ../extras/tcp-supplier/index.php:65
+msgid "Supplier"
+msgstr ""
+
+#: ../extras/tcp-tag/index.php:7
+msgid "Tagged Products"
+msgstr ""
+
+#: ../js/get_tinymce_db.php:47
+#, fuzzy
+msgid "Add a carousel"
+msgstr "Carrousel"
+
+#: ../js/get_tinymce_db.php:77
+#, fuzzy
+msgid "Select a carousel"
+msgstr "Supprimer ce carrousel"
+
+#: ../themes/clear-slider/index.php:9
+#, php-format
+msgid "A theme based on <a href=\"%s\">Jonno Riekwel's design</a>"
+msgstr ""
+
+#: ../themes/clear-slider/index.php:42
+#, fuzzy
+msgid "This theme does not support videos."
+msgstr "Ce mot-clé concerne %s articles"
+
+#: ../themes/clear-slider/index.php:48
+msgid "Repeat"
+msgstr ""
+
+#: ../themes/clear-slider/index.php:49
+msgid "Repeat only on x-axis"
+msgstr ""
+
+#: ../themes/clear-slider/index.php:50
+msgid "Repeat only on y-axis"
+msgstr ""
+
+#: ../themes/clear-slider/index.php:51
+msgid "Don't repeat"
+msgstr ""
+
+#: ../themes/clear-slider/theme-jcarousel.php:32
+#: ../themes/clear-slider/theme.php:70
+#: ../themes/default/theme-jcarousel.php:85
+#: ../themes/default/theme-jcarousel.php:102
+#: ../themes/default/theme.php:94
+#, php-format
+msgid "Forward %s panel"
+msgstr "Forward %s panel"
+
+#: ../themes/clear-slider/theme-jcarousel.php:37
+#: ../themes/clear-slider/theme.php:65
+#: ../themes/default/theme-jcarousel.php:92
+#: ../themes/default/theme-jcarousel.php:195
+#: ../themes/default/theme.php:85
+#, php-format
+msgid "Back %s panel"
+msgstr "Back %s panel"
+
+#: ../themes/default/index.php:7
+msgid "WP Carousel 0.3 Look"
+msgstr "WP Carousel 0.3 Look"
+
+#: ../themes/default/index.php:9
+msgid "Use WP Carousel 0.3's theme"
+msgstr "Utilise le thème WP Carousel 0.3"
+
+#: ../themes/default/index.php:43
+#: ../themes/default-sidebar/index.php:43
+msgid "Item's excerpt"
+msgstr ""
+
+#: ../themes/default/index.php:49
+#: ../themes/default-sidebar/index.php:49
+msgid "Show excerpt"
+msgstr ""
+
+#: ../themes/default/index.php:50
+#: ../themes/default-sidebar/index.php:50
+msgid "Show title"
+msgstr ""
+
+#: ../themes/default/index.php:58
+msgid "Under image"
+msgstr ""
+
+#: ../themes/default/index.php:59
+msgid "Left"
+msgstr ""
+
+#: ../themes/default/index.php:60
+msgid "Right"
+msgstr ""
+
+#: ../themes/default/index.php:66
+msgid "Width"
+msgstr ""
+
+#: ../themes/default/index.php:75
+#: ../themes/default-sidebar/index.php:56
+#, fuzzy
+msgid "Variations"
+msgstr "Version %s"
+
+#: ../themes/default/index.php:81
+#: ../themes/default-sidebar/index.php:62
+#, fuzzy
+msgid "Default"
+msgstr "Supprimer"
+
+#: ../themes/default/index.php:82
+#: ../themes/default-sidebar/index.php:63
+msgid "Kubrick"
+msgstr ""
+
+#: ../themes/default/index.php:83
+#: ../themes/default-sidebar/index.php:64
+msgid "Red"
+msgstr ""
+
+#: ../themes/default/index.php:84
+#: ../themes/default-sidebar/index.php:65
+msgid "Green"
+msgstr ""
+
+#: ../themes/default/index.php:85
+#: ../themes/default-sidebar/index.php:66
+#, fuzzy
+msgid "Orange"
+msgstr "Page"
+
+#: ../themes/default/index.php:86
+#: ../themes/default-sidebar/index.php:67
+msgid "Violet"
+msgstr ""
+
+#: ../themes/default-sidebar/index.php:7
+msgid "WP Carousel Default - Sidebar"
+msgstr "WP Carousel par Défaut - Barre latérale"
+
+#: ../themes/default-sidebar/index.php:9
+msgid "The default theme adapted to sidebars"
+msgstr "Le thème par défaut adapté aux barres latérales"
+
+#: ../themes/night-owl/index.php:9
+#, php-format
+msgid "A theme based on <a href=\"%s\">Farzad Ban's design</a>"
+msgstr ""
+
+#: ../themes/nivo-default/index.php:7
+msgid "Nivo Slider - Default"
+msgstr ""
+
+#: ../themes/nivo-default/index.php:9
+msgid "Use Nivo Slider with the Default theme"
+msgstr ""
+
+#: ../themes/nivo-nivo/index.php:7
+msgid "Nivo Slider - Nivo"
+msgstr ""
+
+#: ../themes/nivo-nivo/index.php:9
+msgid "Use Nivo Slider with the Nivo theme"
+msgstr ""
+
+#: ../themes/nivo-orman/index.php:7
+msgid "Nivo Slider - Orman"
+msgstr ""
+
+#: ../themes/nivo-orman/index.php:9
+msgid "Use Nivo Slider with the Orman theme"
+msgstr ""
+
+#: ../themes/nivo-pascal/index.php:7
+msgid "Nivo Slider - Pascal"
+msgstr ""
+
+#: ../themes/nivo-pascal/index.php:9
+msgid "Use Nivo Slider with the Pascal theme"
+msgstr ""
+
+#: ../themes/premium-slider/index.php:9
+#, php-format
+msgid "A theme based on <a href=\"%s\">Orman Clark's design</a>"
+msgstr ""
+
+#: ../themes/skinless/index.php:7
+msgid "Skinless"
+msgstr ""
+
+#: ../themes/skinless/index.php:9
+msgid "A theme with the minimum code. Use this theme as a template to create your own theme."
+msgstr ""
+
+#~ msgid "Errors"
+#~ msgstr "Erreurs"
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgid "WP Carousel's Tutorials"
+#~ msgstr "Tutoriel WP Carousel"
+
+#~ msgid ""
+#~ "Are you looking for more information? In that case, please, watch <a href="
+#~ "\"%s\">this video</a>. It explains how to use WP Carousel and how to "
+#~ "manage your carousels."
+#~ msgstr ""
+#~ "Vous recherchez d'autres infos? Dans ce cas, regardez cette <a href=\"%s"
+#~ "\">vidéo</a>, svp. Elle explique comment utiliser WP Carousel et comment "
+#~ "gérer vos carrousels."
+
+#~ msgid "File <code>%s</code> can't be read!"
+#~ msgstr "Le fichier <code>%s</code> ne peut être lu!"
+
+#~ msgid ""
+#~ "You can show a carousel by to ways. One way is adding <code>%s</code> in "
+#~ "your WordPress theme. The other way is adding the WP Carousel's Widget "
+#~ "into the sidebar."
+#~ msgstr ""
+#~ "Vous pouvez afficher un carrousel de deux moyens. En ajoutant <code>%s</"
+#~ "code> dans votre thème WordPress ou en ajoutant le widget WP Carrousel "
+#~ "dans la barre latérale."
+
+#~ msgid "Export"
+#~ msgstr "Exporter"
+
+#~ msgid "Display options"
+#~ msgstr "Options d'affichage"
+
+#~ msgid "Carousel settings"
+#~ msgstr "Paramètres du Carrousel"
+
+#~ msgid "Size settings"
+#~ msgstr "Paramètres de taille"
+
+#~ msgid ""
+#~ "Panel width (size and unit, leave blank to use panel original's width)"
+#~ msgstr ""
+#~ "Largeur de panneau (taille et unité, laissez vide pour utiliser la "
+#~ "largeur originale)"
+
+#~ msgid ""
+#~ "Image width (size and unit, leave blank to use image original's width)"
+#~ msgstr ""
+#~ "Largeur d'image (taille et unité, laissez vide pour utiliser la largeur "
+#~ "originale de l'image)"
+
+#~ msgid ""
+#~ "Image height (size and unit, leave blank to use image original's height)"
+#~ msgstr ""
+#~ "Hauteur d'image (taille et unité, laissez vide pour utiliser la hauteur "
+#~ "originale de l'image)"
+
+#~ msgid "Visit author homepage"
+#~ msgstr "Visiter la page de l'auteur"
+
+#~ msgid "Available Themes"
+#~ msgstr "Thèmes disponibles"
+
+#~ msgid "Visit theme site"
+#~ msgstr "Visiter le site du thème"
+
+#~ msgid ""
+#~ "Copy in this page the code of a backup. Importing a backup is undoable "
+#~ "and will replace all WP Carousel's data with the backup's data."
+#~ msgstr ""
+#~ "Copiez dans cette page le code d'une sauvegarde. Importer une sauvegarde "
+#~ "est irréversible et remplacera toutes les données de WP Carousel par les "
+#~ "données de cette sauvegarde."
+
+#~ msgid "Last tweet"
+#~ msgstr "Dernier tweet"
+
+#~ msgid "Show the lastest tweet from a Twitter user"
+#~ msgstr "Afficher le dernier tweet à partir d'un compte Twitter"
+
+#~ msgid "WP Carousel 0.3 - Kubrick Look"
+#~ msgstr "WP Carousel 0.3 - Kubrick Look"
+
+#~ msgid "Use WP Carousel 0.3's theme with colors of Kubrick theme"
+#~ msgstr "Utilise le thème WP Carousel 0.3 avec les couleurs du thème Kubrick"
+
+#~ msgid "Use a theme designed to look great with Twentyten"
+#~ msgstr "Utilse un a thème crée pour Twentyten"
+
+#~ msgid "Two Cols"
+#~ msgstr "Deux Cols"
+
+#~ msgid ""
+#~ "Use a theme with a column for the image and other one for the text. This "
+#~ "theme can't change images' sizes"
+#~ msgstr ""
+#~ "Utilise un thème avec une colonne pour l'image et une autre pour le "
+#~ "texte. Ce thème ne peut modifier la taille des images"

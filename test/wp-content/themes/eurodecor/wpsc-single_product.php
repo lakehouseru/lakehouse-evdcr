@@ -5,7 +5,7 @@
 <div id="post">
 	<div id="previewblock1">
 		<div id="bigimageblock">
-			<a href="<?php echo wpsc_the_product_image();?>"><img src="<?php echo wpsc_the_product_thumbnail();?>"/></a>
+			<a href="<?php echo wpsc_the_product_image();?>"><img src="<?php echo wpsc_the_product_thumbnail(330,210);?>"/></a>
 		
 			<div id="price">
 
@@ -77,3 +77,9 @@
 		</button>
 	</div>
 </div>
+
+<script language="JavaScript" type="text/javascript">
+	$("body").css("background-image","url(<?php bloginfo('template_url'); ?>/images/inner_bg.jpg)");
+	$("body").css("background-repeat","repeat");
+	
+</script>
