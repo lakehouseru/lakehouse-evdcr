@@ -6,6 +6,9 @@
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
 		<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
 		<link href="<?php bloginfo('template_url'); ?>/js/tip/tipTip.css" rel="stylesheet" type="text/css" />
+		<!--[if IE]><link href="<?php bloginfo('template_url'); ?>/ie.css" rel="stylesheet" type="text/css" />
+			<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
+			<![endif]-->
 		<script src="http://yandex.st/jquery/1.7.2/jquery.js" language="javascript" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_url'); ?>/js/Slides/source/slides.jquery.js" language="javascript" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_url'); ?>/js/tip/jquery.tipTip.js" language="javascript" type="text/javascript"></script>

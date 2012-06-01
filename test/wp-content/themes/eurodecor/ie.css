@@ -1,7 +1,13 @@
-#wrapper #slider {
-	bottom: 24px;
+.footer {
+	background-color: rgba(239, 220, 178, 0.5);
+	 -pie-background: rgba(239, 220, 178, 0.5);
 }
-#parts a, .gallery a {
+#subfooter {
+	background-color: rgba(239, 220, 178, 0.5);
+	 -pie-background: rgba(239, 220, 178, 0.5);
+}
+
+.footer, #subfooter {
 	behavior: url(js/pie/PIE.htc);
 }
 #footer div img {
@@ -20,4 +26,32 @@
 #sidebar  ul {
 	padding-left: 0px;
 	margin-left:  0px;
+}
+
+#post {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2FFFFFF,endColorstr=#D2FFFFFF);
+}
+#search {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2FFFFFF,endColorstr=#D2FFFFFF);
+}
+#sidebar {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2FFFFFF,endColorstr=#D2FFFFFF);
+}
+#breadcrumbs {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2efdcb2,endColorstr=#D2efdcb2);
+}
+#collections a h3 {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D21f5148,endColorstr=#D21f5148);
+}
+#arr_left {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2FFFFFF,endColorstr=#D2FFFFFF);
+}
+#arr_right {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2FFFFFF,endColorstr=#D2FFFFFF);
+}
+.shop_item {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2FFFFFF,endColorstr=#D2FFFFFF);
+}
+.shop_item h3 {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D21f5148,endColorstr=#D21f5148);
 }
